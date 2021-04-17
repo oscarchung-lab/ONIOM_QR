@@ -1,5 +1,5 @@
 # ONIOM_QR
-Quantum refinement based on ONIOM schemes
+## Quantum refinement based on ONIOM schemes
 
 ### The source code is under construction for more user-friendly.
 
