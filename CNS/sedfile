@@ -1,0 +1,27 @@
+# A sed substitute file for DL-GAUCNS
+# Z. YAN, 2018-12-21
+# Change all the appropriate entries before running
+
+s/dlg_space_group//
+s/dlg_crystal_alpha//
+s/dlg_crystal_beta//
+s/dlg_crystal_gamma//
+s/dlg_crystal_a//
+s/dlg_crystal_b//
+s/dlg_crystal_c//
+
+s/dlg_coord_file//
+s/dlg_top_file1//
+s/dlg_top_file2//
+s/dlg_top_file3//
+s/dlg_par_file1//
+s/dlg_par_file2//
+s/dlg_par_file3//
+s/dlg_reflex_infile//
+s/dlg_reflex_outfile//
+
+s/dlg_test_percent//
+s/dlg_resolution_up//
+s/dlg_resolution//
+s/dlg_wa//
+

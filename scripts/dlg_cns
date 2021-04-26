@@ -1,0 +1,43 @@
+#!/bin/sh
+
+echo 'Copy the CNS file into work directory'
+echo 'Make sure that you have download the parameter and toplogy files for the ligands'
+
+if [[ $# -le 1 ]]
+then 
+    pdbf=$1
+    cp $DF/CNS/* .
+
+    a=`grep CRYST1 $pdbf | awk '{print $2}'`
+    b=`grep CRYST1 $pdbf | awk '{print $3}'`
+    c=`grep CRYST1 $pdbf | awk '{print $4}'`
+    alpha=`grep CRYST1 $pdbf | awk '{print $5}'`
+    beta=`grep CRYST1 $pdbf | awk '{print $6}'`
+    gamma=`grep CRYST1 $pdbf | awk '{print $7}'`
+    group=`grep CRYST1 $pdbf | awk -F 'P' '{print $2}' | awk -F '  ' '{print $1}'`
+
+    reso=`grep 'RESOLUTION RANGE HIGH (ANGSTROMS) :' $pdbf | awk -F ':' '{print $2}' | awk '{print $1}'`
+    resol=`grep 'RESOLUTION RANGE LOW  (ANGSTROMS) :' $pdbf | awk -F ':' '{print $2}' | awk '{print $1}'`
+    precent=`grep 'FREE R VALUE TEST SET SIZE   (%) :' $pdbf | awk -F ':' '{print $2}' | awk '{print $1}'`
+
+    #echo $a $b $c $alpha $beta $gamma $group
+    #echo $reso $resol $precent
+
+    sed -i "s/s\/dlg_space_group\/\//s\/dlg_space_group\/P$group\//" sedfile
+    sed -i "s/s\/dlg_crystal_alpha\/\//s\/dlg_crystal_alpha\/$alpha\//" sedfile
+    sed -i "s/s\/dlg_crystal_beta\/\//s\/dlg_crystal_beta\/$beta\//" sedfile
+    sed -i "s/s\/dlg_crystal_gamma\/\//s\/dlg_crystal_gamma\/$gamma\//" sedfile
+    sed -i "s/s\/dlg_crystal_a\/\//s\/dlg_crystal_a\/$a\//" sedfile
+    sed -i "s/s\/dlg_crystal_b\/\//s\/dlg_crystal_b\/$b\//" sedfile
+    sed -i "s/s\/dlg_crystal_c\/\//s\/dlg_crystal_c\/$c\//" sedfile
+    sed -i "s/s\/dlg_coord_file\/\//s\/dlg_coord_file\/$pdbf\//" sedfile
+    sed -i "s/s\/dlg_test_percent\/\//s\/dlg_test_percent\/$precent\//" sedfile
+    sed -i "s/s\/dlg_resolution_up\/\//s\/dlg_resolution_up\/$resol\//" sedfile
+    sed -i "s/s\/dlg_resolution\/\//s\/dlg_resolution\/$reso\//" sedfile
+    sed -i "s/s\/dlg_wa\/\//s\/dlg_wa\/1.0\//" sedfile
+
+    echo 'Please fill the sedfile according to the PDB information and QR parameters'
+else
+    echo -e "\033[32mUsage: $0 xxx.pdb \033[0m"
+    echo -e "\033[32mUsage: $0 test.pdb \033[0m"
+fi

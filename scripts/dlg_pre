@@ -1,0 +1,33 @@
+#!/bin/sh
+
+echo 'Preparation of CNS files, make sure you have lanched the CNS enviroment'
+
+#A script to construct the DL-GAUCNS input files
+for x in generate.inp make_cv.inp minimize.inp bindividual.inp
+   do
+   sed -f sedfile $x >temp.cqx
+   diff $x temp.cqx
+   mv temp.cqx $x
+done
+
+#generate PDB geometry file mm3.mtf and mm3.pdb
+#cns < generate.inp > generate.out
+#
+##mm3.pdb1 is necessary to generated to accurate the result during minimization
+#head -n 3 mm3.pdb | sed s/mm3.pdb/mm3.pdbs/ > mm3.pdb1 
+#sed -n '4,/^END/p' mm3.pdb | sed '$d' | sed 's/[-]/ /g' |sed 's/[0-9]\{1\}\.[0-9]\{3\}/0.000/g' |sed 's/[0-9]\{2\}\.[0-9]\{3\}/ 0.000/g' | sed 's/[0-9]\{3\}\.[0-9]\{3\}/  0.000/g' >> mm3.pdb1 
+#echo 'END' >> mm3.pdb1
+#
+##treat the reflection file using sf_convert tool
+#cif=`grep dlg_reflex_infile sedfile | sed -r 's/.*dlg_reflex_infile\/(.*)\/.*/\1/g'`
+#cv=`grep dlg_reflex_outfile sedfile | sed -r 's/.*dlg_reflex_outfile\/(.*)\/.*/\1/g'`
+#cp $cif $cif.temp
+#sf_convert -o CNS -sf $cif
+#mv $cif.CNS $cif
+#
+#cns < make_cv.inp > make_cv.out 
+#
+#mv $cif.temp $cif
+#
+#echo "Now you have $cv, minimize.inp, mm3.mtf, mm3.pdb(1) and lig.par, lig.top if necessary"
+#echo "use dlg_clean if you want to clean other files"

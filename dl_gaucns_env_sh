@@ -1,0 +1,51 @@
+#!/bin/sh
+
+# This file sets up the appropriate environmental variables and paths
+# for DL-FIND based dl-gaucns Quantum Refinement program
+
+#   written by: Z. YAN
+#
+#   copyright Southern University of Science and Technology
+
+# before lanch this dl-gaucns Quantum Refinement program, you should lacnh 
+# the CNS environment (http://cns-online.org/v1.3/) by .cns_solve_env_sh
+
+# ==========================================================================
+#
+# >>>>>> Important: define the location of the dl-gaucns directory <<<<<<
+#
+# CHANGE THE NEXT LINE TO POINT TO THE LOCATION OF THE dl-gaucns DIRECTORY
+
+export DF=/share/home/yanz/Apps/dl-gaucns_B
+
+#Gaussian version g09 or g16
+export Gauexe="g16"
+export g16root=/share/apps/gaussian
+. $g16root/g16/bsd/g16.profile
+
+#cns environment
+
+. /share/home/yanz/cns_solve_1.3/cns_solve_env_sh
+
+#
+# ==========================================================================
+#
+
+chmod +x $DF/scripts/*
+
+export PATH=$PATH:$DF/scripts
+
+#xtb environment
+source /share/home/yanz/Apps/xtb/Config_xtb_env.bash
+
+#LSQC
+export lsroot=/share/home/yanz/Apps/LSQC/lsqc-2.4
+export PATH=$lsroot/bin:$PATH
+export LD_LIBRARY_PATH=$lsroot/lib:$LD_LIBRARY_PATH
+export CIM_BASDIR=$lsroot/basis
+export KMP_STACKSIZE=1G
+export LD_LIBRARY_PATH=/share/home/yanz/Apps/LSQC/cint_and_xc/lib:$LD_LIBRARY_PATH
+export PYTHONPATH=/share/home/yanz/Apps/LSQC/software/pyscf-master:$PYTHONPATH
+
+source /share/env/python-2.7.16.env
+
