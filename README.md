@@ -1,7 +1,7 @@
 # ONIOM_QR
 ## Quantum refinement based on ONIOM schemes
 
-### <span style="color:red">The site is under construction & not ready yet
+### !!! The site is under construction & not ready yet !!!
 
 
 
