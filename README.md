@@ -1,7 +1,9 @@
 # ONIOM_QR
 ## Quantum refinement based on ONIOM schemes
 
-### The source code is under construction for more user-friendly.
+### <span style="color:red">The site is under construction & not ready yet
+
+
 
 Quantum refinement which was proposed to combine crystallographic data with computational chemistry methods by several groups can improve the local structures of some proteins. The ONIOM_QR is a quantum refinement method combining several multiscale computational schemes with experimental (X-ray diffraction) information was developed for proteins (especially for metalloproteins). 
 
@@ -11,7 +13,7 @@ It is developped by [Oscar lab](https://faculty.sustech.edu.cn/oscarchung/en/) i
 ## Installation
 ### DL-FIND optimizer
 [DL-FIND](https://www.chemshell.org/dl-find) open-source geometry optimisation library should be downloaded.
-Then [main_ONIOM_QR.f90](./main_ONIOM_QR.f90) Fortran script is copied to replace the main.f90 file in DL-FIND folder. 
+Then [main_ONIOM_QR.f90](./main_ONIOM_QR.f90) (under modification) Fortran script is copied to replace the main.f90 file in DL-FIND folder. 
 Adjust parameter in the Makefile and complier the code to obtain the executable file find.x.
 
 ### CNS
