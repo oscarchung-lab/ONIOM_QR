@@ -37,7 +37,7 @@ Some simple examples are offered including multi-center scheme, quantum refineme
 
 
 ## Citations
-YAN, Z. Y., Li, X., and Chung, L. W. Multiscale Quantum Refinement Approaches for Metalloproteins. *J. Chem. Theory Comput.* (accepted, 2021)
+YAN, Z. Y., Li, X., and Chung, L. W. Multiscale Quantum Refinement Approaches for Metalloproteins. *J. Chem. Theory Comput.* **2021**, 17. [DOI: 10.1021/acs.jctc.1c00148](https://pubs.acs.org/doi/10.1021/acs.jctc.1c00148)
 
 ## Special Note to Users
 ONIOM_QR is still in the experimental stage and we do not guarantee it will work flawlessly in all your applications.
