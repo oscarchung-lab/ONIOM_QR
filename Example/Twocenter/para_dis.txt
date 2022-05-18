@@ -1,0 +1,6 @@
+test2center_dis.gjf
+2
+63 
+64 
+head1.txt tail11.txt
+head2.txt tail12.txt

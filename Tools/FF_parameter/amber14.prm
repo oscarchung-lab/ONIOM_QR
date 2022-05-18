@@ -1,0 +1,1129 @@
+! 
+! Non-bonded interaction 
+! 
+NonBon 3 1 0 0 0.000 0.000 0.500 0.000 0.000 -1.000 
+! 
+! Stretches 
+! 
+HrmStr1 OW HW  553.0  0.9572
+HrmStr1 HW HW  553.0  1.5136
+HrmStr1 C  C   310.0  1.525
+HrmStr1 C  CA  469.0  1.409
+HrmStr1 C  CB  447.0  1.419
+HrmStr1 C  CM  410.0  1.444
+HrmStr1 C  CS  410.0  1.444
+HrmStr1 C  CT  317.0  1.522
+HrmStr1 C  CX  317.0  1.522
+HrmStr1 C  N   490.0  1.335
+HrmStr1 C  N*  424.0  1.383
+HrmStr1 C  NA  418.0  1.388
+HrmStr1 C  NC  457.0  1.358
+HrmStr1 C  O   570.0  1.229
+HrmStr1 C  O2  656.0  1.250
+HrmStr1 C  OH  450.0  1.364
+HrmStr1 C  OS  450.0  1.323
+HrmStr1 C  H4  367.0  1.080
+HrmStr1 C  H5  367.0  1.080
+HrmStr1 CA CA  469.0  1.400
+HrmStr1 CA CB  469.0  1.404
+HrmStr1 CA CM  427.0  1.433
+HrmStr1 CA CS  427.0  1.433
+HrmStr1 CA CN  469.0  1.400
+HrmStr1 CA CT  317.0  1.510
+HrmStr1 CA HA  367.0  1.080
+HrmStr1 CA H4  367.0  1.080
+HrmStr1 CA N2  481.0  1.340
+HrmStr1 CA NA  427.0  1.381
+HrmStr1 CA NC  483.0  1.339
+HrmStr1 CA OH  450.0  1.364
+HrmStr1 CB CB  520.0  1.370
+HrmStr1 CB N*  436.0  1.374
+HrmStr1 CB NB  414.0  1.391
+HrmStr1 CB NC  461.0  1.354
+HrmStr1 CD HA  367.0  1.080
+HrmStr1 CD CD  469.0  1.400
+HrmStr1 CD CM  549.0  1.350
+HrmStr1 CD CS  549.0  1.350
+HrmStr1 CD CT  317.0  1.510
+HrmStr1 CK H5  367.0  1.080
+HrmStr1 CK N*  440.0  1.371
+HrmStr1 CK NB  529.0  1.304
+HrmStr1 CP H5  367.0  1.080
+HrmStr1 CP N*  440.0  1.371
+HrmStr1 CP NB  529.0  1.304
+HrmStr1 CM CM  549.0  1.350
+HrmStr1 CM CT  317.0  1.510
+HrmStr1 CM HA  367.0  1.080
+HrmStr1 CM H4  367.0  1.080
+HrmStr1 CM H5  367.0  1.080
+HrmStr1 CM N*  448.0  1.365
+HrmStr1 CM OS  480.0  1.240
+HrmStr1 CS CS  549.0  1.350
+HrmStr1 CS CT  317.0  1.510
+HrmStr1 CS HA  367.0  1.080
+HrmStr1 CS H4  367.0  1.080
+HrmStr1 CS H5  367.0  1.080
+HrmStr1 CS N*  448.0  1.365
+HrmStr1 CS OS  480.0  1.240
+HrmStr1 CQ H5  367.0  1.080
+HrmStr1 CQ NC  502.0  1.324
+HrmStr1 CT CT  310.0  1.526
+HrmStr1 CX CT  310.0  1.526
+HrmStr1 CT HC  340.0  1.090
+HrmStr1 CT H1  340.0  1.090
+HrmStr1 CX H1  340.0  1.090
+HrmStr1 CT H2  340.0  1.090
+HrmStr1 CT H3  340.0  1.090
+HrmStr1 CT HP  340.0  1.090
+HrmStr1 CX HP  340.0  1.090
+HrmStr1 CT N*  337.0  1.475
+HrmStr1 CT N2  337.0  1.463
+HrmStr1 CT OH  320.0  1.410
+HrmStr1 CT OS  320.0  1.410
+HrmStr1 C* HC  367.0  1.080
+HrmStr1 C* CB  388.0  1.459
+HrmStr1 C* CT  317.0  1.495
+HrmStr1 C* CW  546.0  1.352
+HrmStr1 CB CN  447.0  1.419
+HrmStr1 CC CT  317.0  1.504
+HrmStr1 CC CV  512.0  1.375
+HrmStr1 CC CW  518.0  1.371
+HrmStr1 CC NA  422.0  1.385
+HrmStr1 CC NB  410.0  1.394
+HrmStr1 CN NA  428.0  1.380
+HrmStr1 CR H5  367.0  1.080
+HrmStr1 CR NA  477.0  1.343
+HrmStr1 CR NB  488.0  1.335
+HrmStr1 CT N   337.0  1.449
+HrmStr1 CX N   337.0  1.449
+HrmStr1 CT N3  367.0  1.471
+HrmStr1 CX N3  367.0  1.471
+HrmStr1 CT NT  367.0  1.471
+HrmStr1 CT S   227.0  1.810
+HrmStr1 CT SH  237.0  1.810
+HrmStr1 CT CY  400.0  1.458
+HrmStr1 CT CZ  400.0  1.459
+HrmStr1 CV H4  367.0  1.080
+HrmStr1 CV NB  410.0  1.394
+HrmStr1 CW H4  367.0  1.080
+HrmStr1 CW NA  427.0  1.381
+HrmStr1 CY NY  600.0  1.150
+HrmStr1 CZ CZ  600.0  1.206
+HrmStr1 CZ HZ  400.0  1.056
+HrmStr1 OP P   525.0  1.480
+HrmStr1 O2 P   525.0  1.480
+HrmStr1 OH P   230.0  1.610
+HrmStr1 OS P   230.0  1.610
+HrmStr1 NA P   250.0  1.840
+HrmStr1 H  N2  434.0  1.010
+HrmStr1 H  N*  434.0  1.010
+HrmStr1 H  NA  434.0  1.010
+HrmStr1 H  N   434.0  1.010
+HrmStr1 H  N3  434.0  1.010
+HrmStr1 H  NT  434.0  1.010
+HrmStr1 HO OH  553.0  0.960
+HrmStr1 HO OS  553.0  0.960
+HrmStr1 HS SH  274.0  1.336
+HrmStr1 S  S   166.0  2.038
+HrmStr1 F  CT  367.0  1.380
+HrmStr1 Cl CT  232.0  1.766
+HrmStr1 Br CT  159.0  1.944
+HrmStr1 I  CT  148.0  2.166
+HrmStr1 F  CA  386.0  1.359
+HrmStr1 Cl CA  193.0  1.727
+HrmStr1 I  CA  171.0  2.075
+HrmStr1 Br CA  172.0  1.890
+HrmStr1 EP O   600.0  0.200
+HrmStr1 EP OH  600.0  0.200
+HrmStr1 EP OS  600.0  0.200
+HrmStr1 EP N3  600.0  0.200
+HrmStr1 EP NT  600.0  0.200
+HrmStr1 EP NB  600.0  0.200
+HrmStr1 EP NC  600.0  0.200
+HrmStr1 EP S   600.0  0.700
+HrmStr1 EP SH  600.0  0.700
+HrmStr1 CI H1  340.0  1.090
+HrmStr1 CI CT  310.0  1.526
+HrmStr1 OS CI  320.0  1.410
+HrmStr1 OH CI  320.0  1.410
+HrmStr1 C5 H5  367.0  1.080
+HrmStr1 C5 N*  440.0  1.371
+HrmStr1 C5 NB  529.0  1.304
+HrmStr1 C  C4  410.0  1.444
+HrmStr1 CA C4  427.0  1.433
+HrmStr1 C4 C4  549.0  1.350
+HrmStr1 C4 CT  317.0  1.510
+HrmStr1 C4 HA  367.0  1.080
+HrmStr1 C4 H4  367.0  1.080
+HrmStr1 C4 N*  448.0  1.365
+HrmStr1 C  2C  317.0  1.5220
+HrmStr1 C* 2C  317.0  1.4950
+HrmStr1 C8 C8  310.0  1.5260
+HrmStr1 C8 CX  310.0  1.5260
+HrmStr1 C8 H1  340.0  1.0900
+HrmStr1 C8 HC  340.0  1.0900
+HrmStr1 C8 HP  340.0  1.0900
+HrmStr1 C8 N2  337.0  1.4630
+HrmStr1 C8 N3  367.0  1.4710
+HrmStr1 CA 2C  317.0  1.5100
+HrmStr1 CC 2C  317.0  1.5040
+HrmStr1 CO O2  656.0  1.2500
+HrmStr1 CO 2C  317.0  1.5220
+HrmStr1 CT 2C  310.0  1.5260
+HrmStr1 CT 3C  310.0  1.5260
+HrmStr1 CX 2C  310.0  1.5260
+HrmStr1 CX 3C  310.0  1.5260
+HrmStr1 H1 2C  340.0  1.0900
+HrmStr1 H1 3C  340.0  1.0900
+HrmStr1 HC 2C  340.0  1.0900
+HrmStr1 HC 3C  340.0  1.0900
+HrmStr1 OH 2C  320.0  1.4100
+HrmStr1 OH 3C  320.0  1.4100
+HrmStr1 S  2C  227.0  1.8100
+HrmStr1 SH 2C  237.0  1.8100
+HrmStr1 2C 2C  310.0  1.5260
+HrmStr1 2C 3C  310.0  1.5260
+! 
+! Angles 
+! 
+HrmBnd1 HW OW HW    100.   104.52
+HrmBnd1 HW HW OW      0.   127.74
+HrmBnd1 C  C  O     80.0   120.00
+HrmBnd1 C  C  OH    80.0   120.00
+HrmBnd1 CA C  CA    63.0   120.00
+HrmBnd1 CA C  OH    70.0   120.00
+HrmBnd1 CA C  OS    70.0   120.00
+HrmBnd1 CC NA P     76.7   125.10
+HrmBnd1 CR NA P     76.7   125.10
+HrmBnd1 NA P  OP    42.9   102.38
+HrmBnd1 CB C  NA    70.0   111.30
+HrmBnd1 CB C  O     80.0   128.80
+HrmBnd1 CM C  NA    70.0   114.10
+HrmBnd1 CM C  O     80.0   125.30
+HrmBnd1 CS C  NA    70.0   114.10
+HrmBnd1 CS C  O     80.0   125.30
+HrmBnd1 CT C  O     80.0   120.40
+HrmBnd1 CX C  O     80.0   120.40
+HrmBnd1 CT C  O2    70.0   117.00
+HrmBnd1 CX C  O2    70.0   117.00
+HrmBnd1 CT C  N     70.0   116.60
+HrmBnd1 CX C  N     70.0   116.60
+HrmBnd1 CT C  CT    63.0   117.00
+HrmBnd1 CT C  OS    80.0   115.00
+HrmBnd1 CT C  OH    80.0   110.00
+HrmBnd1 CX C  OH    80.0   110.00
+HrmBnd1 N* C  NA    70.0   115.40
+HrmBnd1 N* C  NC    70.0   118.60
+HrmBnd1 N* C  O     80.0   120.90
+HrmBnd1 NA C  O     80.0   120.60
+HrmBnd1 NC C  O     80.0   122.50
+HrmBnd1 N  C  O     80.0   122.90
+HrmBnd1 O  C  O     80.0   126.00
+HrmBnd1 O  C  OH    80.0   120.00
+HrmBnd1 O  C  OS    80.0   125.00
+HrmBnd1 O2 C  O2    80.0   126.00
+HrmBnd1 H4 C  C     50.0   120.00
+HrmBnd1 H4 C  CM    50.0   115.00
+HrmBnd1 H4 C  CS    50.0   115.00
+HrmBnd1 H4 C  CT    50.0   115.00
+HrmBnd1 H4 C  O     50.0   120.00
+HrmBnd1 H4 C  OH    50.0   120.00
+HrmBnd1 H5 C  N     50.0   120.00
+HrmBnd1 H5 C  O     50.0   119.00
+HrmBnd1 H5 C  OH    50.0   107.00
+HrmBnd1 H5 C  OS    50.0   107.00
+HrmBnd1 C  CA CA    63.0   120.00
+HrmBnd1 C  CA HA    50.0   120.00
+HrmBnd1 CA CA CA    63.0   120.00
+HrmBnd1 CA CA CB    63.0   120.00
+HrmBnd1 CA CA CT    70.0   120.00
+HrmBnd1 CA CA HA    50.0   120.00
+HrmBnd1 CA CA H4    50.0   120.00
+HrmBnd1 CA CA OH    70.0   120.00
+HrmBnd1 CA CA CN    63.0   120.00
+HrmBnd1 CB CA HA    50.0   120.00
+HrmBnd1 CB CA H4    50.0   120.00
+HrmBnd1 CB CA N2    70.0   123.50
+HrmBnd1 CB CA NC    70.0   117.30
+HrmBnd1 CM CA N2    70.0   120.10
+HrmBnd1 CM CA NC    70.0   121.50
+HrmBnd1 CS CA N2    70.0   120.10
+HrmBnd1 CS CA NC    70.0   121.50
+HrmBnd1 CN CA HA    50.0   120.00
+HrmBnd1 NA CA NC    70.0   123.30
+HrmBnd1 N2 CA NA    70.0   116.00
+HrmBnd1 N2 CA NC    70.0   119.30
+HrmBnd1 N2 CA N2    70.0   120.00
+HrmBnd1 F  CA CA    70.0   121.00
+HrmBnd1 Cl CA CA    70.0   118.80
+HrmBnd1 Br CA CA    70.0   118.80
+HrmBnd1 I  CA CA    70.0   118.80
+HrmBnd1 C  CB CB    63.0   119.20
+HrmBnd1 C  CB NB    70.0   130.00
+HrmBnd1 CA CB CB    63.0   117.30
+HrmBnd1 CA CB NB    70.0   132.40
+HrmBnd1 CB CB N*    70.0   106.20
+HrmBnd1 CB CB NB    70.0   110.40
+HrmBnd1 CB CB NC    70.0   127.70
+HrmBnd1 C* CB CA    63.0   134.90
+HrmBnd1 C* CB CN    63.0   108.80
+HrmBnd1 CA CB CN    63.0   116.20
+HrmBnd1 N* CB NC    70.0   126.20
+HrmBnd1 CD CD CM    63.0   120.00
+HrmBnd1 CD CD CS    63.0   120.00
+HrmBnd1 CD CD CT    70.0   120.00
+HrmBnd1 CM CD CT    70.0   120.00
+HrmBnd1 CS CD CT    70.0   120.00
+HrmBnd1 HA CD HA    35.0   119.00
+HrmBnd1 HA CD CD    50.0   120.00
+HrmBnd1 HA CD CM    50.0   120.00
+HrmBnd1 HA CD CS    50.0   120.00
+HrmBnd1 H5 CK N*    50.0   123.05
+HrmBnd1 H5 CK NB    50.0   123.05
+HrmBnd1 N* CK NB    70.0   113.90
+HrmBnd1 H5 CP N*    50.0   123.05
+HrmBnd1 H5 CP NB    50.0   123.05
+HrmBnd1 N* CP NB    70.0   113.90
+HrmBnd1 C  CM CM    63.0   120.70
+HrmBnd1 C  CM CT    70.0   119.70
+HrmBnd1 C  CM HA    50.0   119.70
+HrmBnd1 C  CM H4    50.0   119.70
+HrmBnd1 CA CM CM    63.0   117.00
+HrmBnd1 CA CM HA    50.0   123.30
+HrmBnd1 CA CM H4    50.0   123.30
+HrmBnd1 CM CM CT    70.0   119.70
+HrmBnd1 CM CM HA    50.0   119.70
+HrmBnd1 CM CM H4    50.0   119.70
+HrmBnd1 CM CM N*    70.0   121.20
+HrmBnd1 CM CM OS    80.0   125.00
+HrmBnd1 H4 CM N*    50.0   119.10
+HrmBnd1 H4 CM OS    50.0   113.00
+HrmBnd1 HA CM HA    35.0   120.00
+HrmBnd1 HA CM CD    50.0   120.00
+HrmBnd1 HA CM CT    50.0   120.00
+HrmBnd1 C  CS CS    63.0   120.70
+HrmBnd1 C  CS CT    70.0   119.70
+HrmBnd1 C  CS HA    50.0   119.70
+HrmBnd1 C  CS H4    50.0   119.70
+HrmBnd1 CA CS CS    63.0   117.00
+HrmBnd1 CA CS HA    50.0   123.30
+HrmBnd1 CA CS H4    50.0   123.30
+HrmBnd1 CM CS CT    70.0   119.70
+HrmBnd1 CS CS HA    50.0   119.70
+HrmBnd1 CS CS H4    50.0   119.70
+HrmBnd1 CS CS N*    70.0   121.20
+HrmBnd1 CS CS OS    80.0   125.00
+HrmBnd1 H4 CS N*    50.0   119.10
+HrmBnd1 H4 CS OS    50.0   113.00
+HrmBnd1 HA CS HA    35.0   120.00
+HrmBnd1 HA CS CD    50.0   120.00
+HrmBnd1 HA CS CT    50.0   120.00
+HrmBnd1 NC CQ NC    70.0   129.10
+HrmBnd1 H5 CQ NC    50.0   115.45
+HrmBnd1 H1 CT H1    35.0   109.50
+HrmBnd1 H1 CX H1    35.0   109.50
+HrmBnd1 H1 CT N*    50.0   109.50
+HrmBnd1 H1 CT OH    50.0   109.50
+HrmBnd1 H1 CT OS    50.0   109.50
+HrmBnd1 H1 CT CM    50.0   109.50
+HrmBnd1 H1 CT CS    50.0   109.50
+HrmBnd1 H1 CT CY    50.0   110.00
+HrmBnd1 H1 CT CZ    50.0   110.00
+HrmBnd1 H1 CT N     50.0   109.50
+HrmBnd1 H1 CX N     50.0   109.50
+HrmBnd1 H1 CT S     50.0   109.50
+HrmBnd1 H1 CT SH    50.0   109.50
+HrmBnd1 H1 CT N2    50.0   109.50
+HrmBnd1 H1 CT NT    50.0   109.50
+HrmBnd1 H2 CT H2    35.0   109.50
+HrmBnd1 H2 CT N*    50.0   109.50
+HrmBnd1 H2 CT OS    50.0   109.50
+HrmBnd1 HP CT HP    35.0   109.50
+HrmBnd1 HP CX HP    35.0   109.50
+HrmBnd1 HP CT N3    50.0   109.50
+HrmBnd1 HP CX N3    50.0   109.50
+HrmBnd1 HC CT HC    35.0   109.50
+HrmBnd1 HC CT CM    50.0   109.50
+HrmBnd1 HC CT CS    50.0   109.50
+HrmBnd1 HC CT CD    50.0   109.50
+HrmBnd1 HC CT CZ    50.0   110.00
+HrmBnd1 C  CT H1    50.0   109.50
+HrmBnd1 C  CX H1    50.0   109.50
+HrmBnd1 C  CT HP    50.0   109.50
+HrmBnd1 C  CX HP    50.0   109.50
+HrmBnd1 C  CT HC    50.0   109.50
+HrmBnd1 C  CT N     63.0   110.10
+HrmBnd1 C  CX N     63.0   110.10
+HrmBnd1 C  CT N3    80.0   111.20
+HrmBnd1 C  CX N3    80.0   111.20
+HrmBnd1 C  CT CT    63.0   111.10
+HrmBnd1 C  CT CX    63.0   111.10
+HrmBnd1 C  CX CT    63.0   111.10
+HrmBnd1 C  CT OS    60.0   109.50
+HrmBnd1 CA CT HC    50.0   109.50
+HrmBnd1 CC CT CT    63.0   113.10
+HrmBnd1 CC CT CX    63.0   113.10
+HrmBnd1 CC CT HC    50.0   109.50
+HrmBnd1 CM CT CT    63.0   111.00
+HrmBnd1 CM CT OS    50.0   109.50
+HrmBnd1 CS CT CT    63.0   111.00
+HrmBnd1 CS CT OS    50.0   109.50
+HrmBnd1 CT CT CT    40.0   109.50
+HrmBnd1 CT CT CX    40.0   109.50
+HrmBnd1 CT CT HC    50.0   109.50
+HrmBnd1 CX CT HC    50.0   109.50
+HrmBnd1 CT CT H1    50.0   109.50
+HrmBnd1 CT CX H1    50.0   109.50
+HrmBnd1 CX CT H1    50.0   109.50
+HrmBnd1 CT CT H2    50.0   109.50
+HrmBnd1 CT CT HP    50.0   109.50
+HrmBnd1 CT CX HP    50.0   109.50
+HrmBnd1 CT CT N*    50.0   109.50
+HrmBnd1 CT CT OH    50.0   109.50
+HrmBnd1 CX CT OH    50.0   109.50
+HrmBnd1 CT CT OS    50.0   109.50
+HrmBnd1 CT CT S     50.0   114.70
+HrmBnd1 CX CT S     50.0   114.70
+HrmBnd1 CT CT SH    50.0   108.60
+HrmBnd1 CX CT SH    50.0   108.60
+HrmBnd1 CT CT CA    63.0   114.00
+HrmBnd1 CX CT CA    63.0   114.00
+HrmBnd1 CT CT N2    80.0   111.20
+HrmBnd1 CT CT N     80.0   109.70
+HrmBnd1 CT CX N     80.0   109.70
+HrmBnd1 CT CT N3    80.0   111.20
+HrmBnd1 CT CX N3    80.0   111.20
+HrmBnd1 CT CT NT    80.0   111.20
+HrmBnd1 CT CT CY    63.0   110.00
+HrmBnd1 CT CT CZ    63.0   110.00
+HrmBnd1 C* CT CT    63.0   115.60
+HrmBnd1 C* CT CX    63.0   115.60
+HrmBnd1 C* CT HC    50.0   109.50
+HrmBnd1 OS CT OS   160.0   101.00
+HrmBnd1 OS CT CY    50.0   110.00
+HrmBnd1 OS CT CZ    50.0   110.00
+HrmBnd1 OS CT N*    50.0   109.50
+HrmBnd1 F  CT F     77.0   109.10
+HrmBnd1 F  CT H1    50.0   109.50
+HrmBnd1 F  CT CT    50.0   109.00
+HrmBnd1 F  CT H2    50.0   109.50
+HrmBnd1 Cl CT CT    50.0   108.50
+HrmBnd1 Cl CT H1    50.0   108.50
+HrmBnd1 Br CT CT    50.0   108.00
+HrmBnd1 Br CT H1    50.0   106.50
+HrmBnd1 I  CT CT    50.0   106.00
+HrmBnd1 CT CC NA    70.0   120.00
+HrmBnd1 CT CC CV    70.0   120.00
+HrmBnd1 CT CC NB    70.0   120.00
+HrmBnd1 CV CC NA    70.0   120.00
+HrmBnd1 CW CC NA    70.0   120.00
+HrmBnd1 CW CC NB    70.0   120.00
+HrmBnd1 CT CC CW    70.0   120.00
+HrmBnd1 H5 CR NA    50.0   120.00
+HrmBnd1 H5 CR NB    50.0   120.00
+HrmBnd1 NA CR NA    70.0   120.00
+HrmBnd1 NA CR NB    70.0   120.00
+HrmBnd1 CC CV H4    50.0   120.00
+HrmBnd1 CC CV NB    70.0   120.00
+HrmBnd1 H4 CV NB    50.0   120.00
+HrmBnd1 CC CW H4    50.0   120.00
+HrmBnd1 CC CW NA    70.0   120.00
+HrmBnd1 C* CW H4    50.0   120.00
+HrmBnd1 C* CW NA    70.0   108.70
+HrmBnd1 H4 CW NA    50.0   120.00
+HrmBnd1 CB C* CT    70.0   128.60
+HrmBnd1 CB C* CW    63.0   106.40
+HrmBnd1 CT C* CW    70.0   125.00
+HrmBnd1 CA CN CB    63.0   122.70
+HrmBnd1 CA CN NA    70.0   132.80
+HrmBnd1 CB CN NA    70.0   104.40
+HrmBnd1 CT CY NY    80.0   180.00
+HrmBnd1 CT CZ CZ    80.0   180.00
+HrmBnd1 CZ CZ HZ    50.0   180.00
+HrmBnd1 C  N  CT    50.0   121.90
+HrmBnd1 C  N  CX    50.0   121.90
+HrmBnd1 C  N  H     50.0   120.00
+HrmBnd1 CT N  H     50.0   118.04
+HrmBnd1 CX N  H     50.0   118.04
+HrmBnd1 CT N  CT    50.0   118.00
+HrmBnd1 CT N  CX    50.0   118.00
+HrmBnd1 H  N  H     35.0   120.00
+HrmBnd1 C  N* CM    70.0   121.60
+HrmBnd1 C  N* CS    70.0   121.60
+HrmBnd1 C  N* CT    70.0   117.60
+HrmBnd1 C  N* H     50.0   119.20
+HrmBnd1 CB N* CK    70.0   105.40
+HrmBnd1 CB N* CP    70.0   105.40
+HrmBnd1 CB N* CT    70.0   125.80
+HrmBnd1 CB N* H     50.0   125.80
+HrmBnd1 CK N* CT    70.0   128.80
+HrmBnd1 CK N* H     50.0   128.80
+HrmBnd1 CP N* CT    70.0   128.80
+HrmBnd1 CP N* H     50.0   128.80
+HrmBnd1 CM N* CT    70.0   121.20
+HrmBnd1 CM N* H     50.0   121.20
+HrmBnd1 CS N* CT    70.0   121.20
+HrmBnd1 CS N* H     50.0   121.20
+HrmBnd1 CA N2 H     50.0   120.00
+HrmBnd1 CA N2 CT    50.0   123.20
+HrmBnd1 CT N2 H     50.0   118.40
+HrmBnd1 H  N2 H     35.0   120.00
+HrmBnd1 CT N3 H     50.0   109.50
+HrmBnd1 CX N3 H     50.0   109.50
+HrmBnd1 CT N3 CT    50.0   109.50
+HrmBnd1 CT N3 CX    50.0   109.50
+HrmBnd1 H  N3 H     35.0   109.50
+HrmBnd1 CT NT H     50.0   109.50
+HrmBnd1 CT NT CT    50.0   109.50
+HrmBnd1 H  NT H     35.0   109.50
+HrmBnd1 C  NA C     70.0   126.40
+HrmBnd1 C  NA CA    70.0   125.20
+HrmBnd1 C  NA H     50.0   116.80
+HrmBnd1 CA NA H     50.0   118.00
+HrmBnd1 CC NA CR    70.0   120.00
+HrmBnd1 CC NA H     50.0   120.00
+HrmBnd1 CR NA CW    70.0   120.00
+HrmBnd1 CR NA H     50.0   120.00
+HrmBnd1 CW NA H     50.0   120.00
+HrmBnd1 CN NA CW    70.0   111.60
+HrmBnd1 CN NA H     50.0   123.10
+HrmBnd1 CB NB CK    70.0   103.80
+HrmBnd1 CB NB CP    70.0   103.80
+HrmBnd1 CC NB CR    70.0   117.00
+HrmBnd1 CR NB CV    70.0   117.00
+HrmBnd1 C  NC CA    70.0   120.50
+HrmBnd1 CA NC CB    70.0   112.20
+HrmBnd1 CA NC CQ    70.0   118.60
+HrmBnd1 CB NC CQ    70.0   111.00
+HrmBnd1 C  OH HO    50.0   113.00
+HrmBnd1 CA OH HO    50.0   113.00
+HrmBnd1 CT OH HO    55.0   108.50
+HrmBnd1 HO OH P     45.0   108.50
+HrmBnd1 C  OS CT    60.0   117.00
+HrmBnd1 CM OS CT    60.0   117.00
+HrmBnd1 CS OS CT    60.0   117.00
+HrmBnd1 CT OS CT    60.0   109.50
+HrmBnd1 CT OS P    100.0   120.50
+HrmBnd1 C  OS P    100.0   120.50
+HrmBnd1 P  OS P    100.0   120.50
+HrmBnd1 O2 P  OH    45.0   108.23
+HrmBnd1 O2 P  O2   140.0   119.90
+HrmBnd1 OP P  OP   140.0   119.90
+HrmBnd1 OP P  OS   100.0   108.23
+HrmBnd1 O2 P  OS   100.0   108.23
+HrmBnd1 OH P  OS    45.0   102.60
+HrmBnd1 OS P  OS    45.0   102.60
+HrmBnd1 CT S  CT    62.0    98.90
+HrmBnd1 CT S  S     68.0   103.70
+HrmBnd1 CT SH HS    43.0    96.00
+HrmBnd1 HS SH HS    35.0    92.07
+HrmBnd1 CB NB EP   150.0   126.00
+HrmBnd1 CC NB EP   150.0   126.00
+HrmBnd1 CK NB EP   150.0   126.00
+HrmBnd1 CP NB EP   150.0   126.00
+HrmBnd1 CR NB EP   150.0   126.00
+HrmBnd1 CV NB EP   150.0   126.00
+HrmBnd1 C  NC EP   150.0   120.00
+HrmBnd1 CA NC EP   150.0   120.00
+HrmBnd1 CB NC EP   150.0   120.00
+HrmBnd1 CQ NC EP   150.0   120.00
+HrmBnd1 CT N3 EP   150.0   109.50
+HrmBnd1 H  N3 EP   150.0   109.50
+HrmBnd1 CT NT EP   150.0   109.50
+HrmBnd1 H  NT EP   150.0   109.50
+HrmBnd1 C  O  EP   150.0   120.00
+HrmBnd1 EP O  EP   150.0   120.00
+HrmBnd1 C  OH EP   150.0   120.00
+HrmBnd1 CT OH EP   150.0   109.50
+HrmBnd1 HO OH EP   150.0   109.50
+HrmBnd1 EP OH EP   150.0   109.50
+HrmBnd1 C  OS EP   150.0   109.50
+HrmBnd1 CM OS EP   150.0   109.50
+HrmBnd1 CS OS EP   150.0   109.50
+HrmBnd1 CT OS EP   150.0   109.50
+HrmBnd1 EP OS EP   150.0   109.50
+HrmBnd1 CT S  EP   150.0    90.00
+HrmBnd1 CT SH EP   150.0    90.00
+HrmBnd1 P  OS EP   150.0   109.50
+HrmBnd1 EP S  EP   150.0   180.00
+HrmBnd1 EP SH EP   150.0   180.00
+HrmBnd1 HS SH EP   150.0    90.00
+HrmBnd1 H1 CI CT    50.0   109.50
+HrmBnd1 H1 CI H1    35.0   109.50
+HrmBnd1 CI CT H1    50.0   109.50
+HrmBnd1 CI CT OS    50.0   109.50
+HrmBnd1 CI CT CT    40.0   109.50
+HrmBnd1 OS CI H1    50.0   109.50
+HrmBnd1 OS CI CT    50.0   109.50
+HrmBnd1 P  OS CI   100.0   120.50
+HrmBnd1 OH CI H1    50.0   109.50
+HrmBnd1 OH CI CT    50.0   109.50
+HrmBnd1 HO OH CI    55.0   108.50
+HrmBnd1 H5 C5 N*    50.0   123.05
+HrmBnd1 H5 C5 NB    50.0   123.05
+HrmBnd1 N* C5 NB    70.0   113.90
+HrmBnd1 CB N* C5    70.0   105.40
+HrmBnd1 C5 N* CT    70.0   128.80
+HrmBnd1 CB NB C5    70.0   103.80
+HrmBnd1 C4 C  NA    70.0   114.10
+HrmBnd1 C4 C  O     80.0   125.30
+HrmBnd1 C4 CA N2    70.0   120.10
+HrmBnd1 C4 CA NC    70.0   121.50
+HrmBnd1 C  C4 C4    63.0   120.70
+HrmBnd1 C  C4 CT    70.0   119.70
+HrmBnd1 C  C4 HA    50.0   119.70
+HrmBnd1 C  C4 H4    50.0   119.70
+HrmBnd1 CA C4 C4    63.0   117.00
+HrmBnd1 CA C4 HA    50.0   123.30
+HrmBnd1 CA C4 H4    50.0   123.30
+HrmBnd1 C4 C4 CT    70.0   119.70
+HrmBnd1 C4 C4 HA    50.0   119.70
+HrmBnd1 C4 C4 H4    50.0   119.70
+HrmBnd1 C4 C4 N*    70.0   121.20
+HrmBnd1 H4 C4 N*    50.0   119.10
+HrmBnd1 H1 CT C4    50.0   109.50
+HrmBnd1 HC CT C4    50.0   109.50
+HrmBnd1 C  N* C4    70.0   121.60
+HrmBnd1 C4 N* CT    70.0   121.20
+HrmBnd1 EP S  S    150.0    96.70
+HrmBnd1 N  C  2C    70.0   116.60
+HrmBnd1 O  C  2C    80.0   120.40
+HrmBnd1 OH C  2C    80.0   110.00
+HrmBnd1 CB C* 2C    70.0   128.60
+HrmBnd1 CW C* 2C    70.0   125.00
+HrmBnd1 C8 C8 C8    40.0   109.50
+HrmBnd1 C8 C8 CX    40.0   109.50
+HrmBnd1 C8 C8 H1    50.0   109.50
+HrmBnd1 C8 C8 HC    50.0   109.50
+HrmBnd1 C8 C8 HP    50.0   109.50
+HrmBnd1 C8 C8 N2    80.0   111.20
+HrmBnd1 C8 C8 N3    80.0   111.20
+HrmBnd1 CX C8 HC    50.0   109.50
+HrmBnd1 H1 C8 H1    35.0   109.50
+HrmBnd1 H1 C8 N2    50.0   109.50
+HrmBnd1 HC C8 HC    35.0   109.50
+HrmBnd1 HP C8 HP    35.0   109.50
+HrmBnd1 HP C8 N3    50.0   109.50
+HrmBnd1 CA CA 2C    70.0   120.00
+HrmBnd1 CV CC 2C    70.0   120.00
+HrmBnd1 CW CC 2C    70.0   120.00
+HrmBnd1 NA CC 2C    70.0   120.00
+HrmBnd1 NB CC 2C    70.0   120.00
+HrmBnd1 O2 CO O2    80.0   126.00
+HrmBnd1 O2 CO 2C    70.0   117.00
+HrmBnd1 HC CT 2C    50.0   109.50
+HrmBnd1 HC CT 3C    50.0   109.50
+HrmBnd1 C  CX C8    63.0   111.10
+HrmBnd1 C  CX 2C    63.0   111.10
+HrmBnd1 C  CX 3C    63.0   111.10
+HrmBnd1 C8 CX H1    50.0   109.50
+HrmBnd1 C8 CX N     80.0   109.70
+HrmBnd1 C8 CX N3    80.0   111.20
+HrmBnd1 H1 CX 2C    50.0   109.50
+HrmBnd1 H1 CX 3C    50.0   109.50
+HrmBnd1 HP CX C8    50.0   109.50
+HrmBnd1 HP CX 2C    50.0   109.50
+HrmBnd1 HP CX 3C    50.0   109.50
+HrmBnd1 N  CX 2C    80.0   109.70
+HrmBnd1 N  CX 3C    80.0   109.70
+HrmBnd1 N3 CX 2C    80.0   111.20
+HrmBnd1 N3 CX 3C    80.0   111.20
+HrmBnd1 C8 N2 CA    50.0   123.20
+HrmBnd1 C8 N2 H     50.0   118.40
+HrmBnd1 C8 N3 H     50.0   109.50
+HrmBnd1 HO OH 2C    55.0   108.50
+HrmBnd1 HO OH 3C    55.0   108.50
+HrmBnd1 CT S  2C    62.0    98.90
+HrmBnd1 2C S  S     68.0   103.70
+HrmBnd1 HS SH 2C    43.0    96.00
+HrmBnd1 C  2C CX    63.0   111.10
+HrmBnd1 C  2C HC    50.0   109.50
+HrmBnd1 C  2C 2C    63.0   111.10
+HrmBnd1 C* 2C CX    63.0   115.60
+HrmBnd1 C* 2C HC    50.0   109.50
+HrmBnd1 CA 2C CX    63.0   114.00
+HrmBnd1 CA 2C HC    50.0   109.50
+HrmBnd1 CC 2C CX    63.0   113.10
+HrmBnd1 CC 2C HC    50.0   109.50
+HrmBnd1 CO 2C CX    63.0   111.10
+HrmBnd1 CO 2C HC    50.0   109.50
+HrmBnd1 CO 2C 2C    63.0   111.10
+HrmBnd1 CT 2C HC    50.0   109.50
+HrmBnd1 CT 2C 3C    40.0   109.50
+HrmBnd1 CX 2C H1    50.0   109.50
+HrmBnd1 CX 2C HC    50.0   109.50
+HrmBnd1 CX 2C OH    50.0   109.50
+HrmBnd1 CX 2C S     50.0   114.70
+HrmBnd1 CX 2C SH    50.0   108.60
+HrmBnd1 CX 2C 2C    40.0   109.50
+HrmBnd1 CX 2C 3C    40.0   109.50
+HrmBnd1 H1 2C H1    35.0   109.50
+HrmBnd1 H1 2C OH    50.0   109.50
+HrmBnd1 H1 2C S     50.0   109.50
+HrmBnd1 H1 2C SH    50.0   109.50
+HrmBnd1 H1 2C 2C    50.0   109.50
+HrmBnd1 HC 2C HC    35.0   109.50
+HrmBnd1 HC 2C 2C    50.0   109.50
+HrmBnd1 HC 2C 3C    50.0   109.50
+HrmBnd1 S  2C 2C    50.0   114.70
+HrmBnd1 CT 3C CT    40.0   109.50
+HrmBnd1 CT 3C CX    40.0   109.50
+HrmBnd1 CT 3C H1    50.0   109.50
+HrmBnd1 CT 3C HC    50.0   109.50
+HrmBnd1 CT 3C OH    50.0   109.50
+HrmBnd1 CT 3C 2C    40.0   109.50
+HrmBnd1 CX 3C H1    50.0   109.50
+HrmBnd1 CX 3C HC    50.0   109.50
+HrmBnd1 CX 3C OH    50.0   109.50
+HrmBnd1 CX 3C 2C    40.0   109.50
+HrmBnd1 H1 3C OH    50.0   109.50
+HrmBnd1 HC 3C 2C    50.0   109.50
+! 
+! Torsions 
+! 
+AmbTrs *  C  C  *    0 180   0   0  0.000 14.500  0.000  0.000 4.0
+AmbTrs *  C  CA *    0 180   0   0  0.000 14.500  0.000  0.000 4.0
+AmbTrs *  C  CB *    0 180   0   0  0.000 12.000  0.000  0.000 4.0
+AmbTrs *  C  CM *    0 180   0   0  0.000  8.700  0.000  0.000 4.0
+AmbTrs *  C  CS *    0 180   0   0  0.000  8.700  0.000  0.000 4.0
+AmbTrs *  C  CT *    0   0   0   0  0.000  0.000  0.000  0.000 6.0
+AmbTrs *  C  CX *    0   0   0   0  0.000  0.000  0.000  0.000 6.0
+AmbTrs *  C  N  *    0 180   0   0  0.000 10.000  0.000  0.000 4.0
+AmbTrs *  C  N* *    0 180   0   0  0.000  5.800  0.000  0.000 4.0
+AmbTrs *  C  NA *    0 180   0   0  0.000  5.400  0.000  0.000 4.0
+AmbTrs *  C  NC *    0 180   0   0  0.000  8.000  0.000  0.000 2.0
+AmbTrs *  C  O  *    0 180   0   0  0.000 11.200  0.000  0.000 4.0
+AmbTrs *  C  OH *    0 180   0   0  0.000  4.600  0.000  0.000 2.0
+AmbTrs *  C  OS *    0 180   0   0  0.000  5.400  0.000  0.000 2.0
+AmbTrs *  CA CA *    0 180   0   0  0.000 14.500  0.000  0.000 4.0
+AmbTrs *  CA CB *    0 180   0   0  0.000 14.000  0.000  0.000 4.0
+AmbTrs *  CA CM *    0 180   0   0  0.000 10.200  0.000  0.000 4.0
+AmbTrs *  CA CS *    0 180   0   0  0.000 10.200  0.000  0.000 4.0
+AmbTrs *  CA CN *    0 180   0   0  0.000 14.500  0.000  0.000 4.0
+AmbTrs *  CA CT *    0   0   0   0  0.000  0.000  0.000  0.000 6.0
+AmbTrs *  CA N2 *    0 180   0   0  0.000  9.600  0.000  0.000 4.0
+AmbTrs *  CA NA *    0 180   0   0  0.000  6.000  0.000  0.000 4.0
+AmbTrs *  CA NC *    0 180   0   0  0.000  9.600  0.000  0.000 2.0
+AmbTrs *  CA OH *    0 180   0   0  0.000  1.800  0.000  0.000 2.0
+AmbTrs *  CB CB *    0 180   0   0  0.000 21.800  0.000  0.000 4.0
+AmbTrs *  CB CN *    0 180   0   0  0.000 12.000  0.000  0.000 4.0
+AmbTrs *  CB N* *    0 180   0   0  0.000  6.600  0.000  0.000 4.0
+AmbTrs *  CB NB *    0 180   0   0  0.000  5.100  0.000  0.000 2.0
+AmbTrs *  CB NC *    0 180   0   0  0.000  8.300  0.000  0.000 2.0
+AmbTrs *  CC CT *    0   0   0   0  0.000  0.000  0.000  0.000 6.0
+AmbTrs *  CC CV *    0 180   0   0  0.000 20.600  0.000  0.000 4.0
+AmbTrs *  CC CW *    0 180   0   0  0.000 21.500  0.000  0.000 4.0
+AmbTrs *  CC NA *    0 180   0   0  0.000  5.600  0.000  0.000 4.0
+AmbTrs *  CC NB *    0 180   0   0  0.000  4.800  0.000  0.000 2.0
+AmbTrs *  CD CD *    0 180   0   0  0.000  4.000  0.000  0.000 4.0
+AmbTrs *  CD CT *    0   0   0   0  0.000  0.000  0.000  0.000 6.0
+AmbTrs *  CD CM *    0 180   0   0  0.000 26.600  0.000  0.000 4.0
+AmbTrs *  CD CS *    0 180   0   0  0.000 26.600  0.000  0.000 4.0
+AmbTrs *  CK N* *    0 180   0   0  0.000  6.800  0.000  0.000 4.0
+AmbTrs *  CK NB *    0 180   0   0  0.000 20.000  0.000  0.000 2.0
+AmbTrs *  CP N* *    0 180   0   0  0.000  6.800  0.000  0.000 4.0
+AmbTrs *  CP NB *    0 180   0   0  0.000 20.000  0.000  0.000 2.0
+AmbTrs *  CM CM *    0 180   0   0  0.000 26.600  0.000  0.000 4.0
+AmbTrs *  CM CT *    0   0   0   0  0.000  0.000  0.000  0.000 6.0
+AmbTrs *  CM N* *    0 180   0   0  0.000  7.400  0.000  0.000 4.0
+AmbTrs *  CM OS *    0 180   0   0  0.000  2.100  0.000  0.000 2.0
+AmbTrs *  CS CS *    0 180   0   0  0.000 26.600  0.000  0.000 4.0
+AmbTrs *  CS CT *    0   0   0   0  0.000  0.000  0.000  0.000 6.0
+AmbTrs *  CS N* *    0 180   0   0  0.000  7.400  0.000  0.000 4.0
+AmbTrs *  CS OS *    0 180   0   0  0.000  2.100  0.000  0.000 2.0
+AmbTrs *  CN NA *    0 180   0   0  0.000  6.100  0.000  0.000 4.0
+AmbTrs *  CQ NC *    0 180   0   0  0.000 13.600  0.000  0.000 2.0
+AmbTrs *  CT CT *    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs *  CT CX *    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs *  CT CY *    0   0   0   0  0.000  0.000  0.000  0.000 3.0
+AmbTrs *  CT CZ *    0   0   0   0  0.000  0.000  0.000  0.000 3.0
+AmbTrs *  CT N  *    0   0   0   0  0.000  0.000  0.000  0.000 6.0
+AmbTrs *  CX N  *    0   0   0   0  0.000  0.000  0.000  0.000 6.0
+AmbTrs *  CT N* *    0   0   0   0  0.000  0.000  0.000  0.000 6.0
+AmbTrs *  CT N2 *    0   0   0   0  0.000  0.000  0.000  0.000 6.0
+AmbTrs *  CT NT *    0   0   0   0  0.000  0.000  1.800  0.000 6.0
+AmbTrs *  CT N3 *    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs *  CX N3 *    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs *  CT OH *    0   0   0   0  0.000  0.000  0.500  0.000 3.0
+AmbTrs *  CT OS *    0   0   0   0  0.000  0.000  1.150  0.000 3.0
+AmbTrs *  CT S  *    0   0   0   0  0.000  0.000  1.000  0.000 3.0
+AmbTrs *  CT SH *    0   0   0   0  0.000  0.000  0.750  0.000 3.0
+AmbTrs *  C* CB *    0 180   0   0  0.000  6.700  0.000  0.000 4.0
+AmbTrs *  C* CT *    0   0   0   0  0.000  0.000  0.000  0.000 6.0
+AmbTrs *  C* CW *    0 180   0   0  0.000 26.100  0.000  0.000 4.0
+AmbTrs *  CR NA *    0 180   0   0  0.000  9.300  0.000  0.000 4.0
+AmbTrs *  CR NB *    0 180   0   0  0.000 10.000  0.000  0.000 2.0
+AmbTrs *  CV NB *    0 180   0   0  0.000  4.800  0.000  0.000 2.0
+AmbTrs *  CW NA *    0 180   0   0  0.000  6.000  0.000  0.000 4.0
+AmbTrs *  OH P  *    0   0   0   0  0.000  0.000  0.750  0.000 3.0
+AmbTrs *  OS P  *    0   0   0   0  0.000  0.000  0.750  0.000 3.0
+AmbTrs *  CI OS *    0   0   0   0  0.000  0.000  1.150  0.000 3.0
+AmbTrs *  CI OH *    0   0   0   0  0.000  0.000  0.500  0.000 3.0
+AmbTrs *  CI CT *    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs *  C5 N* *    0 180   0   0  0.000  6.800  0.000  0.000 4.0
+AmbTrs *  C5 NB *    0 180   0   0  0.000 20.000  0.000  0.000 2.0
+AmbTrs *  C  C4 *    0 180   0   0  0.000  8.700  0.000  0.000 4.0
+AmbTrs *  CA C4 *    0 180   0   0  0.000 10.200  0.000  0.000 4.0
+AmbTrs *  C4 C4 *    0 180   0   0  0.000 26.600  0.000  0.000 4.0
+AmbTrs *  C4 CT *    0   0   0   0  0.000  0.000  0.000  0.000 6.0
+AmbTrs *  C4 N* *    0 180   0   0  0.000  7.400  0.000  0.000 4.0
+AmbTrs CT OS CT CI   0 180   0   0  0.000  0.100  0.383  0.000 1.0
+AmbTrs H1 CI CT OS   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs H1 CI CT OH   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs H1 CT CI OS   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs H1 CT CI OH   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs CI CT CT CT 180 180   0   0  0.200  0.250  0.180  0.000 1.0
+AmbTrs OP P  OS CA 180   0 180   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CC NA P  OP   0   0   0   0  0.000  0.000  0.240  0.000 1.0
+AmbTrs CR NA P  OP   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs OS P  OS CI  31 351 357   0  0.185  1.257  0.355  0.000 1.0
+AmbTrs OH P  OS CI  31 351 357   0  0.185  1.257  0.355  0.000 1.0
+AmbTrs CT CT CI OS 190 295 348   0  1.178  0.092  0.963  0.000 1.0
+AmbTrs CT CT CI OH 190 295 348   0  1.178  0.092  0.963  0.000 1.0
+AmbTrs HC CT C4 C4   0   0 180   0  1.150  0.000  0.380  0.000 1.0
+AmbTrs C4 C4 C  O    0 180   0   0  0.000  2.175  0.300  0.000 1.0
+AmbTrs OS CT N* C5  68  15 171  19  0.966  1.074  0.458  0.309 1.0
+AmbTrs OS CT N* CP  74   6 168   3  0.705  1.065  0.443  0.256 1.0
+AmbTrs OS CT N* C4 146  16 185  32  1.225  1.635  0.937  0.310 1.0
+AmbTrs OS CT N* CS 149  16 179  16  1.025  1.749  0.581  0.351 1.0
+AmbTrs C  N  CX C    0   0   0   0  0.000  0.270  0.420  0.000 1.0
+AmbTrs N  CX C  N  180 180 180   0  0.450  1.580  0.550  0.000 1.0
+AmbTrs CT CT N  C    0   0   0   0  2.000  2.000  0.400  0.000 1.0
+AmbTrs CT CT C  N    0   0   0   0  0.200  0.200  0.400  0.000 1.0
+AmbTrs CT CX C  N    0   0   0   0  0.200  0.200  0.400  0.000 1.0
+AmbTrs CX CT C  N    0   0   0   0  0.200  0.200  0.400  0.000 1.0
+AmbTrs H  N  C  O    0 180   0   0  2.000  2.500  0.000  0.000 1.0
+AmbTrs CT S  S  CT   0   0   0   0  0.000  3.500  0.600  0.000 1.0
+AmbTrs OH P  OS CT   0   0   0   0  0.000  1.200  0.250  0.000 1.0
+AmbTrs OS P  OS CT   0   0   0   0  0.000  1.200  0.250  0.000 1.0
+AmbTrs H1 CT C  O    0   0 180   0  0.800  0.000  0.080  0.000 1.0
+AmbTrs H1 CX C  O    0   0 180   0  0.800  0.000  0.080  0.000 1.0
+AmbTrs HC CT C  O    0   0 180   0  0.800  0.000  0.080  0.000 1.0
+AmbTrs HC CT CT HC   0   0   0   0  0.000  0.000  0.150  0.000 1.0
+AmbTrs HC CT CT CT   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC CT CT CX   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC CT CM CM   0   0 180   0  1.150  0.000  0.380  0.000 1.0
+AmbTrs HC CT CS CS   0   0 180   0  1.150  0.000  0.380  0.000 1.0
+AmbTrs HO OH CT CT   0   0   0   0  0.250  0.000  0.160  0.000 1.0
+AmbTrs HO OH CT CX   0   0   0   0  0.250  0.000  0.160  0.000 1.0
+AmbTrs HO OH C  O    0 180   0   0  1.900  2.300  0.000  0.000 1.0
+AmbTrs CM CM C  O    0 180   0   0  0.000  2.175  0.300  0.000 1.0
+AmbTrs CT CM CM CT 180 180   0   0  1.900  6.650  0.000  0.000 1.0
+AmbTrs CS CS C  O    0 180   0   0  0.000  2.175  0.300  0.000 1.0
+AmbTrs CT CS CS CT 180 180   0   0  1.900  6.650  0.000  0.000 1.0
+AmbTrs CT CT CT CT 180 180   0   0  0.200  0.250  0.180  0.000 1.0
+AmbTrs CX CT CT CT 180 180   0   0  0.200  0.250  0.180  0.000 1.0
+AmbTrs CT CT NT CT   0 180   0   0  0.000  0.480  0.300  0.000 1.0
+AmbTrs CT CT OS CT   0 180   0   0  0.000  0.100  0.383  0.000 1.0
+AmbTrs CT CT OS C  180   0   0   0  0.800  0.000  0.383  0.000 1.0
+AmbTrs CT OS CT OS 180 180   0   0  1.350  0.850  0.100  0.000 1.0
+AmbTrs CT OS CT N*   0   0   0   0  0.000  0.650  0.383  0.000 1.0
+AmbTrs CT CZ CZ HZ   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs O  C  OS CT 180 180   0   0  1.400  2.700  0.000  0.000 1.0
+AmbTrs OS CT N* CK   0   0   0   0  2.500  0.000  0.000  0.000 1.0
+AmbTrs OS CT N* CM   0   0   0   0  2.500  0.000  0.000  0.000 1.0
+AmbTrs OS CT CT OS   0   0   0   0  0.000  1.175  0.144  0.000 1.0
+AmbTrs OS CT CT OH   0   0   0   0  0.000  1.175  0.144  0.000 1.0
+AmbTrs OH CT CT OH   0   0   0   0  0.000  1.175  0.144  0.000 1.0
+AmbTrs F  CT CT F  180   0   0   0  1.200  0.000  0.000  0.000 1.0
+AmbTrs Cl CT CT Cl 180   0   0   0  0.450  0.000  0.000  0.000 1.0
+AmbTrs Br CT CT Br 180   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs H1 CT CT OS   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs H1 CT CT OH   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs H1 CX CT OH   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs H1 CT CT F    0   0   0   0  0.190  0.000  0.000  0.000 1.0
+AmbTrs H1 CT CT Cl   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs H1 CT CT Br   0   0   0   0  0.550  0.000  0.000  0.000 1.0
+AmbTrs HC CT CT OS   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs HC CT CT OH   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs HC CT CT F    0   0   0   0  0.190  0.000  0.000  0.000 1.0
+AmbTrs HC CT CT Cl   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs HC CT CT Br   0   0   0   0  0.550  0.000  0.000  0.000 1.0
+AmbTrs H1 CT NT EP   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CT CT NT EP   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CT C  N  EP   0 180   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs O  C  N  EP   0 180   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs H1 CT OH EP   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CT CT OH EP   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs H1 CT OS EP   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs H2 CT OS EP   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CT CT OS EP   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CM CM OS EP   0 180   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs HA CM OS EP   0 180   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs H4 CM OS EP   0 180   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CS CS OS EP   0 180   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs HA CS OS EP   0 180   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs H4 CS OS EP   0 180   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs N  CT CT OH   0   0   0   0  0.000  1.490  0.156  0.000 1.0
+AmbTrs EP S  S  CT   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs EP S  S  EP   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs C8 CX N  C    0   0   0   0  2.000  1.800  0.800  0.000 1.0
+AmbTrs CT CX N  C    0   0   0   0  2.000  1.800  0.800  0.000 1.0
+AmbTrs 2C CX N  C    0   0   0   0  2.000  1.800  0.800  0.000 1.0
+AmbTrs 3C CX N  C    0   0   0   0  2.000  1.800  0.800  0.000 1.0
+AmbTrs N  C  CX C8   0   0   0   0  0.200  0.200  0.400  0.000 1.0
+AmbTrs N  C  CX CT   0   0   0   0  0.200  0.200  0.400  0.000 1.0
+AmbTrs N  C  CX 2C   0   0   0   0  0.200  0.200  0.400  0.000 1.0
+AmbTrs N  C  CX 3C   0   0   0   0  0.200  0.200  0.400  0.000 1.0
+AmbTrs N  C  2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs O  C  2C HC   0   0 180   0  0.800  0.000  0.080  0.000 1.0
+AmbTrs OH C  2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CB C* 2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CW C* 2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs *  C8 C8 *    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs C8 C8 C8 HC   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs CX C8 C8 HC   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC C8 C8 HC   0   0   0   0  0.000  0.000  0.150  0.000 1.0
+AmbTrs *  C8 CX *    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs *  C8 N2 *    0   0   0   0  0.000  0.000  0.000  0.000 6.0
+AmbTrs *  C8 N3 *    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs *  CA 2C *    0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs 2C CC CV H4   0 180   0   0  0.000  5.150  0.150  0.000 1.0
+AmbTrs 2C CC CV NB   0 180   0   0  0.000  5.150  0.000  0.000 1.0
+AmbTrs 2C CC CW H4   0 180   0   0  0.000  5.375  0.000  0.000 1.0
+AmbTrs 2C CC CW NA   0 180   0   0  0.000  5.375  0.000  0.000 1.0
+AmbTrs 2C CC NA CR   0 180   0   0  0.000  1.400  0.000  0.000 1.0
+AmbTrs 2C CC NA H    0 180   0   0  0.000  1.400  0.000  0.000 1.0
+AmbTrs 2C CC NB CR   0 180   0   0  0.000  2.400  0.000  0.000 1.0
+AmbTrs CV CC 2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CW CC 2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs NA CC 2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs NB CC 2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs O2 CO 2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs H1 CT S  2C   0   0   0   0  0.000  0.000  1.000  0.000 3.0
+AmbTrs HC CT 2C HC   0   0   0   0  0.000  0.000  0.150  0.000 1.0
+AmbTrs HC CT 2C 3C   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC CT 3C CT   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC CT 3C CX   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC CT 3C H1   0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs HC CT 3C HC   0   0   0   0  0.000  0.000  0.150  0.000 1.0
+AmbTrs HC CT 3C OH   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs HC CT 3C 2C   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs *  CX 2C *    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs H1 CX 2C OH   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs *  CX 3C *    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs H1 CX 3C OH   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs HO OH 2C H1   0   0   0   0  0.000  0.000  0.500  0.000 3.0
+AmbTrs HO OH 3C H1   0   0   0   0  0.000  0.000  0.500  0.000 3.0
+AmbTrs EP S  S  2C   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs *  S  2C *    0   0   0   0  0.000  0.000  1.000  0.000 3.0
+AmbTrs *  SH 2C *    0   0   0   0  0.000  0.000  0.750  0.000 3.0
+AmbTrs *  2C 2C *    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs CX 2C 2C HC   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC 2C 2C HC   0   0   0   0  0.000  0.000  0.150  0.000 1.0
+AmbTrs CT 2C 3C HC   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs CX 2C 3C HC   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC 2C 3C CT   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC 2C 3C CX   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC 2C 3C HC   0   0   0   0  0.000  0.000  0.150  0.000 1.0
+AmbTrs C  CX C8 C8   0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs N  CX C8 C8   0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs N3 CX C8 C8   0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs CX C8 C8 C8 180 180   0   0  0.200  0.250  0.180  0.000 1.0
+AmbTrs C8 C8 C8 N2   0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs C8 C8 N2 CA   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs C8 C8 C8 C8 180 180   0   0  0.200  0.250  0.180  0.000 1.0
+AmbTrs C8 C8 C8 N3   0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs C8 N2 CA N2   0 180   0   0  0.000  2.400  0.000  0.000 1.0
+AmbTrs H  N2 CA N2   0 180   0   0  0.000  2.400  0.000  0.000 1.0
+AmbTrs C8 C8 N3 H    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs C  CX 2C SH 180 180   0   0  0.269  0.337  0.251  0.075 1.0
+AmbTrs N  CX 2C SH   0 180   0   0  0.154  0.486  0.251  0.033 1.0
+AmbTrs N3 CX 2C SH   0 180   0   0  0.154  0.486  0.251  0.033 1.0
+AmbTrs CX 2C SH HS   0   0   0   0  0.092  0.612  0.252  0.030 1.0
+AmbTrs C  CX 2C CO   0 180   0   0  0.424  0.459  0.058  0.154 1.0
+AmbTrs N  CX 2C CO 180 180   0   0  2.154  0.647  0.058  0.089 1.0
+AmbTrs N3 CX 2C CO 180 180   0   0  2.154  0.647  0.058  0.089 1.0
+AmbTrs CX 2C CO O2   0 180   0 180  0.000  0.769  0.000  0.031 1.0
+AmbTrs C  CX 2C C    0 180   0   0  1.046  0.303  0.033  0.107 1.0
+AmbTrs N  CX 2C C  180 180   0   0  0.688  0.297  0.033  0.059 1.0
+AmbTrs N3 CX 2C C  180 180   0   0  0.688  0.297  0.033  0.059 1.0
+AmbTrs CX 2C C  O    0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CX 2C C  OH 180 180   0 180  1.199  0.575  0.008  0.199 1.0
+AmbTrs 2C C  OH HO 180 180   0   0  0.448  2.706  0.479  0.113 1.0
+AmbTrs CX 2C C  N  180 180 180   0  0.828  0.485  0.301  0.008 1.0
+AmbTrs C  CX CT CC 180 180   0   0  0.143  0.244  0.219  0.025 1.0
+AmbTrs N  CX CT CC 180 180   0   0  0.306  0.221  0.219  0.089 1.0
+AmbTrs N3 CX CT CC 180 180   0   0  0.306  0.221  0.219  0.089 1.0
+AmbTrs CX CT CC NA 180 180   0 180  0.160  0.392  0.686  0.037 1.0
+AmbTrs CX CT CC CV 180   0 180 180  0.674  0.750  0.122  0.010 1.0
+AmbTrs CX CT CC NB   0   0   0 180  0.690  0.204  0.740  0.047 1.0
+AmbTrs C  CX 3C CT 180 180   0   0  0.406  0.289  0.148  0.112 1.0
+AmbTrs C  CX 3C 2C   0 180   0   0  0.162  0.735  0.113  0.115 1.0
+AmbTrs N  CX 3C CT   0 180   0 180  0.337  0.216  0.148  0.001 1.0
+AmbTrs N  CX 3C 2C   0 180   0 180  0.310  0.144  0.113  0.097 1.0
+AmbTrs N3 CX 3C CT   0 180   0 180  0.337  0.216  0.148  0.001 1.0
+AmbTrs N3 CX 3C 2C   0 180   0 180  0.310  0.144  0.113  0.097 1.0
+AmbTrs CX 3C 2C CT   0   0   0   0  0.447  0.053  0.107  0.230 1.0
+AmbTrs CT 3C 2C CT   0 180   0   0  0.202  0.077  0.107  0.224 1.0
+AmbTrs C  CX 3C OH 180 180   0   0  0.697  0.119  0.315  0.156 1.0
+AmbTrs N  CX 3C OH   0   0   0   0  0.674  0.006  0.315  0.095 1.0
+AmbTrs N3 CX 3C OH   0   0   0   0  0.674  0.006  0.315  0.095 1.0
+AmbTrs CX 3C OH HO 180   0   0   0  0.006  0.251  0.236  0.013 1.0
+AmbTrs CT 3C OH HO   0 180   0   0  0.643  0.079  0.236  0.048 1.0
+AmbTrs C  CX 2C 3C   0 180   0   0  0.706  0.620  0.144  0.190 1.0
+AmbTrs N  CX 2C 3C   0 180   0   0  0.098  0.259  0.144  0.073 1.0
+AmbTrs N3 CX 2C 3C   0 180   0   0  0.098  0.259  0.144  0.073 1.0
+AmbTrs CX 2C 3C CT   0 180   0   0  0.379  0.027  0.142  0.179 1.0
+AmbTrs C  CX 2C OH 180 180   0   0  0.661  0.218  0.401  0.129 1.0
+AmbTrs N  CX 2C OH   0 180   0   0  0.666  0.246  0.401  0.160 1.0
+AmbTrs N3 CX 2C OH   0 180   0   0  0.666  0.246  0.401  0.160 1.0
+AmbTrs CX 2C OH HO   0   0   0   0  0.211  0.444  0.267  0.007 1.0
+AmbTrs C  CX CT C* 180 180   0   0  0.017  0.353  0.234  0.074 1.0
+AmbTrs N  CX CT C*   0 180   0   0  0.079  0.313  0.234  0.031 1.0
+AmbTrs N3 CX CT C*   0 180   0   0  0.079  0.313  0.234  0.031 1.0
+AmbTrs CX CT C* CB   0   0   0 180  0.365  0.408  0.819  0.095 1.0
+AmbTrs CX CT C* CW   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs C  CX CT CA   0 180   0 180  0.055  0.469  0.192  0.012 1.0
+AmbTrs N  CX CT CA 180 180   0 180  0.012  0.290  0.192  0.007 1.0
+AmbTrs N3 CX CT CA 180 180   0 180  0.012  0.290  0.192  0.007 1.0
+AmbTrs CX CT CA CA   0 180   0 180  0.000  0.069  0.000  0.048 1.0
+AmbTrs CA C  OH HO   0 180   0   0  0.000  0.883  0.000  0.065 1.0
+AmbTrs C  CX 2C 2C 180 180   0   0  0.421  0.393  0.144  0.145 1.0
+AmbTrs N  CX 2C 2C 180 180   0   0  0.100  0.184  0.144  0.078 1.0
+AmbTrs N3 CX 2C 2C 180 180   0   0  0.100  0.184  0.144  0.078 1.0
+AmbTrs CX 2C 2C C  180   0 180   0  0.196  0.083  0.412  0.138 1.0
+AmbTrs 2C 2C C  O    0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs 2C 2C C  OH 180 180 180 180  0.824  1.104  0.025  0.066 1.0
+AmbTrs 2C 2C C  N  180 180 180   0  0.609  0.845  0.085  0.042 1.0
+AmbTrs CX 2C 2C CO 180 180 180 180  1.367  0.222  0.608  0.056 1.0
+AmbTrs 2C 2C CO O2   0 180   0   0  0.000  0.390  0.000  0.064 1.0
+AmbTrs CX 2C 2C S    0   0   0   0  0.417  0.245  0.016  0.028 1.0
+AmbTrs 2C 2C S  CT 180   0   0   0  0.247  0.442  0.414  0.057 1.0
+AmbTrs C  CX 2C S    0 180   0   0  0.602  0.394  0.323  0.278 1.0
+AmbTrs N  CX 2C S    0 180   0   0  0.469  0.021  0.323  0.064 1.0
+AmbTrs N3 CX 2C S    0 180   0   0  0.469  0.021  0.323  0.064 1.0
+AmbTrs CX 2C S  S    0   0   0 180  0.056  0.666  0.302  0.135 1.0
+AmbTrs 2C S  S  2C   0   0   0   0  0.420  4.480  0.682  0.379 1.0
+! 
+! Improper torsions 
+! 
+ImpTrs *  *  C  O   10.5  180.0 2.0
+ImpTrs *  O2 C  O2  10.5  180.0 2.0
+ImpTrs *  *  N  H    1.0  180.0 2.0
+ImpTrs *  *  N2 H    1.0  180.0 2.0
+ImpTrs *  *  NA H    1.0  180.0 2.0
+ImpTrs *  N2 CA N2  10.5  180.0 2.0
+ImpTrs *  CT N  CT   1.0  180.0 2.0
+ImpTrs *  CT N  CX   1.0  180.0 2.0
+ImpTrs *  *  CA HA   1.1  180.0 2.0
+ImpTrs *  *  CW H4   1.1  180.0 2.0
+ImpTrs *  *  CR H5   1.1  180.0 2.0
+ImpTrs *  *  CV H4   1.1  180.0 2.0
+ImpTrs *  *  CQ H5   1.1  180.0 2.0
+ImpTrs *  *  CK H5   1.1  180.0 2.0
+ImpTrs *  *  CP H5   1.1  180.0 2.0
+ImpTrs *  *  CM H4   1.1  180.0 2.0
+ImpTrs *  *  CM HA   1.1  180.0 2.0
+ImpTrs *  *  CS H4   1.1  180.0 2.0
+ImpTrs *  *  CS HA   1.1  180.0 2.0
+ImpTrs *  *  CA H4   1.1  180.0 2.0
+ImpTrs *  *  CA H5   1.1  180.0 2.0
+ImpTrs CB CK N* CT   1.0  180.0 2.0
+ImpTrs CB CP N* CT   1.0  180.0 2.0
+ImpTrs C  CM N* CT   1.0  180.0 2.0
+ImpTrs C  CS N* CT   1.0  180.0 2.0
+ImpTrs C  CS CM CT   1.1  180.0 2.0
+ImpTrs CT O  C  OH  10.5  180.0 2.0
+ImpTrs CT CV CC NA   1.1  180.0 2.0
+ImpTrs CT CW CC NB   1.1  180.0 2.0
+ImpTrs CT CW CC NA   1.1  180.0 2.0
+ImpTrs CB CT C* CW   1.1  180.0 2.0
+ImpTrs CA CA CA CT   1.1  180.0 2.0
+ImpTrs C  CM CM CT   1.1  180.0 2.0
+ImpTrs C  CS CS CT   1.1  180.0 2.0
+ImpTrs CM N2 CA NC   1.1  180.0 2.0
+ImpTrs CS N2 CA NC   1.1  180.0 2.0
+ImpTrs CB N2 CA NC   1.1  180.0 2.0
+ImpTrs N2 NA CA NC   1.1  180.0 2.0
+ImpTrs CA CA C  OH   1.1  180.0 2.0
+ImpTrs CA CA CA OH   1.1  180.0 2.0
+ImpTrs H5 O  C  OH   1.1  180.0 2.0
+ImpTrs H5 O  C  OS   1.1  180.0 2.0
+ImpTrs CM CT CM HA   1.1  180.0 2.0
+ImpTrs CS CT CS HA   1.1  180.0 2.0
+ImpTrs Br CA CA CA   1.1  180.0 2.0
+ImpTrs CM H4 C  O    1.1  180.0 2.0
+ImpTrs CS H4 C  O    1.1  180.0 2.0
+ImpTrs C  CT N  H    1.1  180.0 2.0
+ImpTrs C  CX N  H    1.1  180.0 2.0
+ImpTrs C  CT N  O    1.1  180.0 2.0
+ImpTrs *  *  C5 H5   1.1  180.0 2.0
+ImpTrs CB C5 N* CT   1.0  180.0 2.0
+ImpTrs *  *  C4 H4   1.1  180.0 2.0
+ImpTrs *  *  C4 HA   1.1  180.0 2.0
+ImpTrs C  C4 N* CT   1.0  180.0 2.0
+ImpTrs C  C4 C4 CT   1.1  180.0 2.0
+ImpTrs C4 N2 CA NC   1.1  180.0 2.0
+ImpTrs CA CA C  OS   1.1  180.0 2.0
+ImpTrs CR CC NA P    1.1  180.0 2.0
+ImpTrs *  O2 CO O2  10.5  180.0 2.0
+ImpTrs 2C O  C  OH  10.5  180.0 2.0
+ImpTrs CA CA CA 2C   1.1  180.0 2.0
+! 
+! Vanderwaals parameters 
+! 
+VDW H  0.6000  0.0157      
+VDW HO 0.0000  0.0000      
+VDW HS 0.6000  0.0157      
+VDW HC 1.4870  0.0157      
+VDW H1 1.3870  0.0157      
+VDW H2 1.2870  0.0157      
+VDW H3 1.1870  0.0157      
+VDW HP 1.1000  0.0157      
+VDW HA 1.4590  0.0150      
+VDW H4 1.4090  0.0150      
+VDW H5 1.3590  0.0150      
+VDW HW 0.0000  0.0000      
+VDW HZ 1.4590  0.0150      
+VDW O  1.6612  0.2100      
+VDW O2 1.6612  0.2100      
+VDW OW 1.7683  0.1520      
+VDW OH 1.7210  0.2104      
+VDW OS 1.6837  0.1700      
+VDW OP 1.8500  0.1700      
+VDW C* 1.9080  0.0860      
+VDW CB 1.9080  0.0860
+VDW CC 1.9080  0.0860
+VDW CD 1.9080  0.0860
+VDW CK 1.9080  0.0860
+VDW CM 1.9080  0.0860
+VDW CN 1.9080  0.0860
+VDW CQ 1.9080  0.0860
+VDW CR 1.9080  0.0860
+VDW CV 1.9080  0.0860
+VDW CW 1.9080  0.0860
+VDW CY 1.9080  0.0860
+VDW CZ 1.9080  0.0860
+VDW CP 1.9080  0.0860
+VDW CS 1.9080  0.0860
+VDW CI 1.9080  0.1094      
+VDW C5 1.9080  0.0860      
+VDW C4 1.9080  0.0860      
+VDW CT 1.9080  0.1094      
+VDW CX 1.9080  0.1094      
+VDW C  1.9080  0.0860      
+VDW N  1.8240  0.1700      
+VDW NA 1.8240  0.1700
+VDW N2 1.8240  0.1700
+VDW N* 1.8240  0.1700
+VDW NC 1.8240  0.1700
+VDW NB 1.8240  0.1700
+VDW NT 1.8240  0.1700
+VDW NY 1.8240  0.1700 
+VDW N3 1.8240  0.1700      
+VDW S  2.0000  0.2500      
+VDW SH 2.0000  0.2500      
+VDW P  2.1000  0.2000      
+VDW MG 0.7926  0.8947      
+VDW C0 1.7131  0.459789    
+VDW Zn 1.10    0.0125      
+VDW F  1.75    0.061       
+VDW Cl 1.948   0.265       
+VDW Br 2.22    0.320       
+VDW I  2.35    0.40        
+VDW EP 0.00    0.0000      
+VDW 2C 1.9080  0.1094      
+VDW 3C 1.9080  0.1094      
+VDW C8 1.9080  0.1094      
+VDW CO 1.9080  0.0860      

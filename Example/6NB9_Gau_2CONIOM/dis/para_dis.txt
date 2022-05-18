@@ -1,0 +1,6 @@
+6nb9.gjf
+2
+104 
+181
+head1.txt tail11.txt
+head2.txt tail12.txt

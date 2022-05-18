@@ -1,0 +1,8 @@
+%chk=center2.chk
+%mem=16gb
+%nproc=16
+# b3lyp/6-31g(d) nosymm force punch=(coord,derivatives)
+
+center2
+
+0 1

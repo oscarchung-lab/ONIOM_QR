@@ -3,7 +3,7 @@
 echo 'Copy the CNS file into work directory'
 echo 'Make sure that you have download the parameter and toplogy files for the ligands'
 
-if [[ $# -le 1 ]]
+if [[ $# -eq 1 ]]
 then 
     pdbf=$1
     cp $DF/CNS/* .
@@ -16,9 +16,9 @@ then
     gamma=`grep CRYST1 $pdbf | awk '{print $7}'`
     group=`grep CRYST1 $pdbf | awk -F 'P' '{print $2}' | awk -F '  ' '{print $1}'`
 
-    reso=`grep 'RESOLUTION RANGE HIGH (ANGSTROMS) :' $pdbf | awk -F ':' '{print $2}' | awk '{print $1}'`
-    resol=`grep 'RESOLUTION RANGE LOW  (ANGSTROMS) :' $pdbf | awk -F ':' '{print $2}' | awk '{print $1}'`
-    precent=`grep 'FREE R VALUE TEST SET SIZE   (%) :' $pdbf | awk -F ':' '{print $2}' | awk '{print $1}'`
+    reso=`grep 'RESOLUTION RANGE HIGH (ANGSTROMS) :' $pdbf | tail -1 | awk -F ':' '{print $2}' | awk '{print $1}'`
+    resol=`grep 'RESOLUTION RANGE LOW  (ANGSTROMS) :' $pdbf | tail -1 | awk -F ':' '{print $2}' | awk '{print $1}'`
+    precent=`grep 'FREE R VALUE TEST SET SIZE (%' $pdbf | tail -1 | awk -F ':' '{print $2}' | awk '{print $1}'`
 
     #echo $a $b $c $alpha $beta $gamma $group
     #echo $reso $resol $precent

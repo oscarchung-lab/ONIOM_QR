@@ -1,0 +1,212 @@
+! 
+! Non-bonded interaction 
+! 
+NonBon 3 1 0 0 0.000 0.000 0.500 0.000 0.000 -1.000 
+! 
+! Stretches 
+! 
+HrmStr1 C  2C  317.0  1.5220
+HrmStr1 C* 2C  317.0  1.4950
+HrmStr1 CA 2C  317.0  1.5100
+HrmStr1 CC 2C  317.0  1.5040
+HrmStr1 CO 2C  317.0  1.5220
+HrmStr1 CT 2C  310.0  1.5260
+HrmStr1 CT 3C  310.0  1.5260
+HrmStr1 CX 2C  310.0  1.5260
+HrmStr1 CX 3C  310.0  1.5260
+HrmStr1 H1 2C  340.0  1.0900
+HrmStr1 H1 3C  340.0  1.0900
+HrmStr1 HC 2C  340.0  1.0900
+HrmStr1 HC 3C  340.0  1.0900
+HrmStr1 OH 2C  320.0  1.4100
+HrmStr1 OH 3C  320.0  1.4100
+HrmStr1 S  2C  227.0  1.8100
+HrmStr1 SH 2C  237.0  1.8100
+HrmStr1 2C 2C  310.0  1.5260
+HrmStr1 2C 3C  310.0  1.5260
+! 
+! Angles 
+! 
+HrmBnd1 N  C  2C    70.0   116.60
+HrmBnd1 O  C  2C    80.0   120.40
+HrmBnd1 OH C  2C    80.0   110.00
+HrmBnd1 CB C* 2C    70.0   128.60
+HrmBnd1 CW C* 2C    70.0   125.00
+HrmBnd1 CA CA 2C    70.0   120.00
+HrmBnd1 CV CC 2C    70.0   120.00
+HrmBnd1 CW CC 2C    70.0   120.00
+HrmBnd1 NA CC 2C    70.0   120.00
+HrmBnd1 NB CC 2C    70.0   120.00
+HrmBnd1 O2 CO 2C    70.0   117.00
+HrmBnd1 HC CT 2C    50.0   109.50
+HrmBnd1 HC CT 3C    50.0   109.50
+HrmBnd1 C  CX 2C    63.0   111.10
+HrmBnd1 C  CX 3C    63.0   111.10
+HrmBnd1 H1 CX 2C    50.0   109.50
+HrmBnd1 H1 CX 3C    50.0   109.50
+HrmBnd1 HP CX 2C    50.0   109.50
+HrmBnd1 HP CX 3C    50.0   109.50
+HrmBnd1 N  CX 2C    80.0   109.70
+HrmBnd1 N  CX 3C    80.0   109.70
+HrmBnd1 N3 CX 2C    80.0   111.20
+HrmBnd1 N3 CX 3C    80.0   111.20
+HrmBnd1 HO OH 2C    55.0   108.50
+HrmBnd1 HO OH 3C    55.0   108.50
+HrmBnd1 CT S  2C    62.0    98.90
+HrmBnd1 2C S  S     68.0   103.70
+HrmBnd1 HS SH 2C    43.0    96.00
+HrmBnd1 C  2C CX    63.0   111.10
+HrmBnd1 C  2C HC    50.0   109.50
+HrmBnd1 C  2C 2C    63.0   111.10
+HrmBnd1 C* 2C CX    63.0   115.60
+HrmBnd1 C* 2C HC    50.0   109.50
+HrmBnd1 CA 2C CX    63.0   114.00
+HrmBnd1 CA 2C HC    50.0   109.50
+HrmBnd1 CC 2C CX    63.0   113.10
+HrmBnd1 CC 2C HC    50.0   109.50
+HrmBnd1 CO 2C CX    63.0   111.10
+HrmBnd1 CO 2C HC    50.0   109.50
+HrmBnd1 CO 2C 2C    63.0   111.10
+HrmBnd1 CT 2C HC    50.0   109.50
+HrmBnd1 CT 2C 3C    40.0   109.50
+HrmBnd1 CX 2C H1    50.0   109.50
+HrmBnd1 CX 2C HC    50.0   109.50
+HrmBnd1 CX 2C OH    50.0   109.50
+HrmBnd1 CX 2C S     50.0   114.70
+HrmBnd1 CX 2C SH    50.0   108.60
+HrmBnd1 CX 2C 2C    40.0   109.50
+HrmBnd1 CX 2C 3C    40.0   109.50
+HrmBnd1 H1 2C H1    35.0   109.50
+HrmBnd1 H1 2C OH    50.0   109.50
+HrmBnd1 H1 2C S     50.0   109.50
+HrmBnd1 H1 2C SH    50.0   109.50
+HrmBnd1 H1 2C 2C    50.0   109.50
+HrmBnd1 HC 2C HC    35.0   109.50
+HrmBnd1 HC 2C 2C    50.0   109.50
+HrmBnd1 HC 2C 3C    50.0   109.50
+HrmBnd1 S  2C 2C    50.0   114.70
+HrmBnd1 CT 3C CT    40.0   109.50
+HrmBnd1 CT 3C CX    40.0   109.50
+HrmBnd1 CT 3C H1    50.0   109.50
+HrmBnd1 CT 3C HC    50.0   109.50
+HrmBnd1 CT 3C OH    50.0   109.50
+HrmBnd1 CT 3C 2C    40.0   109.50
+HrmBnd1 CX 3C H1    50.0   109.50
+HrmBnd1 CX 3C HC    50.0   109.50
+HrmBnd1 CX 3C OH    50.0   109.50
+HrmBnd1 CX 3C 2C    40.0   109.50
+HrmBnd1 H1 3C OH    50.0   109.50
+HrmBnd1 HC 3C 2C    50.0   109.50
+! 
+! Torsions 
+! 
+AmbTrs 2C CX N  C    0   0   0   0  2.000  1.800  0.800  0.000 1.0
+AmbTrs 3C CX N  C    0   0   0   0  2.000  1.800  0.800  0.000 1.0
+AmbTrs N  C  CX 2C   0   0   0   0  0.200  0.200  0.400  0.000 1.0
+AmbTrs N  C  CX 3C   0   0   0   0  0.200  0.200  0.400  0.000 1.0
+AmbTrs N  C  2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs O  C  2C HC   0   0 180   0  0.800  0.000  0.080  0.000 1.0
+AmbTrs OH C  2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CB C* 2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CW C* 2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs *  CA 2C *    0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs 2C CC CV H4   0 180   0   0  0.000  5.150  0.150  0.000 1.0
+AmbTrs 2C CC CV NB   0 180   0   0  0.000  5.150  0.000  0.000 1.0
+AmbTrs 2C CC CW H4   0 180   0   0  0.000  5.375  0.000  0.000 1.0
+AmbTrs 2C CC CW NA   0 180   0   0  0.000  5.375  0.000  0.000 1.0
+AmbTrs 2C CC NA CR   0 180   0   0  0.000  1.400  0.000  0.000 1.0
+AmbTrs 2C CC NA H    0 180   0   0  0.000  1.400  0.000  0.000 1.0
+AmbTrs 2C CC NB CR   0 180   0   0  0.000  2.400  0.000  0.000 1.0
+AmbTrs CV CC 2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CW CC 2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs NA CC 2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs NB CC 2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs O2 CO 2C HC   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs H1 CT S  2C   0   0   0   0  0.000  0.000  1.000  0.000 3.0
+AmbTrs HC CT 2C HC   0   0   0   0  0.000  0.000  0.150  0.000 1.0
+AmbTrs HC CT 2C 3C   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC CT 3C CT   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC CT 3C CX   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC CT 3C H1   0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs HC CT 3C HC   0   0   0   0  0.000  0.000  0.150  0.000 1.0
+AmbTrs HC CT 3C OH   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs HC CT 3C 2C   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs *  CX 2C *    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs H1 CX 2C OH   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs *  CX 3C *    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs H1 CX 3C OH   0   0   0   0  0.250  0.000  0.000  0.000 1.0
+AmbTrs HO OH 2C H1   0   0   0   0  0.000  0.000  0.500  0.000 3.0
+AmbTrs HO OH 3C H1   0   0   0   0  0.000  0.000  0.500  0.000 3.0
+AmbTrs EP S  S  2C   0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs *  S  2C *    0   0   0   0  0.000  0.000  1.000  0.000 3.0
+AmbTrs *  SH 2C *    0   0   0   0  0.000  0.000  0.750  0.000 3.0
+AmbTrs *  2C 2C *    0   0   0   0  0.000  0.000  1.400  0.000 9.0
+AmbTrs CX 2C 2C HC   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC 2C 2C HC   0   0   0   0  0.000  0.000  0.150  0.000 1.0
+AmbTrs CT 2C 3C HC   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs CX 2C 3C HC   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC 2C 3C CT   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC 2C 3C CX   0   0   0   0  0.000  0.000  0.160  0.000 1.0
+AmbTrs HC 2C 3C HC   0   0   0   0  0.000  0.000  0.150  0.000 1.0
+AmbTrs C  CX 2C SH 180 180   0   0  0.269  0.337  0.251  0.075 1.0
+AmbTrs N  CX 2C SH   0 180   0   0  0.154  0.486  0.251  0.033 1.0
+AmbTrs N3 CX 2C SH   0 180   0   0  0.154  0.486  0.251  0.033 1.0
+AmbTrs CX 2C SH HS   0   0   0   0  0.092  0.612  0.252  0.030 1.0
+AmbTrs C  CX 2C CO   0 180   0   0  0.424  0.459  0.058  0.154 1.0
+AmbTrs N  CX 2C CO 180 180   0   0  2.154  0.647  0.058  0.089 1.0
+AmbTrs N3 CX 2C CO 180 180   0   0  2.154  0.647  0.058  0.089 1.0
+AmbTrs CX 2C CO O2   0 180   0 180  0.000  0.769  0.000  0.031 1.0
+AmbTrs C  CX 2C C    0 180   0   0  1.046  0.303  0.033  0.107 1.0
+AmbTrs N  CX 2C C  180 180   0   0  0.688  0.297  0.033  0.059 1.0
+AmbTrs N3 CX 2C C  180 180   0   0  0.688  0.297  0.033  0.059 1.0
+AmbTrs CX 2C C  O    0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs CX 2C C  OH 180 180   0 180  1.199  0.575  0.008  0.199 1.0
+AmbTrs 2C C  OH HO 180 180   0   0  0.448  2.706  0.479  0.113 1.0
+AmbTrs CX 2C C  N  180 180 180   0  0.828  0.485  0.301  0.008 1.0
+AmbTrs C  CX 3C CT 180 180   0   0  0.406  0.289  0.148  0.112 1.0
+AmbTrs C  CX 3C 2C   0 180   0   0  0.162  0.735  0.113  0.115 1.0
+AmbTrs N  CX 3C CT   0 180   0 180  0.337  0.216  0.148  0.001 1.0
+AmbTrs N  CX 3C 2C   0 180   0 180  0.310  0.144  0.113  0.097 1.0
+AmbTrs N3 CX 3C CT   0 180   0 180  0.337  0.216  0.148  0.001 1.0
+AmbTrs N3 CX 3C 2C   0 180   0 180  0.310  0.144  0.113  0.097 1.0
+AmbTrs CX 3C 2C CT   0   0   0   0  0.447  0.053  0.107  0.230 1.0
+AmbTrs CT 3C 2C CT   0 180   0   0  0.202  0.077  0.107  0.224 1.0
+AmbTrs C  CX 3C OH 180 180   0   0  0.697  0.119  0.315  0.156 1.0
+AmbTrs N  CX 3C OH   0   0   0   0  0.674  0.006  0.315  0.095 1.0
+AmbTrs N3 CX 3C OH   0   0   0   0  0.674  0.006  0.315  0.095 1.0
+AmbTrs CX 3C OH HO 180   0   0   0  0.006  0.251  0.236  0.013 1.0
+AmbTrs CT 3C OH HO   0 180   0   0  0.643  0.079  0.236  0.048 1.0
+AmbTrs C  CX 2C 3C   0 180   0   0  0.706  0.620  0.144  0.190 1.0
+AmbTrs N  CX 2C 3C   0 180   0   0  0.098  0.259  0.144  0.073 1.0
+AmbTrs N3 CX 2C 3C   0 180   0   0  0.098  0.259  0.144  0.073 1.0
+AmbTrs CX 2C 3C CT   0 180   0   0  0.379  0.027  0.142  0.179 1.0
+AmbTrs C  CX 2C OH 180 180   0   0  0.661  0.218  0.401  0.129 1.0
+AmbTrs N  CX 2C OH   0 180   0   0  0.666  0.246  0.401  0.160 1.0
+AmbTrs N3 CX 2C OH   0 180   0   0  0.666  0.246  0.401  0.160 1.0
+AmbTrs CX 2C OH HO   0   0   0   0  0.211  0.444  0.267  0.007 1.0
+AmbTrs C  CX 2C 2C 180 180   0   0  0.421  0.393  0.144  0.145 1.0
+AmbTrs N  CX 2C 2C 180 180   0   0  0.100  0.184  0.144  0.078 1.0
+AmbTrs N3 CX 2C 2C 180 180   0   0  0.100  0.184  0.144  0.078 1.0
+AmbTrs CX 2C 2C C  180   0 180   0  0.196  0.083  0.412  0.138 1.0
+AmbTrs 2C 2C C  O    0   0   0   0  0.000  0.000  0.000  0.000 1.0
+AmbTrs 2C 2C C  OH 180 180 180 180  0.824  1.104  0.025  0.066 1.0
+AmbTrs 2C 2C C  N  180 180 180   0  0.609  0.845  0.085  0.042 1.0
+AmbTrs CX 2C 2C CO 180 180 180 180  1.367  0.222  0.608  0.056 1.0
+AmbTrs 2C 2C CO O2   0 180   0   0  0.000  0.390  0.000  0.064 1.0
+AmbTrs CX 2C 2C S    0   0   0   0  0.417  0.245  0.016  0.028 1.0
+AmbTrs 2C 2C S  CT 180   0   0   0  0.247  0.442  0.414  0.057 1.0
+AmbTrs C  CX 2C S    0 180   0   0  0.602  0.394  0.323  0.278 1.0
+AmbTrs N  CX 2C S    0 180   0   0  0.469  0.021  0.323  0.064 1.0
+AmbTrs N3 CX 2C S    0 180   0   0  0.469  0.021  0.323  0.064 1.0
+AmbTrs CX 2C S  S    0   0   0 180  0.056  0.666  0.302  0.135 1.0
+AmbTrs 2C S  S  2C   0   0   0   0  0.420  4.480  0.682  0.379 1.0
+! 
+! Improper torsions 
+! 
+ImpTrs 2C O  C  OH  10.5  180.0 2.0
+ImpTrs CA CA CA 2C   1.1  180.0 2.0
+! 
+! Vanderwaals parameters 
+! 
+VDW 2C 1.9080  0.1094      
+VDW 3C 1.9080  0.1094      
