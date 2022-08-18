@@ -55,16 +55,17 @@ program QR_Relax
             read(11, '(A)') line
             b=(trim(line) == '')
             if (.not. b) then
-                read(line, *) c1, frez, x, y, z, c2
+                read(line, *) c1, frez, x, y, z, layer
                 call test_pos((/x, y, z/), coordH, numH, ornot)
-            endif
-           
-            if ( ornot .and. (.not. b)) then
-                write(12, '(1X,A16,I2,3F14.8,1X,A1)') c1(1:16), 0d0, x, y, z, layer
-            else
-                write(12, '(1X,A16,I2,3F14.8,1X,A1)') c1(1:16), -1d0, x, y, z, layer
-            endif                        
+                if ( ornot ) then 
+                    write(12, '(1X,A16,I2,3F14.8,1X,A1)') c1(1:16), 0, x, y, z, layer
+                else 
+                    write(12, '(1X,A16,I2,3F14.8,1X,A1)') c1(1:16), -1, x, y, z, layer
+                endif
+            endif                      
         enddo
+
+        write(12, '(A)') trim(line)
         !connectivity and MM parameters
         do while (.true.)
             read(11, '(A)', iostat=isok) line
