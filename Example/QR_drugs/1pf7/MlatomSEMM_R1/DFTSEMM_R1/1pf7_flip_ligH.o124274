@@ -1,0 +1,64 @@
+OMP: Warning #235: OMP_NUM_THREADS: Invalid symbols found. Check the value "".
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+normal termination of xtb
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+normal termination of xtb
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+normal termination of xtb
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+normal termination of xtb
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+normal termination of xtb
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+normal termination of xtb
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
+ERROR STOP 
+
+Error termination. Backtrace:
+#0  0x2b63c5148bad in ???
+#1  0x55bb6ef10355 in ???
+#2  0x55bb6ef01222 in ???
+#3  0x2b63c5f68554 in ???
+#4  0x55bb6ef012c8 in ???
+abnormal termination of xtb
+forrtl: severe (24): end-of-file during read, unit 9, file /share/home/chem-zhonglh/yanzy/QR/NC_more/1pf7/QRs/MlatomSEMM_R1/DFTSEMM_R1/energy.tmp
+Image              PC                Routine            Line        Source             
+gau_xtb            000000000040855E  Unknown               Unknown  Unknown
+gau_xtb            000000000042CF85  Unknown               Unknown  Unknown
+gau_xtb            0000000000403670  Unknown               Unknown  Unknown
+gau_xtb            0000000000402B5E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B3C32061555  __libc_start_main     Unknown  Unknown
+gau_xtb            0000000000402A69  Unknown               Unknown  Unknown
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000004b09a, rsp 00007ffebc781058, rbp 00007ffebc7815d0
+   rsi 000000000000000b, rdi 000000000004b09a, r8  0000000000000020
+   r9  00002b10ce85bba0, r10 00007ffebc780460, r11 0000000000000202
+   r12 00007ffebc781618, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b10ce1f9630]
+  /lib64/libc.so.6(kill+0x7) [0x2b10ce73e657]
+  /share/apps/gaussian//g16/l402.exe() [0x44c819]
+  /share/apps/gaussian//g16/l402.exe() [0x46428a]
+  /share/apps/gaussian//g16/l402.exe() [0x49e6ab]
+  /share/apps/gaussian//g16/l402.exe() [0x48d79f]
+  /share/apps/gaussian//g16/l402.exe() [0x713b54]
+  /share/apps/gaussian//g16/l402.exe() [0x506084]
+  /share/apps/gaussian//g16/l402.exe() [0x4195f2]
+  /share/apps/gaussian//g16/l402.exe() [0x4100d4]
+  /share/apps/gaussian//g16/l402.exe() [0x40bd32]
+  /share/apps/gaussian//g16/l402.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b10ce72a555]
+  /share/apps/gaussian//g16/l402.exe() [0x4063a9]
+forrtl: severe (24): end-of-file during read, unit 14, file /share/home/chem-zhonglh/yanzy/QR/NC_more/1pf7/QRs/MlatomSEMM_R1/DFTSEMM_R1/energy.temp
+Image              PC                Routine            Line        Source             
+find_intel.x       0000000000902809  Unknown               Unknown  Unknown
+find_intel.x       000000000040F5F6  lanch_external_           557  main_d.F90
+find_intel.x       00000000004307B2  dlf_put_coords_          1573  main_d.F90
+find_intel.x       0000000000444D55  dlf_run_                  679  dl-find_d.F90
+find_intel.x       000000000050A9C0  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000439CF1  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000407000  MAIN__                    109  main_d.F90
+find_intel.x       000000000040651D  Unknown               Unknown  Unknown
+libc-2.17.so       00002B99A05E5555  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000406436  Unknown               Unknown  Unknown

@@ -1,0 +1,314 @@
+!----------------------------TITLE -----------------------------------------------------------------------------------------
+!   Tadalafil
+!
+! This file was generated at 11:53 on 2023-12-19 by
+!
+!                  Automatic Topology Builder  
+!
+!                   REVISION 2023-06-14 20:38:16
+!---------------------------------------------------------------------------------------------------------------------------
+! Authors     : Martin Stroet, Bertrand Caron, Alpeshkumar K. Malde, Thomas Lee, Alan E. Mark
+!
+! Institute   : Molecular Dynamics group, 
+!               School of Chemistry and Molecular Biosciences (SCMB),
+!               The University of Queensland, QLD 4072, Australia
+! URL         : https://atb.uq.edu.au
+! Citations   : 1. Malde AK, Zuo L, Breeze M, Stroet M, Poger D, Nair PC, Oostenbrink C, Mark AE.
+!                  An Automated force field Topology Builder (ATB) and repository: version 1.0.
+!                  Journal of Chemical Theory and Computation, 2011, 7, 4026-4037.
+!               2. Stroet M, Caron B, Visscher K, Geerke D, Malde AK, Mark AE.
+!                  Automated Topology Builder version 3.0: Prediction of solvation free enthalpies in water and hexane.
+!                  DOI:10.1021/acs.jctc.8b00768
+!
+! Disclaimer  : 
+!      While every effort has been made to ensure the accuracy and validity of parameters provided below
+!      the assignment of parameters is being based on an automated procedure combining data provided by a
+!      given user as well as calculations performed using third party software. They are provided as a guide.
+!      The authors of the ATB cannot guarantee that the parameters are complete or that the parameters provided
+!      are appropriate for use in any specific application. Users are advised to treat these parameters with discretion
+!      and to perform additional validation tests for their specific application if required. Neither the authors
+!      of the ATB or The University of Queensland except any responsibly for how the parameters may be used.
+!
+! Release notes and warnings: 
+!  (1) The topology is based on a set of atomic coordinates and other data provided by the user after
+!      after quantum mechanical optimization of the structure using different levels of theory depending on
+!      the nature of the molecule.
+!  (2) In some cases the automatic bond, bond angle and dihedral type assignment is ambiguous.
+!      In these cases alternative type codes are provided at the end of the line.
+!  (3) While bonded parameters are taken where possible from the nominated force field non-standard bond, angle and dihedral
+!      type code may be incorporated in cases where an exact match could not be found. These are marked as "non-standard"
+!      or "uncertain" in comments.
+!  (4) In some cases it is not possible to assign an appropriate parameter automatically. "%%" is used as a place holder
+!      for those fields that could not be determined automatically. The parameters in these fields must be assigned manually
+!      before the file can be used.
+!---------------------------------------------------------------------------------------------------------------------------
+! Input Structure : CIA
+! Output          : ALL ATOM topology
+!	Use in conjunction with the corresponding all atom PDB file.
+!---------------------------------------------------------------------------------------------------------------------------
+! Citing this topology file
+! ATB molid: 1578424
+! ATB Topology Hash: 69fe1
+!---------------------------------------------------------------------------------------------------------------------------
+! Initial Guess Topology Generation:
+! The topology was generated from AM1 optimized geometry and MOPAC charges.
+! Bonded and van der Waals parameters were taken from the GROMOS 54A7 parameter set.
+!---------------------------------------------------------------------------------------------------------------------------
+!
+!TOPOlogy
+!      GROUp
+   RESIdue CIA
+      ATOM H2   TYPE=H2   CHARge=0.132    MASS=1.0080   END
+      ATOM C2   TYPE=C2   CHARge=-0.154   MASS=12.0110  END
+      ATOM C3   TYPE=C3   CHARge=-0.111   MASS=12.0110  END
+      ATOM H3   TYPE=H3   CHARge=0.131    MASS=1.0080   END
+      ATOM C4   TYPE=C4   CHARge=-0.143   MASS=12.0110  END
+      ATOM H4   TYPE=H4   CHARge=0.134    MASS=1.0080   END
+      ATOM C5   TYPE=C51  CHARge=0.003    MASS=12.0110  END
+      ATOM C6   TYPE=C6   CHARge=-0.065   MASS=12.0110  END
+      ATOM C1   TYPE=C1   CHARge=-0.082   MASS=12.0110  END
+      ATOM H1   TYPE=H1   CHARge=0.138    MASS=1.0080   END
+      ATOM C7   TYPE=C7   CHARge=-0.141   MASS=12.0110  END
+      ATOM C8   TYPE=C8   CHARge=-0.055   MASS=12.0110  END
+      ATOM N9   TYPE=N9   CHARge=-0.190   MASS=14.0067  END
+      ATOM HN9  TYPE=HN9  CHARge=0.251    MASS=1.0080   END
+      ATOM C13  TYPE=C13  CHARge=0.146    MASS=12.0110  END
+      ATOM H13  TYPE=H131 CHARge=0.117    MASS=1.0080   END
+      ATOM C22  TYPE=C22  CHARge=-0.104   MASS=12.0110  END
+      ATOM C27  TYPE=C27  CHARge=-0.103   MASS=12.0110  END
+      ATOM H27  TYPE=H27  CHARge=0.148    MASS=1.0080   END
+      ATOM C26  TYPE=C26  CHARge=-0.119   MASS=12.0110  END
+      ATOM H26  TYPE=H26  CHARge=0.157    MASS=1.0080   END
+      ATOM C25  TYPE=C25  CHARge=0.021    MASS=12.0110  END
+      ATOM O30  TYPE=O30  CHARge=-0.217   MASS=15.9994  END
+      ATOM C29  TYPE=C29  CHARge=0.099    MASS=12.0110  END
+      ATOM H292 TYPE=H292 CHARge=0.111    MASS=1.0080   END
+      ATOM H291 TYPE=H291 CHARge=0.114    MASS=1.0080   END
+      ATOM O28  TYPE=O28  CHARge=-0.215   MASS=15.9994  END
+      ATOM C24  TYPE=C24  CHARge=0.002    MASS=12.0110  END
+      ATOM C23  TYPE=C23  CHARge=-0.083   MASS=12.0110  END
+      ATOM H23  TYPE=H23  CHARge=0.165    MASS=1.0080   END
+      ATOM N12  TYPE=N12  CHARge=-0.322   MASS=14.0067  END
+      ATOM C17  TYPE=C17  CHARge=0.299    MASS=12.0110  END
+      ATOM O20  TYPE=O20  CHARge=-0.352   MASS=15.9994  END
+      ATOM C16  TYPE=C16  CHARge=-0.037   MASS=12.0110  END
+      ATOM H162 TYPE=H162 CHARge=0.109    MASS=1.0080   END
+      ATOM H161 TYPE=H161 CHARge=0.126    MASS=1.0080   END
+      ATOM N15  TYPE=N15  CHARge=-0.335   MASS=14.0067  END
+      ATOM C18  TYPE=C18  CHARge=-0.076   MASS=12.0110  END
+      ATOM H183 TYPE=H183 CHARge=0.091    MASS=1.0080   END
+      ATOM H182 TYPE=H182 CHARge=0.091    MASS=1.0080   END
+      ATOM H181 TYPE=H181 CHARge=0.091    MASS=1.0080   END
+      ATOM C31  TYPE=C31  CHARge=0.301    MASS=12.0110  END
+      ATOM O32  TYPE=O32  CHARge=-0.357   MASS=15.9994  END
+      ATOM C11  TYPE=C111 CHARge=0.023    MASS=12.0110  END
+      ATOM H11  TYPE=H111 CHARge=0.109    MASS=1.0080   END
+      ATOM C10  TYPE=C101 CHARge=-0.084   MASS=12.0110  END
+      ATOM H102 TYPE=H102 CHARge=0.110    MASS=1.0080   END
+      ATOM H101 TYPE=H101 CHARge=0.126    MASS=1.0080   END
+
+      BOND H2   C2  
+      BOND C2   C3  
+      BOND C2   C1  
+      BOND C3   H3  
+      BOND C3   C4  
+      BOND C4   H4  
+      BOND C4   C5  
+      BOND C5   C6  
+      BOND C5   N9  
+      BOND C6   C1  
+      BOND C6   C7  
+      BOND C1   H1  
+      BOND C7   C8  
+      BOND C7   C10 
+      BOND C8   N9  
+      BOND C8   C13 
+      BOND N9   HN9 
+      BOND C13  H13 
+      BOND C13  C22 
+      BOND C13  N12 
+      BOND C22  C27 
+      BOND C22  C23 
+      BOND C27  H27 
+      BOND C27  C26 
+      BOND C26  H26 
+      BOND C26  C25 
+      BOND C25  O30 
+      BOND C25  C24 
+      BOND O30  C29 
+      BOND C29  H292
+      BOND C29  H291
+      BOND C29  O28 
+      BOND O28  C24 
+      BOND C24  C23 
+      BOND C23  H23 
+      BOND N12  C17 
+      BOND N12  C11 
+      BOND C17  O20 
+      BOND C17  C16 
+      BOND C16  H162
+      BOND C16  H161
+      BOND C16  N15 
+      BOND N15  C18 
+      BOND N15  C31 
+      BOND C18  H183
+      BOND C18  H182
+      BOND C18  H181
+      BOND C31  O32 
+      BOND C31  C11 
+      BOND C11  H11 
+      BOND C11  C10 
+      BOND C10  H102
+      BOND C10  H101
+
+      ANGLe H2   C2   C3  
+      ANGLe H2   C2   C1  
+      ANGLe C3   C2   C1  
+      ANGLe C2   C3   H3  
+      ANGLe C2   C3   C4  
+      ANGLe H3   C3   C4  
+      ANGLe C3   C4   H4  
+      ANGLe C3   C4   C5  
+      ANGLe H4   C4   C5  
+      ANGLe C4   C5   C6  
+      ANGLe C4   C5   N9  
+      ANGLe C6   C5   N9  
+      ANGLe C5   C6   C1  
+      ANGLe C5   C6   C7  
+      ANGLe C1   C6   C7  
+      ANGLe C2   C1   C6  
+      ANGLe C2   C1   H1  
+      ANGLe C6   C1   H1  
+      ANGLe C6   C7   C8  
+      ANGLe C6   C7   C10 
+      ANGLe C8   C7   C10 
+      ANGLe C7   C8   N9  
+      ANGLe C7   C8   C13 
+      ANGLe N9   C8   C13 
+      ANGLe C5   N9   C8  
+      ANGLe C5   N9   HN9 
+      ANGLe C8   N9   HN9 
+      ANGLe C8   C13  H13 
+      ANGLe C8   C13  C22 
+      ANGLe C8   C13  N12 
+      ANGLe H13  C13  C22 
+      ANGLe H13  C13  N12 
+      ANGLe C22  C13  N12 
+      ANGLe C13  C22  C27 
+      ANGLe C13  C22  C23 
+      ANGLe C27  C22  C23 
+      ANGLe C22  C27  H27 
+      ANGLe C22  C27  C26 
+      ANGLe H27  C27  C26 
+      ANGLe C27  C26  H26 
+      ANGLe C27  C26  C25 
+      ANGLe H26  C26  C25 
+      ANGLe C26  C25  O30 
+      ANGLe C26  C25  C24 
+      ANGLe O30  C25  C24 
+      ANGLe C25  O30  C29 
+      ANGLe O30  C29  H292
+      ANGLe O30  C29  H291
+      ANGLe O30  C29  O28 
+      ANGLe H292 C29  H291
+      ANGLe H292 C29  O28 
+      ANGLe H291 C29  O28 
+      ANGLe C29  O28  C24 
+      ANGLe C25  C24  O28 
+      ANGLe C25  C24  C23 
+      ANGLe O28  C24  C23 
+      ANGLe C22  C23  C24 
+      ANGLe C22  C23  H23 
+      ANGLe C24  C23  H23 
+      ANGLe C13  N12  C17 
+      ANGLe C13  N12  C11 
+      ANGLe C17  N12  C11 
+      ANGLe N12  C17  O20 
+      ANGLe N12  C17  C16 
+      ANGLe O20  C17  C16 
+      ANGLe C17  C16  H162
+      ANGLe C17  C16  H161
+      ANGLe C17  C16  N15 
+      ANGLe H162 C16  H161
+      ANGLe H162 C16  N15 
+      ANGLe H161 C16  N15 
+      ANGLe C16  N15  C18 
+      ANGLe C16  N15  C31 
+      ANGLe C18  N15  C31 
+      ANGLe N15  C18  H183
+      ANGLe N15  C18  H182
+      ANGLe N15  C18  H181
+      ANGLe H183 C18  H182
+      ANGLe H183 C18  H181
+      ANGLe H182 C18  H181
+      ANGLe N15  C31  O32 
+      ANGLe N15  C31  C11 
+      ANGLe O32  C31  C11 
+      ANGLe N12  C11  C31 
+      ANGLe N12  C11  H11 
+      ANGLe N12  C11  C10 
+      ANGLe C31  C11  H11 
+      ANGLe C31  C11  C10 
+      ANGLe H11  C11  C10 
+      ANGLe C7   C10  C11 
+      ANGLe C7   C10  H102
+      ANGLe C7   C10  H101
+      ANGLe C11  C10  H102
+      ANGLe C11  C10  H101
+      ANGLe H102 C10  H101
+
+      DIHEdral C2   C3   C4   C5  
+      DIHEdral C3   C2   C1   C6  
+      DIHEdral C3   C4   C5   C6  
+      DIHEdral C5   C6   C1   C2  
+      DIHEdral C5   C6   C7   C8  
+      DIHEdral C6   C5   N9   C8  
+      DIHEdral C6   C7   C8   N9  
+      DIHEdral C6   C7   C10  C11 
+      DIHEdral C1   C2   C3   C4  
+      DIHEdral C7   C8   N9   C5  
+      DIHEdral C7   C8   C13  N12 
+      DIHEdral C8   C13  C22  C27 
+      DIHEdral C8   C13  N12  C17 
+      DIHEdral N9   C5   C6   C7  
+      DIHEdral C13  N12  C17  O20 
+      DIHEdral C13  N12  C11  C31 
+      DIHEdral C22  C27  C26  C25 
+      DIHEdral C27  C22  C23  C24 
+      DIHEdral C27  C26  C25  C24 
+      DIHEdral C26  C25  O30  C29 
+      DIHEdral C26  C25  C24  C23 
+      DIHEdral C25  O30  C29  O28 
+      DIHEdral C25  C24  C23  C22 
+      DIHEdral O30  C29  O28  C24 
+      DIHEdral C29  O28  C24  C25 
+      DIHEdral C23  C22  C27  C26 
+      DIHEdral N12  C17  C16  N15 
+      DIHEdral N12  C11  C10  C7  
+      DIHEdral C17  C16  N15  C31 
+      DIHEdral C16  N15  C18  H183
+      DIHEdral C16  N15  C31  O32 
+      DIHEdral N15  C31  C11  N12 
+
+      IMPRoper C3   C2   H3   C4  
+      IMPRoper C2   H2   C3   C1  
+      IMPRoper C1   C2   C6   H1  
+      IMPRoper C6   C5   C1   C7  
+      IMPRoper C7   C6   C8   C10 
+      IMPRoper C8   C7   N9   C13 
+      IMPRoper N9   C5   C8   HN9 
+      IMPRoper C5   C4   C6   N9  
+      IMPRoper C4   C3   H4   C5  
+      IMPRoper C17  N12  O20  C16 
+      IMPRoper N15  C16  C18  C31 
+      IMPRoper C31  N15  O32  C11 
+      IMPRoper C22  C13  C27  C23 
+      IMPRoper C27  C22  H27  C26 
+      IMPRoper C26  C27  H26  C25 
+      IMPRoper C25  C26  O30  C24 
+      IMPRoper C24  C25  O28  C23 
+      IMPRoper C23  C22  C24  H23 
+      IMPRoper C13  C8   N12  C22 
+      IMPRoper C11  C31  N12  C10 
+   END
+

@@ -1,0 +1,37 @@
+#!/bin/bash
+#PBS -N 6pub_a_flip_ligH
+#PBS -l nodes=1:ppn=12
+#PBS -l mem=24GB
+#PBS -j oe
+#PBS -r n
+#PBS -q short
+#PBS -l walltime=100:00:00
+
+cd $PBS_O_WORKDIR
+
+#setenv OMP_NUM_THREADS 16
+Node=`cat $PBS_NODEFILE | uniq`
+NNo=`cat $PBS_NODEFILE | uniq | sed -e 's/node//'`
+
+TEMP="/tmp"
+
+
+mkdir -p $TEMP/$PBS_JOBID
+
+echo "This job is running on host $Node" > "6pub_a_flip_ligH.log"
+echo "Current directory: $PBS_O_WORKDIR" >> "6pub_a_flip_ligH.log"
+
+
+source /share/home/chem-zhonglh/yanzy/env/QR.env
+export OMP_NUM_THREADS=$PBS_NP
+export MKL_NUM_THREADS=$PBS_NP
+export OMP_STACKSIZE=2G
+
+export GAUSS_SCRDIR=$TEMP/$PBS_JOBID
+
+date >> "6pub_a_flip_ligH.log"
+$DF/intel/find_intel.x parameter.dat >> "6pub_a_flip_ligH.log"
+date >> "6pub_a_flip_ligH.log"
+
+rm -rf $GAUSS_SCRDIR
+

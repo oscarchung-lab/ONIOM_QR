@@ -1,8 +1,0 @@
-%chk=center2.chk
-%mem=16gb
-%nproc=24
-# b3lyp/6-31g(d) empiricaldispersion=gd3 nosymm force punch=(coord,derivatives)
-
-center2
-
--1 1

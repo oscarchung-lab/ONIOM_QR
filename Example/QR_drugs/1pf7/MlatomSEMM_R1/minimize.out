@@ -1,0 +1,2296 @@
+          ============================================================
+          |                                                          |
+          |            Crystallography & NMR System (CNS)            |
+          |                         CNSsolve                         |
+          |                                                          |
+          ============================================================
+           Version: 1.3
+           Status: General release
+          ============================================================
+           Written by: A.T.Brunger, P.D.Adams, G.M.Clore, W.L.DeLano,
+                       P.Gros, R.W.Grosse-Kunstleve,J.-S.Jiang,J.M.Krahn,
+                       J.Kuszewski, M.Nilges, N.S.Pannu, R.J.Read,
+                       L.M.Rice, G.F.Schroeder, T.Simonson, G.L.Warren.
+           Copyright (c) 1997-2010 Yale University
+          ============================================================
+           Running on machine: x86_64-conda-linux-gnu (x86_64/Linux,64-bit)
+           Program started by: yanzy
+           Program started at: 01:09:24 on 11-Jan-2024
+          ============================================================
+
+ FFT3C: Using FFTPACK4.1
+
+ CNSsolve>{DF-GAUCNS This is minimize.inp - 2018-12-21} 
+ CNSsolve>{+ directory: xtal_refine +} 
+ CNSsolve>{+ description: Crystallographic conjugate gradient minimization refinement +} 
+ CNSsolve>{+ authors: Axel T. Brunger, and Paul D. Adams +} 
+ CNSsolve>{+ copyright: Yale University +} 
+ CNSsolve> 
+ CNSsolve>{+ reference: A.T. Brunger, The Free R Value: a Novel Statistical 
+ CNSsolve>              Quantity for Assessing the Accuracy of Crystal Structures, 
+ CNSsolve>              Nature 355, 472-474 (1992) +} 
+ CNSsolve>{+ reference: N.S. Pannu and R.J. Read, Improved structure refinement 
+ CNSsolve>              through maximum likelihood, Acta Cryst. A52, 659-668 (1996) +} 
+ CNSsolve>{+ reference: P.D. Adams, N.S. Pannu, R.J. Read and A.T. Brunger, 
+ CNSsolve>              Cross-validated Maximum Likelihood Enhances Crystallographic 
+ CNSsolve>              Simulated Annealing Refinement, Proc. Natl. Acad. Sci. USA 
+ CNSsolve>              94, 5018-5023 (1997) +} 
+ CNSsolve> 
+ CNSsolve>{- Guidelines for using this file: 
+ CNSsolve>   - all strings must be quoted by double-quotes 
+ CNSsolve>   - logical variables (true/false) are not quoted 
+ CNSsolve>   - do not remove any evaluate statements from the file 
+ CNSsolve>   - the selections store1 through store8 are available for general use -} 
+ CNSsolve> 
+ CNSsolve>{- begin block parameter definition -} define( 
+ DEFINE> 
+ DEFINE>{============================ coordinates ============================} 
+ DEFINE> 
+ DEFINE>{* coordinate file *} 
+ DEFINE>{===>} coordinate_infile="mm3.pdb"; 
+ DEFINE> 
+ DEFINE>{==================== molecular information ==========================} 
+ DEFINE> 
+ DEFINE>{* topology files *} 
+ DEFINE>{===>} topology_infile_1="CNS_TOPPAR:protein.top"; 
+ DEFINE>{===>} topology_infile_2="CNS_TOPPAR:dna-rna.top"; 
+ DEFINE>{===>} topology_infile_3="CNS_TOPPAR:water.top"; 
+ DEFINE>{===>} topology_infile_4="CNS_TOPPAR:ion.top"; 
+ DEFINE>{===>} topology_infile_5="CNS_TOPPAR:carbohydrate.top"; 
+ DEFINE>{===>} topology_infile_6="IMH.top"; 
+ DEFINE>{===>} topology_infile_7=""; 
+ DEFINE>{===>} topology_infile_8=""; 
+ DEFINE> 
+ DEFINE>{* linkage files for linear, continuous polymers (protein, DNA, RNA) *} 
+ DEFINE>{===>} link_infile_1="CNS_TOPPAR:protein.link"; 
+ DEFINE>{===>} link_infile_2="CNS_TOPPAR:dna-rna-pho.link"; 
+ DEFINE>{===>} link_infile_3=""; 
+ DEFINE> 
+ DEFINE>{* parameter files *} 
+ DEFINE>{===>} parameter_infile_1="CNS_TOPPAR:protein_rep.param"; 
+ DEFINE>{===>} parameter_infile_2="CNS_TOPPAR:dna-rna_rep.param"; 
+ DEFINE>{===>} parameter_infile_3="CNS_TOPPAR:water_rep.param"; 
+ DEFINE>{===>} parameter_infile_4="CNS_TOPPAR:ion.param"; 
+ DEFINE>{===>} parameter_infile_5="CNS_TOPPAR:carbohydrate.param"; 
+ DEFINE>{===>} parameter_infile_6="IMH.par"; 
+ DEFINE>{===>} parameter_infile_7=""; 
+ DEFINE>{===>} parameter_infile_8=""; 
+ DEFINE> 
+ DEFINE>{* molecular topology file: optional (leave blank for auto generation) *} 
+ DEFINE>{* 
+ DEFINE>   Auto generation of the molecular topology from the coordinates should only 
+ DEFINE>   be used if: 
+ DEFINE>   (1) Each distinct protein, DNA, or RNA chain must have a separate segid 
+ DEFINE>       (or chainid if the chainid is non-blank). 
+ DEFINE>   (2) Each contiguous protein, RNA, or RNA chain must not be disrupted by 
+ DEFINE>       other types of residues or ligands.  Rather, these other residues 
+ DEFINE>       should be listed after protein, RNA/DNA chains. 
+ DEFINE>   (3) Disulphides are automatically detected based on distances between the sulfur atoms 
+ DEFINE>      (must be less than 3 A apart). 
+ DEFINE>   (4) Broken protein/RNA/DNA chains without terminii must be more than 2.5 A apart to be recognized as such. 
+ DEFINE>   (5) N-linked glycan links are automatically recognized if the bonded atoms are less than 2.5 A apart. 
+ DEFINE>   (6) Automatic generation cannot be used with alternate conformations. 
+ DEFINE>   For ligands, the user must make suitable topology and parameter files. 
+ DEFINE>   For non-standard covalent linkages, the custom patch file should be used. 
+ DEFINE>   Alternatively, the generate.inp or generate_easy.inp task files 
+ DEFINE>   can be used to generated the mtf prior to running this task file. 
+ DEFINE>    *} 
+ DEFINE>{===>} structure_infile="mm3.mtf"; 
+ DEFINE> 
+ DEFINE>{* for auto generation: extra linkages and modifications by custom patches *} 
+ DEFINE>{===>} patch_infile=""; 
+ DEFINE> 
+ DEFINE>{* force field settings file *} 
+ DEFINE>{===>} force_field_infile=""; 
+ DEFINE> 
+ DEFINE>{====================== crystallographic data ========================} 
+ DEFINE> 
+ DEFINE>{* space group *} 
+ DEFINE>{* use International Table conventions with subscripts substituted 
+ DEFINE>   by parenthesis *} 
+ DEFINE>{===>} sg="H32"; 
+ DEFINE> 
+ DEFINE>{* unit cell parameters in Angstroms and degrees *} 
+ DEFINE>{+ table: rows=1 "cell" cols=6 "a" "b" "c" "alpha" "beta" "gamma" +} 
+ DEFINE>{===>} a=139.390; 
+ DEFINE>{===>} b=139.390; 
+ DEFINE>{===>} c=161.310; 
+ DEFINE>{===>} alpha=90.00; 
+ DEFINE>{===>} beta=90.00; 
+ DEFINE>{===>} gamma=120.00; 
+ DEFINE> 
+ DEFINE>{* anomalous f' f'' library file *} 
+ DEFINE>{* If a file is not specified, no anomalous contribution will be included *} 
+ DEFINE>{+ choice: "CNS_XRAYLIB:anom_cu.lib" "CNS_XRAYLIB:anom_mo.lib" "" user_file +} 
+ DEFINE>{===>} anom_library=""; 
+ DEFINE> 
+ DEFINE>{* reflection files *} 
+ DEFINE>{* specify non-anomalous reflection files before anomalous reflection files. *} 
+ DEFINE>{* files must contain unique array names otherwise errors will occur *} 
+ DEFINE>{===>} reflection_infile_1="1pf7-sf.cv"; 
+ DEFINE>{===>} reflection_infile_2=""; 
+ DEFINE>{===>} reflection_infile_3=""; 
+ DEFINE>{===>} reflection_infile_4=""; 
+ DEFINE> 
+ DEFINE>{* reciprocal space array containing observed amplitudes: required *} 
+ DEFINE>{===>} obs_f="fobs"; 
+ DEFINE> 
+ DEFINE>{* reciprocal space array containing sigma values for amplitudes: required *} 
+ DEFINE>{===>} obs_sigf="sigma"; 
+ DEFINE> 
+ DEFINE>{* reciprocal space array containing test set for cross-validation: required *} 
+ DEFINE>{* cross-validation should always be used, with the possible exception 
+ DEFINE>   of a final round of refinement including all data *} 
+ DEFINE>{* cross-validation is always required for the maximum likelihood targets *} 
+ DEFINE>{===>} test_set="test"; 
+ DEFINE> 
+ DEFINE>{* number for selection of test reflections: required for cross-validation *} 
+ DEFINE>{* ie. reflections with the test set array equal to this number will be 
+ DEFINE>       used for cross-validation, all other reflections form the working set *} 
+ DEFINE>{===>} test_flag=1; 
+ DEFINE> 
+ DEFINE>{* reciprocal space array containing weighting scheme for observed 
+ DEFINE>   amplitudes: optional *} 
+ DEFINE>{* only used for the "residual" and "vector" targets - this will 
+ DEFINE>   default to a constant value of 1 if array is not present *} 
+ DEFINE>{===>} obs_w=""; 
+ DEFINE> 
+ DEFINE>{* reciprocal space array containing observed intensities: optional *} 
+ DEFINE>{* required for the "mli" target *} 
+ DEFINE>{===>} obs_i=""; 
+ DEFINE> 
+ DEFINE>{* reciprocal space array containing sigma values for intensities: optional *} 
+ DEFINE>{* required for the "mli" target *} 
+ DEFINE>{===>} obs_sigi=""; 
+ DEFINE> 
+ DEFINE>{* reciprocal space arrays with experimental phase probability 
+ DEFINE>   distribution: optional *} 
+ DEFINE>{* Hendrickson-Lattman coefficients A,B,C,D *} 
+ DEFINE>{* required for the "mlhl" target *} 
+ DEFINE>{+ table: rows=1 "HL coefficients" cols=4 "A" "B" "C" "D" +} 
+ DEFINE>{===>} obs_pa=""; 
+ DEFINE>{===>} obs_pb=""; 
+ DEFINE>{===>} obs_pc=""; 
+ DEFINE>{===>} obs_pd=""; 
+ DEFINE> 
+ DEFINE>{* complex reciprocal space array containing experimental phases: optional *} 
+ DEFINE>{* required for the "mixed" and "vector" targets *} 
+ DEFINE>{===>} obs_phase=""; 
+ DEFINE> 
+ DEFINE>{* reciprocal space array containing experimental figures of merit: optional *} 
+ DEFINE>{* required for the "mixed" target *} 
+ DEFINE>{===>} obs_fom=""; 
+ DEFINE> 
+ DEFINE>{* resolution limits to be used in refinement *} 
+ DEFINE>{* the full resolution range of observed data should be used in refinement. 
+ DEFINE>   A bulk solvent correction should be applied to allow the use of low 
+ DEFINE>   resolution terms. If no bulk solvent correction is applied, data must 
+ DEFINE>   be truncated at a lower resolution limit of between 8 and 6 Angstrom. *} 
+ DEFINE>{+ table: rows=1 "resolution" cols=2 "lowest" "highest" +} 
+ DEFINE>{===>} low_res=7.00; 
+ DEFINE>{===>} high_res=2.60; 
+ DEFINE> 
+ DEFINE>{* apply rejection criteria to amplitudes or intensities *} 
+ DEFINE>{+ choice: "amplitude" "intensity" +} 
+ DEFINE>{===>} obs_type="amplitude"; 
+ DEFINE> 
+ DEFINE>{* Observed data cutoff criteria: applied to amplitudes or intensities *} 
+ DEFINE>{* reflections with magnitude(Obs)/sigma < cutoff are rejected. *} 
+ DEFINE>{===>} sigma_cut=0.0; 
+ DEFINE> 
+ DEFINE>{* rms outlier cutoff: applied to amplitudes or intensities *} 
+ DEFINE>{* reflections with magnitude(Obs) > cutoff*rms(Obs) will be rejected *} 
+ DEFINE>{===>} obs_rms=10000; 
+ DEFINE> 
+ DEFINE>{=================== non-crystallographic symmetry ===================} 
+ DEFINE> 
+ DEFINE>{* NCS-restraints/constraints file *} 
+ DEFINE>{* see auxiliary/ncs.def *} 
+ DEFINE>{===>} ncs_infile=""; 
+ DEFINE> 
+ DEFINE>{============ overall B-factor and bulk solvent corrections ==========} 
+ DEFINE> 
+ DEFINE>{* overall B-factor correction *} 
+ DEFINE>{+ choice: "no" "isotropic" "anisotropic" +} 
+ DEFINE>{===>} bscale="isotropic"; 
+ DEFINE> 
+ DEFINE>{* bulk solvent correction *} 
+ DEFINE>{* a mask is required around the molecule(s). The region 
+ DEFINE>   outside this mask is the solvent region *} 
+ DEFINE>{+ choice: true false +} 
+ DEFINE>{===>} bulk_sol=true; 
+ DEFINE> 
+ DEFINE>{* bulk solvent mask file *} 
+ DEFINE>{* mask will be read from O type mask file if a name is given 
+ DEFINE>   otherwise calculated from coordinates of selected atoms *} 
+ DEFINE>{===>} bulk_mask_infile=""; 
+ DEFINE> 
+ DEFINE>{* automatic bulk solvent parameter optimization for e-density level sol_k (e/A^3) and B-factor sol_b (A^2) *} 
+ DEFINE>{+ choice: true false +} 
+ DEFINE>{===>} sol_auto=true; 
+ DEFINE> 
+ DEFINE>{* fixed solvent parameters (used if the automatic option is turned off) *} 
+ DEFINE>{+ table: rows=1 "bulk solvent" cols=2 "e-density level sol_k (e/A^3)" "B-factor sol_b (A^2) " +} 
+ DEFINE>{===>} sol_k=0.3; 
+ DEFINE>{===>} sol_b=50.0; 
+ DEFINE> 
+ DEFINE>{* optional file with a listing of the results of the automatic bulk solvent optimization *} 
+ DEFINE>{===>} sol_output=""; 
+ DEFINE> 
+ DEFINE>{* solvent mask parameters *} 
+ DEFINE>{+ table: rows=1 "bulk solvent" cols=2 "probe radius (A) (usually set to 1)" "shrink radius (A) (usually set to 1)" +} 
+ DEFINE>{===>} sol_rad=1.0; 
+ DEFINE>{===>} sol_shrink=1.0; 
+ DEFINE> 
+ DEFINE>{========================== atom selection ===========================} 
+ DEFINE> 
+ DEFINE>{* select atoms to be included in refinement *} 
+ DEFINE>{* this should include all conformations if multiple conformations are used *} 
+ DEFINE>{===>} atom_select=(known and not hydrogen); 
+ DEFINE> 
+ DEFINE>{* select fixed atoms *} 
+ DEFINE>{* note: atoms at special positions are automatically fixed. So, 
+ DEFINE>   you don't have to explicitly fix them here. *} 
+ DEFINE>{===>} atom_fixed=(none); 
+ DEFINE> 
+ DEFINE>{* select atoms to be harmonically restrained during refinement *} 
+ DEFINE>{===>} atom_harm=(none); 
+ DEFINE> 
+ DEFINE>{* harmonic restraint constant - for harmonically restrained atoms *} 
+ DEFINE>{===>} k_harmonic=10; 
+ DEFINE> 
+ DEFINE>{* select atoms in alternate conformation 1 *} 
+ DEFINE>{===>} conf_1=(none); 
+ DEFINE> 
+ DEFINE>{* select atoms in alternate conformation 2 *} 
+ DEFINE>{===>} conf_2=(none); 
+ DEFINE> 
+ DEFINE>{* select atoms in alternate conformation 3 *} 
+ DEFINE>{===>} conf_3=(none); 
+ DEFINE> 
+ DEFINE>{* select atoms in alternate conformation 4 *} 
+ DEFINE>{===>} conf_4=(none); 
+ DEFINE> 
+ DEFINE>{* additional restraints file *} 
+ DEFINE>{* eg. auxiliary/dna-rna_restraints.def *} 
+ DEFINE>{===>} restraints_infile=""; 
+ DEFINE> 
+ DEFINE>{===================== minimization parameters =======================} 
+ DEFINE> 
+ DEFINE>{* number of minimization steps *} 
+ DEFINE>{===>} minimize_nstep=0; 
+ DEFINE> 
+ DEFINE>{* number of cycles *} 
+ DEFINE>{===>} num_cycles=1; 
+ DEFINE> 
+ DEFINE>{* refinement target *} 
+ DEFINE>{+ list: mlf: maximum likelihood target using amplitudes 
+ DEFINE>         mli: maximum likelihood target using intensities 
+ DEFINE>        mlhl: maximum likelihood target using amplitudes 
+ DEFINE>              and phase probability distribution 
+ DEFINE>    residual: standard crystallographic residual 
+ DEFINE>      vector: vector residual 
+ DEFINE>       mixed: (1-fom)*residual + fom*vector 
+ DEFINE>        e2e2: correlation coefficient using normalized E^2 
+ DEFINE>        e1e1: correlation coefficient using normalized E 
+ DEFINE>        f2f2: correlation coefficient using F^2 
+ DEFINE>        f1f1: correlation coefficient using F +} 
+ DEFINE>{+ choice: "mlf" "mli" "mlhl" "residual" "vector" "mixed" 
+ DEFINE>           "e2e2" "e1e1" "f2f2" "f1f1" +} 
+ DEFINE>{===>} reftarget="mlf"; 
+ DEFINE> 
+ DEFINE>{* Wa weight for X-ray term *} 
+ DEFINE>{* this will be determined automatically if a negative value is given. 
+ DEFINE>   Note: wa can be very different depending on the target - if it is not 
+ DEFINE>         determined automatically make sure an appropriate value is used *} 
+ DEFINE>{===>} wa=0.85163; 
+ DEFINE> 
+ DEFINE>{* number of bins for refinement target *} 
+ DEFINE>{* this will be determined automatically if a negative value is given 
+ DEFINE>   otherwise the specified number of bins will be used *} 
+ DEFINE>{===>} target_bins=-1; 
+ DEFINE> 
+ DEFINE>{* memory allocation for FFT calculation *} 
+ DEFINE>{* this will be determined automatically if a negative value is given 
+ DEFINE>   otherwise the specified number of words will be allocated *} 
+ DEFINE>{===>} fft_memory=-1; 
+ DEFINE> 
+ DEFINE>{=========================== output files ============================} 
+ DEFINE> 
+ DEFINE>{* output coordinate file *} 
+ DEFINE>{===>} coordinate_outfile="minimize.pdb"; 
+ DEFINE> 
+ DEFINE>{===========================================================================} 
+ DEFINE>{        things below this line do not normally need to be changed          } 
+ DEFINE>{===========================================================================} 
+ DEFINE> 
+ DEFINE> ) {- end block parameter definition -} 
+ CNSsolve> 
+ CNSsolve> checkversion 1.3 
+ Program version= 1.3 File version= 1.3
+ CNSsolve> 
+ CNSsolve> evaluate ($log_level=quiet) 
+ Assuming literal string "QUIET"
+ EVALUATE: symbol $LOG_LEVEL set to "QUIET" (string)
+ CNSsolve> 
+ CNSsolve> if ( $log_level = verbose ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>   set message=normal echo=on end 
+ CNSsolve> else 
+ CNSsolve>   set message=off echo=off end 
+ REMARKS FILENAME="mm3.mtf"
+ REMARKS DATE:15-Dec-2023  19:36:59       created by user: yanz
+ REMARKS VERSION:1.3
+ %PARRDR-info: duplication of nonbonded entry C3  
+ %PARRDR-info: duplication of nonbonded entry C2  
+ %PARRDR-info: duplication of nonbonded entry H2  
+ CNSsolve> 
+ CNSsolve> xray 
+ XRAY> 
+ XRAY>   @CNS_XTALLIB:spacegroup.lib (sg=&sg; 
+ ASSFIL: file spacegroup.lib opened.
+ XRAY>! file  libraries/xtal/spacegroup.lib 
+ XRAY>! library of symmetry operators for CNS 
+ XRAY>! Automatically generated with SgInfo Version 2.00a13 
+ XRAY> 
+ XRAY>module 
+ MODULE-DECLARATION>( 
+ MODULE-DECLARATION>  &sg=$sg; 
+ MODULE-DECLARATION>  &sgparam=$sgparam; 
+ MODULE-DECLARATION>) 
+ &_2_SG set to &_1_SG 
+ MODULE-INVOCATION>                                sgparam=$sgparam;) 
+ &_2_SGPARAM set to $_1_SGPARAM 
+ XRAY> 
+ XRAY>set message ? end 
+ MESSage=NORM
+ XRAY>evaluate ($message_old=$result) 
+ EVALUATE: symbol $MESSAGE_OLD set to "NORM" (string)
+ XRAY>set echo ? end 
+ ECHO=TRUE {ON}
+ XRAY>evaluate ($echo_old=$result) 
+ EVALUATE: symbol $ECHO_OLD set to TRUE (logical)
+ XRAY>set echo=off message=off end 
+SYMMETRY: found symmetry operators for space group "H32" in library
+ XRAY> 
+ XRAY> 
+ XRAY>   a=&a b=&b c=&c  alpha=&alpha beta=&beta gamma=&gamma 
+ XRAY> 
+ XRAY>   @CNS_XRAYLIB:scatter.lib 
+ ASSFIL: file scatter.lib opened.
+ XRAY>! file libraries/xray/scatter.lib 
+ XRAY>! Atomic scattering factors without anomalous contribution 
+ XRAY>! Library for CNS 
+ XRAY> 
+ XRAY>! Authors: Paul Adams, Joe Jaeger, and Axel T. Brunger 
+ XRAY> 
+ XRAY>!BEWARE: 
+ XRAY>!(1) element Cf (Californium) has to be referred to as Cff 
+ XRAY>!(2) element Sm (Samarium) has to be referred to as Smm 
+ XRAY>!(3) element Np (Neptunium) has to be referred to as Npp 
+ XRAY>!(3) types of elements with ionic state (i.e., +/-) specifications have 
+ XRAY>!    to be put in double quotes in selection statements. 
+ XRAY> 
+ XRAY>set message ? end 
+ MESSage=NORM
+ XRAY>evaluate ($message_old_sclib=$result) 
+ EVALUATE: symbol $MESSAGE_OLD_SCLIB set to "NORM" (string)
+ XRAY>set echo ? end 
+ ECHO=TRUE {ON}
+ XRAY>evaluate ($echo_old_sclib=$result) 
+ EVALUATE: symbol $ECHO_OLD_SCLIB set to TRUE (logical)
+ XRAY>set echo=off message=off end 
+ XRAY> 
+ XRAY>   evaluate ($counter=1) 
+ EVALUATE: symbol $COUNTER set to    1.00000     (real)
+ XRAY>   evaluate ($done=false) 
+ EVALUATE: symbol $DONE set to FALSE (logical)
+ XRAY>   while ( $done = false ) loop read 
+ NEXTCD: condition evaluated as true
+ XRAY>    if ( &exist_reflection_infile_$counter = true ) then 
+ NEXTCD: condition evaluated as true
+ XRAY>      if ( &BLANK%reflection_infile_$counter = false ) then 
+ NEXTCD: condition evaluated as true
+ XRAY>       reflection 
+ REFLection>         @@&reflection_infile_$counter 
+ ASSFIL: file 1pf7-sf.cv opened.
+ REFLection> remark a= 139.39 b= 139.39 c= 161.31 alpha= 90 beta= 90 gamma= 120 sg= H32 
+ REFLection> remark symop (X,Y,Z) 
+ REFLection> remark symop (-Y,X-Y,Z) 
+ REFLection> remark symop (-X+Y,-X,Z) 
+ REFLection> remark symop (X-Y,-Y,-Z) 
+ REFLection> remark symop (-X,-X+Y,-Z) 
+ REFLection> remark symop (Y,X,-Z) 
+ REFLection> remark symop (X+2/3,Y+1/3,Z+1/3) 
+ REFLection> remark symop (-Y+2/3,X-Y+1/3,Z+1/3) 
+ REFLection> remark symop (-X+Y+2/3,-X+1/3,Z+1/3) 
+ REFLection> remark symop (X-Y+2/3,-Y+1/3,-Z+1/3) 
+ REFLection> remark symop (-X+2/3,-X+Y+1/3,-Z+1/3) 
+ REFLection> remark symop (Y+2/3,X+1/3,-Z+1/3) 
+ REFLection> remark symop (X+1/3,Y+2/3,Z+2/3) 
+ REFLection> remark symop (-Y+1/3,X-Y+2/3,Z+2/3) 
+ REFLection> remark symop (-X+Y+1/3,-X+2/3,Z+2/3) 
+ REFLection> remark symop (X-Y+1/3,-Y+2/3,-Z+2/3) 
+ REFLection> remark symop (-X+1/3,-X+Y+2/3,-Z+2/3) 
+ REFLection> remark symop (Y+1/3,X+2/3,-Z+2/3) 
+ REFLection>CRYST1  139.390  139.390  161.310  90.00  90.00 120.00 H 3 2 
+ REFLection> NREFlection=     16705 
+ XRAY: increasing space allocation for up to   16705 reflections.
+ REFLection> ANOMalous=FALSe { equiv. to HERMitian=TRUE} 
+ REFLection> DECLare NAME=FOBS                   DOMAin=RECIprocal   TYPE=REAL END 
+ XDECLARE: Object FOBS has been declared.
+ REFLection> DECLare NAME=SIGMA                  DOMAin=RECIprocal   TYPE=REAL END 
+ XDECLARE: Object SIGMA has been declared.
+ REFLection> DECLare NAME=TEST                   DOMAin=RECIprocal   TYPE=INTE END 
+ XDECLARE: Object TEST has been declared.
+ REFLection> INDE     1    1    3 FOBS=    22.900 SIGMA=     6.600 TEST=         0 
+ XSFAL: allocating space for real reciprocal space object.
+ XSFAL: allocating space for real reciprocal space object.
+ XSFAL: allocating space for integer reciprocal space object.
+ XRRR2:    16705 new h,k,l indices have been added.
+ XRAY>      end if 
+ XRAY>   else 
+ XRAY>     evaluate ($done=true) 
+ XRAY>   end if 
+ XRAY>   evaluate ($counter=$counter+1) 
+ EVALUATE: symbol $COUNTER set to    2.00000     (real)
+ XRAY>  end loop read 
+ XRAY>   while ( $done = false ) loop read 
+ NEXTCD: condition evaluated as true
+ XRAY>    if ( &exist_reflection_infile_$counter = true ) then 
+ NEXTCD: condition evaluated as true
+ XRAY>      if ( &BLANK%reflection_infile_$counter = false ) then 
+ NEXTCD: condition evaluated as false
+ XRAY>       reflection 
+ XRAY>         @@&reflection_infile_$counter 
+ XRAY>       end 
+ XRAY>      end if 
+ XRAY>   else 
+ XRAY>     evaluate ($done=true) 
+ XRAY>   end if 
+ XRAY>   evaluate ($counter=$counter+1) 
+ EVALUATE: symbol $COUNTER set to    3.00000     (real)
+ XRAY>  end loop read 
+ XRAY>   while ( $done = false ) loop read 
+ NEXTCD: condition evaluated as true
+ XRAY>    if ( &exist_reflection_infile_$counter = true ) then 
+ NEXTCD: condition evaluated as true
+ XRAY>      if ( &BLANK%reflection_infile_$counter = false ) then 
+ NEXTCD: condition evaluated as false
+ XRAY>       reflection 
+ XRAY>         @@&reflection_infile_$counter 
+ XRAY>       end 
+ XRAY>      end if 
+ XRAY>   else 
+ XRAY>     evaluate ($done=true) 
+ XRAY>   end if 
+ XRAY>   evaluate ($counter=$counter+1) 
+ EVALUATE: symbol $COUNTER set to    4.00000     (real)
+ XRAY>  end loop read 
+ XRAY>   while ( $done = false ) loop read 
+ NEXTCD: condition evaluated as true
+ XRAY>    if ( &exist_reflection_infile_$counter = true ) then 
+ NEXTCD: condition evaluated as true
+ XRAY>      if ( &BLANK%reflection_infile_$counter = false ) then 
+ NEXTCD: condition evaluated as false
+ XRAY>       reflection 
+ XRAY>         @@&reflection_infile_$counter 
+ XRAY>       end 
+ XRAY>      end if 
+ XRAY>   else 
+ XRAY>     evaluate ($done=true) 
+ XRAY>   end if 
+ XRAY>   evaluate ($counter=$counter+1) 
+ EVALUATE: symbol $COUNTER set to    5.00000     (real)
+ XRAY>  end loop read 
+ XRAY>   while ( $done = false ) loop read 
+ NEXTCD: condition evaluated as true
+ XRAY>    if ( &exist_reflection_infile_$counter = true ) then 
+ NEXTCD: condition evaluated as false
+ XRAY>      if ( &BLANK%reflection_infile_$counter = false ) then 
+ XRAY>       reflection 
+ XRAY>         @@&reflection_infile_$counter 
+ XRAY>       end 
+ XRAY>      end if 
+ XRAY>   else 
+ XRAY>     evaluate ($done=true) 
+ EVALUATE: symbol $DONE set to TRUE (logical)
+ XRAY>   end if 
+ XRAY>   evaluate ($counter=$counter+1) 
+ EVALUATE: symbol $COUNTER set to    6.00000     (real)
+ XRAY>  end loop read 
+ XRAY>   while ( $done = false ) loop read 
+ NEXTCD: condition evaluated as false
+ XRAY>    if ( &exist_reflection_infile_$counter = true ) then 
+ XRAY>      if ( &BLANK%reflection_infile_$counter = false ) then 
+ XRAY>       reflection 
+ XRAY>         @@&reflection_infile_$counter 
+ XRAY>       end 
+ XRAY>      end if 
+ XRAY>   else 
+ XRAY>     evaluate ($done=true) 
+ XRAY>   end if 
+ XRAY>   evaluate ($counter=$counter+1) 
+ XRAY>  end loop read 
+ XRAY> 
+ XRAY> end 
+ CNSsolve> 
+ CNSsolve> if ( &BLANK%anom_library = false ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>   @@&anom_library 
+ CNSsolve> else 
+ CNSsolve>   set echo=off end 
+ ANOMalous=FALSe {OFF}
+ NEXTCD: condition evaluated as false
+ CNSsolve> end if 
+ CNSsolve> 
+ CNSsolve> {- copy define parameters of optional arrays into symbols so 
+ CNSsolve>    we can redefine them -} 
+ CNSsolve> 
+ CNSsolve> evaluate ($obs_i=&obs_i) 
+ EVALUATE: symbol $OBS_I set to "" (string)
+ CNSsolve> evaluate ($obs_sigi=&obs_sigi) 
+ EVALUATE: symbol $OBS_SIGI set to "" (string)
+ CNSsolve> evaluate ($obs_w=&obs_w) 
+ EVALUATE: symbol $OBS_W set to "" (string)
+ CNSsolve> xray 
+ XRAY>   @@CNS_XTALMODULE:checkrefinput ( 
+ ASSFIL: file checkrefinput opened.
+ XRAY>! Module file: checkrefinput 
+ XRAY>! 
+ XRAY>! CNS module 
+ XRAY>! ********** 
+ XRAY>! 
+ XRAY>! Authors: Axel Brunger and Paul Adams 
+ XRAY>! 
+ XRAY>! copyright Yale University 
+ XRAY>! 
+ XRAY>! Function: 
+ XRAY>!    Checks the required input reciprocal space arrays 
+ XRAY>! 
+ XRAY>! Requirements: 
+ XRAY>!    Needs to be called within xray 
+ XRAY> 
+ XRAY>module {checkrefinput} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>( 
+ MODULE-DECLARATION>  &reftarget="residual"; {string} 
+ MODULE-DECLARATION>  &obs_f;                {reciprocal space array} 
+ MODULE-DECLARATION>  &obs_sigf;             {reciprocal space array} 
+ MODULE-DECLARATION>  &test_set;             {reciprocal space array} 
+ MODULE-DECLARATION>  &obs_pa;               {reciprocal space array} 
+ MODULE-DECLARATION>  &obs_pb;               {reciprocal space array} 
+ MODULE-DECLARATION>  &obs_pc;               {reciprocal space array} 
+ MODULE-DECLARATION>  &obs_pd;               {reciprocal space array} 
+ MODULE-DECLARATION>  &obs_phase;            {reciprocal space array} 
+ MODULE-DECLARATION>  &obs_fom;              {reciprocal space array} 
+ MODULE-DECLARATION>  &obs_w;                {reciprocal space array} 
+ MODULE-DECLARATION>  &obs_i;                {reciprocal space array} 
+ MODULE-DECLARATION>  &obs_sigi;             {reciprocal space array} 
+ MODULE-DECLARATION>) 
+ MODULE-INVOCATION>                                  reftarget=&reftarget; 
+ &_2_REFTARGET set to &_1_REFTARGET 
+ MODULE-INVOCATION>                                  obs_f=&obs_f; 
+ &_2_OBS_F set to &_1_OBS_F 
+ MODULE-INVOCATION>                                  obs_sigf=&obs_sigf; 
+ &_2_OBS_SIGF set to &_1_OBS_SIGF 
+ MODULE-INVOCATION>                                  test_set=&test_set; 
+ &_2_TEST_SET set to &_1_TEST_SET 
+ MODULE-INVOCATION>                                  obs_pa=&obs_pa; 
+ &_2_OBS_PA set to &_1_OBS_PA 
+ MODULE-INVOCATION>                                  obs_pb=&obs_pb; 
+ &_2_OBS_PB set to &_1_OBS_PB 
+ MODULE-INVOCATION>                                  obs_pc=&obs_pc; 
+ &_2_OBS_PC set to &_1_OBS_PC 
+ MODULE-INVOCATION>                                  obs_pd=&obs_pd; 
+ &_2_OBS_PD set to &_1_OBS_PD 
+ MODULE-INVOCATION>                                  obs_phase=&obs_phase; 
+ &_2_OBS_PHASE set to &_1_OBS_PHASE 
+ MODULE-INVOCATION>                                  obs_fom=&obs_fom; 
+ &_2_OBS_FOM set to &_1_OBS_FOM 
+ MODULE-INVOCATION>                                  obs_w=$obs_w; 
+ &_2_OBS_W set to $_1_OBS_W 
+ MODULE-INVOCATION>                                  obs_i=$obs_i; 
+ &_2_OBS_I set to $_1_OBS_I 
+ MODULE-INVOCATION>                                  obs_sigi=$obs_sigi; 
+ &_2_OBS_SIGI set to $_1_OBS_SIGI 
+ MODULE-INVOCATION>                                  ) 
+ XRAY> 
+ XRAY>set message ? end 
+ MESSage=NORM
+ XRAY>evaluate ($message_old_cri=$result) 
+ EVALUATE: symbol $MESSAGE_OLD_CRI set to "NORM" (string)
+ XRAY>set echo ? end 
+ ECHO=TRUE {ON}
+ XRAY>evaluate ($echo_old_cri=$result) 
+ EVALUATE: symbol $ECHO_OLD_CRI set to TRUE (logical)
+ XRAY>if ( $log_level = verbose ) then 
+ NEXTCD: condition evaluated as false
+ XRAY>  set echo=on message=normal end 
+ XRAY>else 
+ XRAY>  set echo=off message=off end 
+ XRAY> 
+ XRAY>   query name=fcalc domain=reciprocal end 
+ Reciprocal space object FCALC does not exist.
+ XRAY>   if ( $object_exist = false ) then 
+ NEXTCD: condition evaluated as true
+ XRAY>      declare name=fcalc domain=reciprocal type=complex end 
+ XDECLARE: Object FCALC has been declared.
+ XRAY>   end if 
+ XRAY>   declare name=fbulk domain=reciprocal type=complex end 
+ XDECLARE: Object FBULK has been declared.
+ XRAY>   do (fbulk=0) ( all ) 
+ XSFAL: allocating space for complex reciprocal space object.
+ Total of     16705 structure factor elements were selected.
+ XRAY> 
+ XRAY>   binresolution &low_res &high_res 
+ XRAY>   mapresolution &high_res 
+ XRAY> 
+ XRAY>   if ( &obs_type = "intensity" ) then 
+ NEXTCD: condition evaluated as false
+ XRAY>     if ( &BLANK%obs_i = true ) then 
+ XRAY>       display  Error: observed intensity array is undefined 
+ XRAY>       display         aborting script 
+ XRAY>       abort 
+ XRAY>     end if 
+ XRAY>     evaluate ($reject_obs=&obs_i) 
+ XRAY>     evaluate ($reject_sig=&obs_sigi) 
+ XRAY>   else 
+ XRAY>     evaluate ($reject_obs=&obs_f) 
+ EVALUATE: symbol $REJECT_OBS set to "fobs" (string)
+ XRAY>     evaluate ($reject_sig=&obs_sigf) 
+ EVALUATE: symbol $REJECT_SIG set to "sigma" (string)
+ XRAY>   end if 
+ XRAY> 
+ XRAY>   declare name=ref_active domain=reciprocal type=integer end 
+ XDECLARE: Object REF_ACTIVE has been declared.
+ XRAY>   declare name=tst_active domain=reciprocal type=integer end 
+ XDECLARE: Object TST_ACTIVE has been declared.
+ XRAY> 
+ XRAY>   do (ref_active=0) ( all ) 
+ XSFAL: allocating space for integer reciprocal space object.
+ Total of     16705 structure factor elements were selected.
+ XRAY>   do (ref_active=1) ( ( $STRIP%reject_sig # 0 ) and 
+ DO>                      ( &low_res >= d >= &high_res ) ) 
+ Total of     15869 structure factor elements were selected.
+ XRAY> 
+ XRAY>   statistics overall 
+ STATistics>     completeness 
+ STATistics>     selection=( ref_active=1 ) 
+ Total of     15869 structure factor elements were selected.
+ STATistics>   end 
+ XRAY>   evaluate ($total_compl=$expression1) 
+ EVALUATE: symbol $TOTAL_COMPL set to   0.895997     (real)
+ XRAY> 
+ XRAY>   show sum(1) ( ref_active=1 ) 
+ Sum of     15869 elements =             15869.0000
+ XRAY>   evaluate ($total_read=$select) 
+ EVALUATE: symbol $TOTAL_READ set to    15869.0     (real)
+ XRAY>   evaluate ($total_theor=int(1./$total_compl * $total_read)) 
+ EVALUATE: symbol $TOTAL_THEOR set to    17710.0     (real)
+ XRAY> 
+ XRAY>   show rms (amplitude($STRIP%reject_obs)) ( ref_active=1 ) 
+ Rms of     15869 elements =               200.5243
+ XRAY>   evaluate ($obs_high=$result*&obs_rms) 
+ EVALUATE: symbol $OBS_HIGH set to   0.200524E+07 (real)
+ XRAY>   show min (amplitude($STRIP%reject_obs)) ( ref_active=1 ) 
+ Minimum of     15869 elements =                25.9000
+ XRAY>   evaluate ($obs_low=$result) 
+ EVALUATE: symbol $OBS_LOW set to    25.9000     (real)
+ XRAY> 
+ XRAY>   do (ref_active=0) ( all ) 
+ Total of     16705 structure factor elements were selected.
+ XRAY>   do (ref_active=1) 
+ DO>                  ( ( amplitude($STRIP%reject_obs) > &sigma_cut*$STRIP%reject_sig ) and 
+ DO>                    ( $STRIP%reject_sig # 0 ) and 
+ DO>                    ( $obs_low <= amplitude($STRIP%reject_obs) <= $obs_high ) and 
+ DO>                    ( &low_res >= d >= &high_res ) ) 
+ Total of     15869 structure factor elements were selected.
+ XRAY> 
+ XRAY>   do (tst_active=0) (all) 
+ XSFAL: allocating space for integer reciprocal space object.
+ Total of     16705 structure factor elements were selected.
+ XRAY>   if ( &BLANK%test_set = false ) then 
+ NEXTCD: condition evaluated as true
+ XRAY>     do (tst_active=1) (ref_active=1 and &STRIP%test_set=&test_flag) 
+ Total of      1587 structure factor elements were selected.
+ XRAY>   end if 
+ XRAY> 
+ XRAY>   show sum(1) ( ref_active=1 and tst_active=0 ) 
+ Sum of     14282 elements =             14282.0000
+ XRAY>   evaluate ($total_work=$select) 
+ EVALUATE: symbol $TOTAL_WORK set to    14282.0     (real)
+ XRAY>   show sum(1) ( ref_active=1 and tst_active=1 ) 
+ Sum of      1587 elements =              1587.0000
+ XRAY>   evaluate ($total_test=$select) 
+ EVALUATE: symbol $TOTAL_TEST set to    1587.00     (real)
+ XRAY>   evaluate ($total_used=$total_work+$total_test) 
+ EVALUATE: symbol $TOTAL_USED set to    15869.0     (real)
+ XRAY> 
+ XRAY>   evaluate ($unobserved=$total_theor-$total_read) 
+ EVALUATE: symbol $UNOBSERVED set to    1841.00     (real)
+ XRAY>   evaluate ($rejected=$total_read-$total_used) 
+ EVALUATE: symbol $REJECTED set to    0.00000     (real)
+ XRAY>   evaluate ($per_unobs=100*($unobserved/$total_theor)) 
+ EVALUATE: symbol $PER_UNOBS set to    10.3953     (real)
+ XRAY>   evaluate ($per_reject=100*($rejected/$total_theor)) 
+ EVALUATE: symbol $PER_REJECT set to    0.00000     (real)
+ XRAY>   evaluate ($per_used=100*($total_used/$total_theor)) 
+ EVALUATE: symbol $PER_USED set to    89.6047     (real)
+ XRAY>   evaluate ($per_work=100*($total_work/$total_theor)) 
+ EVALUATE: symbol $PER_WORK set to    80.6437     (real)
+ XRAY>   evaluate ($per_test=100*($total_test/$total_theor)) 
+ EVALUATE: symbol $PER_TEST set to    8.96104     (real)
+ XRAY> 
+ XRAY>   associate fcalc ( &atom_select ) 
+ SELRPN:   2349 atoms have been selected out of   2349
+ XRAY> 
+ XRAY>   tselection=( ref_active=1 ) 
+ XRAY> 
+ XRAY>   cvselection=( tst_active=1 ) 
+ XRAY> 
+ XRAY>   method=FFT 
+ XRAY> 
+ XRAY> {- MODIFIED 2/15/06 -} 
+ XRAY> end 
+ CNSsolve> 
+ CNSsolve> 
+ CNSsolve> show min ( b ) ( &atom_select ) 
+ SELRPN:   2349 atoms have been selected out of   2349
+ SHOW: minimum of selected elements =       2.000000
+ CNSsolve> evaluate ($b_min=$result) 
+ EVALUATE: symbol $B_MIN set to    2.00000     (real)
+ CNSsolve> @@CNS_XTALMODULE:fft_parameter_check ( 
+ ASSFIL: file fft_parameter_check opened.
+ CNSsolve>! Module file: fft_parameter_check 
+ CNSsolve>! 
+ CNSsolve>! Function: determines the optimum setting for the B-factor inflation 
+ CNSsolve>! given the high resolution limit, the gridding factor, and the minimum 
+ CNSsolve>! B-factor of the model.   It also determines the recommended ELIM parameter 
+ CNSsolve>! as a function of the high resolution limit. 
+ CNSsolve>! 
+ CNSsolve>! Reference: 
+ CNSsolve>! 
+ CNSsolve>! Gerard Bricogne (2001), 
+ CNSsolve>!   International Tables for Crystallography, Volume B, 2001, p. 87 
+ CNSsolve>! 
+ CNSsolve>! CNS module 
+ CNSsolve>! ********** 
+ CNSsolve>! 
+ CNSsolve>! Authors: Axel T. Brunger and Paul D. Adams 
+ CNSsolve>! 
+ CNSsolve>! copyright Yale University 
+ CNSsolve>! 
+ CNSsolve>! Requirements: 
+ CNSsolve>! This module can only be used from the main level of CNS. 
+ CNSsolve>! 
+ CNSsolve>! 08/03/06 ATB 
+ CNSsolve> 
+ CNSsolve>module {fft_parameter_check} 
+ MODULE-DECLARATION>( 
+ MODULE-DECLARATION> &b_min=0;              {input: minimum B-factor of model} 
+ MODULE-DECLARATION> &d_min=1.0;            {input: high resolution limit} 
+ MODULE-DECLARATION> &q_factor=100;         {input: quality factor - 100 for 1% accuracy} 
+ MODULE-DECLARATION> &grid=auto;            {input: if "auto" gridding factor is set automatically} 
+ MODULE-DECLARATION>                        {       otherwise gridding factor set to <number>  } 
+ MODULE-DECLARATION> &fft_memory=-1;        {input: fft memory; if "-1" use automatic mode } 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &fft_grid=$fft_grid;   {output: fft gridding factor} 
+ MODULE-DECLARATION> &fft_b_add=$fft_b_add; {output: fft B addition} 
+ MODULE-DECLARATION> &fft_elim=$fft_elim;   {output: fft elimit factor} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>) 
+ MODULE-INVOCATION>                             d_min=&high_res; 
+ &_2_D_MIN set to &_1_HIGH_RES 
+ MODULE-INVOCATION>                             b_min=$b_min; 
+ &_2_B_MIN set to $_1_B_MIN 
+ MODULE-INVOCATION>                             grid=auto; 
+ &_2_GRID set to auto 
+ MODULE-INVOCATION>                             fft_memory=&fft_memory; 
+ &_2_FFT_MEMORY set to &_1_FFT_MEMORY 
+ MODULE-INVOCATION>                             fft_grid=$fft_grid; 
+ &_2_FFT_GRID set to $_1_FFT_GRID 
+ MODULE-INVOCATION>                             fft_b_add=$fft_b_add; 
+ &_2_FFT_B_ADD set to $_1_FFT_B_ADD 
+ MODULE-INVOCATION>                             fft_elim=$fft_elim; 
+ &_2_FFT_ELIM set to $_1_FFT_ELIM 
+ MODULE-INVOCATION>                                      ) 
+ CNSsolve> 
+ CNSsolve> set message ? end 
+ MESSage=NORM
+ CNSsolve> evaluate ($message_old=$result) 
+ EVALUATE: symbol $MESSAGE_OLD set to "NORM" (string)
+ CNSsolve> set echo ? end 
+ ECHO=TRUE {ON}
+ CNSsolve> evaluate ($echo_old=$result) 
+ EVALUATE: symbol $ECHO_OLD set to TRUE (logical)
+ CNSsolve> if ( $log_level = verbose ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>   set echo=on message=normal end 
+ CNSsolve> else 
+ CNSsolve>   set echo=off message=off end 
+ fft_parameter_check: using automatic memory option
+ fft_parameter_check: minimum model B-factor = 2  A^2
+ fft_parameter_check: high resolution limit = 2.60  A
+ fft_parameter_check: fft gridding factor set to 0.3333
+ fft_parameter_check: fft B factor offset set to 16.0195  A^2
+ fft_parameter_check: fft Elimit factor set to 8
+ CNSsolve> 
+ CNSsolve> 
+ CNSsolve> xray 
+ XRAY> {- END MODIFICATION -} 
+ XRAY> 
+ XRAY>   tolerance=0.0 lookup=false 
+ XRAY> 
+ XRAY>   if ( &wa >= 0 ) then 
+ NEXTCD: condition evaluated as true
+ XRAY>      wa=&wa 
+ XRAY>   end if 
+ XRAY> 
+ XRAY> end 
+ CNSsolve> 
+ CNSsolve> if ( &BLANK%ncs_infile = false ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>    inline @&ncs_infile 
+ CNSsolve> end if 
+ CNSsolve> 
+ CNSsolve> if ( &BLANK%restraints_infile = false ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>     @&restraints_infile 
+ CNSsolve> end if 
+ CNSsolve> 
+ CNSsolve> do (store9=0) (all) 
+ SELRPN:   2349 atoms have been selected out of   2349
+ CNSsolve> 
+ CNSsolve> evaluate ($nalt=1) 
+ EVALUATE: symbol $NALT set to    1.00000     (real)
+ CNSsolve> evaluate ($alt=1) 
+ EVALUATE: symbol $ALT set to    1.00000     (real)
+ CNSsolve> evaluate ($done=false) 
+ EVALUATE: symbol $DONE set to FALSE (logical)
+ CNSsolve> while ( $done = false ) loop nalt 
+ NEXTCD: condition evaluated as true
+ CNSsolve>   if ( &exist_conf_$alt = true ) then 
+ NEXTCD: condition evaluated as true
+ CNSsolve>     show sum(1) ( &conf_$alt ) 
+ SELRPN:      0 atoms have been selected out of   2349
+ SHOW: zero atoms selected
+ CNSsolve>     if ( $result > 0 ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>       evaluate ($nalt=$nalt+1) 
+ CNSsolve>     end if 
+ CNSsolve>   else 
+ CNSsolve>     evaluate ($done=true) 
+ CNSsolve>     evaluate ($nalt=$nalt-1) 
+ CNSsolve>   end if 
+ CNSsolve>   evaluate ($alt=$alt+1) 
+ EVALUATE: symbol $ALT set to    2.00000     (real)
+ CNSsolve> end loop nalt 
+ CNSsolve> while ( $done = false ) loop nalt 
+ NEXTCD: condition evaluated as true
+ CNSsolve>   if ( &exist_conf_$alt = true ) then 
+ NEXTCD: condition evaluated as true
+ CNSsolve>     show sum(1) ( &conf_$alt ) 
+ SELRPN:      0 atoms have been selected out of   2349
+ SHOW: zero atoms selected
+ CNSsolve>     if ( $result > 0 ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>       evaluate ($nalt=$nalt+1) 
+ CNSsolve>     end if 
+ CNSsolve>   else 
+ CNSsolve>     evaluate ($done=true) 
+ CNSsolve>     evaluate ($nalt=$nalt-1) 
+ CNSsolve>   end if 
+ CNSsolve>   evaluate ($alt=$alt+1) 
+ EVALUATE: symbol $ALT set to    3.00000     (real)
+ CNSsolve> end loop nalt 
+ CNSsolve> while ( $done = false ) loop nalt 
+ NEXTCD: condition evaluated as true
+ CNSsolve>   if ( &exist_conf_$alt = true ) then 
+ NEXTCD: condition evaluated as true
+ CNSsolve>     show sum(1) ( &conf_$alt ) 
+ SELRPN:      0 atoms have been selected out of   2349
+ SHOW: zero atoms selected
+ CNSsolve>     if ( $result > 0 ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>       evaluate ($nalt=$nalt+1) 
+ CNSsolve>     end if 
+ CNSsolve>   else 
+ CNSsolve>     evaluate ($done=true) 
+ CNSsolve>     evaluate ($nalt=$nalt-1) 
+ CNSsolve>   end if 
+ CNSsolve>   evaluate ($alt=$alt+1) 
+ EVALUATE: symbol $ALT set to    4.00000     (real)
+ CNSsolve> end loop nalt 
+ CNSsolve> while ( $done = false ) loop nalt 
+ NEXTCD: condition evaluated as true
+ CNSsolve>   if ( &exist_conf_$alt = true ) then 
+ NEXTCD: condition evaluated as true
+ CNSsolve>     show sum(1) ( &conf_$alt ) 
+ SELRPN:      0 atoms have been selected out of   2349
+ SHOW: zero atoms selected
+ CNSsolve>     if ( $result > 0 ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>       evaluate ($nalt=$nalt+1) 
+ CNSsolve>     end if 
+ CNSsolve>   else 
+ CNSsolve>     evaluate ($done=true) 
+ CNSsolve>     evaluate ($nalt=$nalt-1) 
+ CNSsolve>   end if 
+ CNSsolve>   evaluate ($alt=$alt+1) 
+ EVALUATE: symbol $ALT set to    5.00000     (real)
+ CNSsolve> end loop nalt 
+ CNSsolve> while ( $done = false ) loop nalt 
+ NEXTCD: condition evaluated as true
+ CNSsolve>   if ( &exist_conf_$alt = true ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>     show sum(1) ( &conf_$alt ) 
+ CNSsolve>     if ( $result > 0 ) then 
+ CNSsolve>       evaluate ($nalt=$nalt+1) 
+ CNSsolve>     end if 
+ CNSsolve>   else 
+ CNSsolve>     evaluate ($done=true) 
+ EVALUATE: symbol $DONE set to TRUE (logical)
+ CNSsolve>     evaluate ($nalt=$nalt-1) 
+ EVALUATE: symbol $NALT set to    0.00000     (real)
+ CNSsolve>   end if 
+ CNSsolve>   evaluate ($alt=$alt+1) 
+ EVALUATE: symbol $ALT set to    6.00000     (real)
+ CNSsolve> end loop nalt 
+ CNSsolve> while ( $done = false ) loop nalt 
+ NEXTCD: condition evaluated as false
+ CNSsolve>   if ( &exist_conf_$alt = true ) then 
+ CNSsolve>     show sum(1) ( &conf_$alt ) 
+ CNSsolve>     if ( $result > 0 ) then 
+ CNSsolve>       evaluate ($nalt=$nalt+1) 
+ CNSsolve>     end if 
+ CNSsolve>   else 
+ CNSsolve>     evaluate ($done=true) 
+ CNSsolve>     evaluate ($nalt=$nalt-1) 
+ CNSsolve>   end if 
+ CNSsolve>   evaluate ($alt=$alt+1) 
+ CNSsolve> end loop nalt 
+ CNSsolve> 
+ CNSsolve> evaluate ($alt=1) 
+ EVALUATE: symbol $ALT set to    1.00000     (real)
+ CNSsolve> while ( $alt <= $nalt ) loop alt 
+ NEXTCD: condition evaluated as false
+ CNSsolve>   do (store9=$alt) ( &conf_$alt ) 
+ CNSsolve>   evaluate ($alt=$alt+1) 
+ CNSsolve> end loop alt 
+ CNSsolve> 
+ CNSsolve> igroup 
+ IGROup>   interaction ( &atom_select and not(attr store9 > 0)) 
+ SELRPN:   2349 atoms have been selected out of   2349
+ SELRPN>               ( &atom_select and not(attr store9 > 0)) 
+ SELRPN:   2349 atoms have been selected out of   2349
+ IGROup>   evaluate ($alt=1) 
+ EVALUATE: symbol $ALT set to    1.00000     (real)
+ IGROup>   while ( $alt <= $nalt ) loop alcs 
+ NEXTCD: condition evaluated as false
+ IGROup>     interaction ( &atom_select and ( attr store9 = $alt or attr store9 = 0 )) 
+ IGROup>                 ( &atom_select and ( attr store9 = $alt )) 
+ IGROup>     evaluate ($alt=$alt+1) 
+ IGROup>   end loop alcs 
+ IGROup> end 
+ CNSsolve> 
+ CNSsolve> {- check isolated atoms and atoms at special positions and add to 
+ CNSsolve>    list of fixed atoms if needed - store9 will be used -} 
+ CNSsolve> 
+ CNSsolve> @CNS_XTALMODULE:setupfixed ( 
+ ASSFIL: file setupfixed opened.
+ CNSsolve>! Module file: setupfixed 
+ CNSsolve>! 
+ CNSsolve>! CNS module 
+ CNSsolve>! ********** 
+ CNSsolve>! 
+ CNSsolve>! Authors: Axel Brunger 
+ CNSsolve>! 
+ CNSsolve>! copyright Yale University 
+ CNSsolve>! 
+ CNSsolve>! Function: 
+ CNSsolve>! 
+ CNSsolve>!    Sets up fixed atom selection and 
+ CNSsolve>!    performs various checks for 
+ CNSsolve>!    1. isolated atoms 
+ CNSsolve>!    2. isolated di-atomic molecules 
+ CNSsolve>!    3. atoms at special positions 
+ CNSsolve>! 
+ CNSsolve>!    Adds isolated atoms, diatomic molecules, and/or special-position atoms to the 
+ CNSsolve>!    fixed atom selection. 
+ CNSsolve>! 
+ CNSsolve>! Requirements: 
+ CNSsolve>!    Needs to be called from cns main level 
+ CNSsolve> 
+ CNSsolve>module {setupfixed} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>( 
+ MODULE-DECLARATION>  &mode;              {string}                 {"minimization", "cartesian", "torsion"} 
+ MODULE-DECLARATION>  &atom_select;       {selection }             {input: all selected atoms for refinement} 
+ MODULE-DECLARATION>  &atom_fixed;        {selection }             {input: explicitly fixed atoms} 
+ MODULE-DECLARATION>  &atom_total_fixed;  {atomic property array } {output: all fixed atoms} 
+ MODULE-DECLARATION>  &atom_multiplicity; {atomic property array } {output: multiplicity of atoms} 
+ MODULE-DECLARATION>  &mset=$mset;        {symbol}                 {output: number of disconnected sets} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>) 
+ MODULE-INVOCATION>                           mode="minimization"; 
+ &_2_MODE set to "minimization" 
+ MODULE-INVOCATION>                           atom_select=&atom_select; 
+ &_2_ATOM_SELECT set to &_1_ATOM_SELECT 
+ MODULE-INVOCATION>                           atom_fixed=&atom_fixed; 
+ &_2_ATOM_FIXED set to &_1_ATOM_FIXED 
+ MODULE-INVOCATION>                           atom_total_fixed=store9; 
+ &_2_ATOM_TOTAL_FIXED set to store9 
+ MODULE-INVOCATION>                           atom_multiplicity=rmsd; 
+ &_2_ATOM_MULTIPLICITY set to rmsd 
+ MODULE-INVOCATION>                           ) 
+ CNSsolve> 
+ CNSsolve>! 
+ CNSsolve>!MODIFICATION: set message level to on for show statements, ATB 10/18/10 
+ CNSsolve>! 
+ CNSsolve> 
+ CNSsolve> set message ? end 
+ MESSage=NORM
+ CNSsolve> evaluate ($message_old_fix=$result) 
+ EVALUATE: symbol $MESSAGE_OLD_FIX set to "NORM" (string)
+ CNSsolve> set echo ? end 
+ ECHO=TRUE {ON}
+ CNSsolve> evaluate ($echo_old_fix=$result) 
+ EVALUATE: symbol $ECHO_OLD_FIX set to TRUE (logical)
+ CNSsolve> if ( $log_level = verbose ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>   set echo=on message=normal end 
+ CNSsolve> else 
+ CNSsolve>   set echo=off message=off end 
+ CONNECt: selected atoms form     69 covalently disconnected set(s)
+
+ list of isolated (non-covalently bonded) atoms:
+ SELRPN:     64 atoms have been selected out of   2349
+ ( E    HOH  294  O    )  O   
+ ( E    HOH  295  O    )  O   
+ ( E    HOH  296  O    )  O   
+ ( E    HOH  297  O    )  O   
+ ( E    HOH  298  O    )  O   
+ ( E    HOH  299  O    )  O   
+ ( E    HOH  300  O    )  O   
+ ( E    HOH  301  O    )  O   
+ ( E    HOH  302  O    )  O   
+ ( E    HOH  303  O    )  O   
+ ( E    HOH  304  O    )  O   
+ ( E    HOH  305  O    )  O   
+ ( E    HOH  306  O    )  O   
+ ( E    HOH  307  O    )  O   
+ ( E    HOH  308  O    )  O   
+ ( E    HOH  309  O    )  O   
+ ( E    HOH  310  O    )  O   
+ ( E    HOH  311  O    )  O   
+ ( E    HOH  312  O    )  O   
+ ( E    HOH  313  O    )  O   
+ ( E    HOH  314  O    )  O   
+ ( E    HOH  315  O    )  O   
+ ( E    HOH  316  O    )  O   
+ ( E    HOH  317  O    )  O   
+ ( E    HOH  318  O    )  O   
+ ( E    HOH  319  O    )  O   
+ ( E    HOH  320  O    )  O   
+ ( E    HOH  321  O    )  O   
+ ( E    HOH  322  O    )  O   
+ ( E    HOH  323  O    )  O   
+ ( E    HOH  324  O    )  O   
+ ( E    HOH  325  O    )  O   
+ ( E    HOH  326  O    )  O   
+ ( E    HOH  327  O    )  O   
+ ( E    HOH  328  O    )  O   
+ ( E    HOH  329  O    )  O   
+ ( E    HOH  330  O    )  O   
+ ( E    HOH  331  O    )  O   
+ ( E    HOH  332  O    )  O   
+ ( E    HOH  333  O    )  O   
+ ( E    HOH  334  O    )  O   
+ ( E    HOH  335  O    )  O   
+ ( E    HOH  336  O    )  O   
+ ( E    HOH  337  O    )  O   
+ ( E    HOH  338  O    )  O   
+ ( E    HOH  339  O    )  O   
+ ( E    HOH  340  O    )  O   
+ ( E    HOH  341  O    )  O   
+ ( E    HOH  342  O    )  O   
+ ( E    HOH  343  O    )  O   
+ ( E    HOH  344  O    )  O   
+ ( E    HOH  345  O    )  O   
+ ( E    HOH  346  O    )  O   
+ ( E    HOH  347  O    )  O   
+ ( E    HOH  348  O    )  O   
+ ( E    HOH  349  O    )  O   
+ ( E    HOH  350  O    )  O   
+ ( E    HOH  351  O    )  O   
+ ( E    HOH  352  O    )  O   
+ ( E    HOH  353  O    )  O   
+ ( E    HOH  354  O    )  O   
+ ( E    HOH  355  O    )  O   
+ ( E    HOH  356  O    )  O   
+ ( E    HOH  357  O    )  O   
+
+ list of isolated (non-covalently bonded) di-atomic molecules:
+ SELRPN:      0 atoms have been selected out of   2349
+ SHOW: zero atoms selected
+ --none--
+
+ list of atoms at special positions:
+ SELRPN:      0 atoms have been selected out of   2349
+ SHOW: zero atoms selected
+ --none--
+
+
+ SELRPN:      0 atoms have been selected out of   2349
+ SHOW: zero atoms selected
+
+ 0 atoms at special positions,
+ explicitly fixed atoms, and atoms not selected for
+ refinement will be fixed.
+
+ CNSsolve> 
+ CNSsolve> fix selection=( store9 ) end 
+ SELRPN:      0 atoms have been selected out of   2349
+ CNSsolve> 
+ CNSsolve> fastnb grid end 
+ CNSsolve> 
+ CNSsolve> flags 
+ FLAGS>    exclude * include xref 
+ FLAGS>   ? 
+ EFLAGS: the following energy flags are set
+ EFLAGS: XREF
+ FLAGS> end 
+ CNSsolve> 
+ CNSsolve> if ( &BLANK%force_field_infile = true ) then 
+ NEXTCD: condition evaluated as true
+ CNSsolve>    flags 
+ FLAGS>       exclude elec pele vdw pvdw 
+ FLAGS>      ? 
+ EFLAGS: the following energy flags are set
+ EFLAGS: XREF
+ FLAGS>    end 
+ CNSsolve> else 
+ CNSsolve>     @&force_field_infile 
+ CNSsolve> end if 
+ CNSsolve> 
+ CNSsolve> show sum(1) (&atom_harm) 
+ SELRPN:      0 atoms have been selected out of   2349
+ SHOW: zero atoms selected
+ CNSsolve> if ( $result > 0 ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>   evaluate ($harmonic=true) 
+ CNSsolve> else 
+ CNSsolve>   evaluate ($harmonic=false) 
+ EVALUATE: symbol $HARMONIC set to FALSE (logical)
+ CNSsolve> end if 
+ CNSsolve> 
+ CNSsolve> xray 
+ XRAY>   predict 
+ PREDict>     mode=reciprocal 
+ PREDict>     to=fcalc 
+ PREDict>     selection=(ref_active=1) 
+ Total of     15869 structure factor elements were selected.
+ PREDict>     atomselection=( &atom_select ) 
+ SELRPN:   2349 atoms have been selected out of   2349
+ PREDict>   end 
+ FCALC: #scatt.=   2349 #anomalous=   0 #special pos.=  0 occupancies=1
+ XSFAL: allocating space for complex reciprocal space object.
+ %XFFT-AUTOmem: increasing memory allocation to    2000000
+ XFFT: using grid [ 160, 160, 192] and sublattice [ 160( 161), 160( 161),  64]
+ XRAY> end 
+ CNSsolve> 
+ CNSsolve> {- BEGIN MODIFICATION -} 
+ CNSsolve> @CNS_XTALMODULE:scale_and_solvent_grid_search ( 
+ ASSFIL: file scale_and_solvent_grid_search opened.
+ CNSsolve>! Module file: scale_and_solvent_grid_search 
+ CNSsolve>! 
+ CNSsolve>! Function: determines best bulk solvent model by a grid search in ( k_sol ) space. 
+ CNSsolve>!           For each pair of values, the optimum B_sol is determined by least-squares minimization. 
+ CNSsolve>!           The module also computes an overall (an)-isotropic B-tensor and applies the isotropic component to the 
+ CNSsolve>!           model structure factors, and bulk solvent structure factors; the negated modified 
+ CNSsolve>!           B-tensor (-Ucif, with the isotropic component removed) is then applied to the 
+ CNSsolve>!           observed amplitudes, sigmas, intensities, and their sigmas.  The corresponding Ucart is 
+ CNSsolve>!           passed back to the calling script file. 
+ CNSsolve>! 
+ CNSsolve>! 
+ CNSsolve>! CNS module 
+ CNSsolve>! ********** 
+ CNSsolve>! 
+ CNSsolve>! Authors: Axel T. Brunger and Paul D. Adams 
+ CNSsolve>! 
+ CNSsolve>! copyright Yale University 
+ CNSsolve>! 
+ CNSsolve>! Requirements: 
+ CNSsolve>! This module can only be used from the main level of CNS. 
+ CNSsolve>! 
+ CNSsolve>! 6/28/2006 
+ CNSsolve> 
+ CNSsolve>module {scale_and_solvent_grid_search} 
+ MODULE-DECLARATION>( 
+ MODULE-DECLARATION> &bscale="no";         {input: "no" | "isotropic" | "anisotropic" } 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &sel=all;             {input: all active structure factors} 
+ MODULE-DECLARATION> &sel_test=none;       {input: test set reflections} 
+ MODULE-DECLARATION> &atom_select=( all ); {input: atom selection for all atoms that contribute to calculated structure factor} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &bulk_sol=false;      {input: logical flag (true/false) specifying if bulk solvent correction should be computed} 
+ MODULE-DECLARATION> &bulk_mask="";        {optional input: mask file for bulk solvent model - it not specified mask will be generated from selected atoms} 
+ MODULE-DECLARATION> &bulk_atoms=( all );  {input: atoms used to create solvent mask} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &sol_auto=true;       {input: logical flag (true/false) specifying if grid search shall be performed } 
+ MODULE-DECLARATION> &sol_k=0.3;           {for sol_auto=false: solvent density fixed at specified value} 
+ MODULE-DECLARATION> &sol_b=50.;           {for sol_auto=false: solvent B factor fixed at specified value} 
+ MODULE-DECLARATION> &sol_rad=1.0;         {solvent radius (fixed at specified value)} 
+ MODULE-DECLARATION> &sol_shrink=1.0;      {shrink factor (fixed at specified value)} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &sol_k_range=0.1 0.2 0.25 0.28 0.30 0.32 0.33 0.34 0.35 0.36 0.37 0.38 0.4 0.42 0.45 0.5 0.6; {for sol_auto=true: parameters for sol_k grid search} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &fcalc="";            {input/output: calculated structure factors - modified at output (isotropic portion of B-tensor applied)} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &obs_f="";            {input/output: observed structure factors - modified at output (negative of anisotropic B-tensor (w/o isotropic portion) applied)} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &obs_sigf="";         {input/putput: corresponding sigma array - modified at output (negative of anisotropic B-tensor (w/o isotropic portion) applied)} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &obs_i="";            {input/output: observed intensity data - modified at output (negative of anisotropic B-tensor (w/o isotropic portion) applied)} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &obs_sigi="";         {input/output: corresponding sigma array - modified at output (negative of anisotropic B-tensor (w/o isotropic portion) applied)} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &fpart="";            {output: bulk solvent structure factors (isotropic portion of B-tensor applied)} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &Baniso_11;           {required output: anisotropic B-tensor (Ucart) of atomic model, with isotropic component removed } 
+ MODULE-DECLARATION> &Baniso_22; 
+ MODULE-DECLARATION> &Baniso_33; 
+ MODULE-DECLARATION> &Baniso_12; 
+ MODULE-DECLARATION> &Baniso_13; 
+ MODULE-DECLARATION> &Baniso_23; 
+ MODULE-DECLARATION> &Biso;                {required output: isotropic component of the B-tensor } 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &sol_k_best;          {required output: k_sol of best solvent model} 
+ MODULE-DECLARATION> &sol_b_best;          {required output: b_sol of best solvent model} 
+ MODULE-DECLARATION> &solrad_best;         {required output: solrad of solvent model that was actually used (for compatibility with previous versions of this module)} 
+ MODULE-DECLARATION> &shrink_best;         {required output: shrink value of solvent model that was actually used (for compatibility with previous versions of this module)} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &b=b;                 {input/output: atomic B-factor array - isotropic portion of B-factor tensor added } 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &low_b_flag;          {required output: if true then there were some negative B-factors that have been set to zero } 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &sol_output="";       {optional output: listing filename for grid search} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>) 
+ MODULE-INVOCATION>                             bscale=&bscale; 
+ &_2_BSCALE set to &_1_BSCALE 
+ MODULE-INVOCATION>                             sel=( ref_active=1 ); 
+ &_2_SEL set to ( ref_active = 1 ) 
+ MODULE-INVOCATION>                             sel_test=( tst_active=1 ); 
+ &_2_SEL_TEST set to ( tst_active = 1 ) 
+ MODULE-INVOCATION>                             atom_select=( &atom_select ); 
+ &_2_ATOM_SELECT set to ( &_1_ATOM_SELECT ) 
+ MODULE-INVOCATION>                             bulk_sol=&bulk_sol; 
+ &_2_BULK_SOL set to &_1_BULK_SOL 
+ MODULE-INVOCATION>                             bulk_mask=&bulk_mask_infile; 
+ &_2_BULK_MASK set to &_1_BULK_MASK_INFILE 
+ MODULE-INVOCATION>                             bulk_atoms=( &atom_select ); 
+ &_2_BULK_ATOMS set to ( &_1_ATOM_SELECT ) 
+ MODULE-INVOCATION> 
+ MODULE-INVOCATION>                             sol_auto=&sol_auto; 
+ &_2_SOL_AUTO set to &_1_SOL_AUTO 
+ MODULE-INVOCATION>                             sol_k=&sol_k; 
+ &_2_SOL_K set to &_1_SOL_K 
+ MODULE-INVOCATION>                             sol_b=&sol_b; 
+ &_2_SOL_B set to &_1_SOL_B 
+ MODULE-INVOCATION>                             sol_rad=&sol_rad; 
+ &_2_SOL_RAD set to &_1_SOL_RAD 
+ MODULE-INVOCATION>                             sol_shrink=&sol_shrink; 
+ &_2_SOL_SHRINK set to &_1_SOL_SHRINK 
+ MODULE-INVOCATION> 
+ MODULE-INVOCATION>                             fcalc=fcalc; 
+ &_2_FCALC set to fcalc 
+ MODULE-INVOCATION>                             obs_f=&STRIP%obs_f; 
+ &_2_OBS_F set to &STRIP%_1_OBS_F 
+ MODULE-INVOCATION>                             obs_sigf=&STRIP%obs_sigf; 
+ &_2_OBS_SIGF set to &STRIP%_1_OBS_SIGF 
+ MODULE-INVOCATION>                             obs_i=$STRIP%obs_i; 
+ &_2_OBS_I set to $STRIP%_1_OBS_I 
+ MODULE-INVOCATION>                             obs_sigi=$STRIP%obs_sigi; 
+ &_2_OBS_SIGI set to $STRIP%_1_OBS_SIGI 
+ MODULE-INVOCATION>                             fpart=fbulk; 
+ &_2_FPART set to fbulk 
+ MODULE-INVOCATION> 
+ MODULE-INVOCATION>! 
+ MODULE-INVOCATION>! Begin modification (6/28/06) 
+ MODULE-INVOCATION>                             Baniso_11=$Baniso_11; 
+ &_2_BANISO_11 set to $_1_BANISO_11 
+ MODULE-INVOCATION>                             Baniso_22=$Baniso_22; 
+ &_2_BANISO_22 set to $_1_BANISO_22 
+ MODULE-INVOCATION>                             Baniso_33=$Baniso_33; 
+ &_2_BANISO_33 set to $_1_BANISO_33 
+ MODULE-INVOCATION>                             Baniso_12=$Baniso_12; 
+ &_2_BANISO_12 set to $_1_BANISO_12 
+ MODULE-INVOCATION>                             Baniso_13=$Baniso_13; 
+ &_2_BANISO_13 set to $_1_BANISO_13 
+ MODULE-INVOCATION>                             Baniso_23=$Baniso_23; 
+ &_2_BANISO_23 set to $_1_BANISO_23 
+ MODULE-INVOCATION>                             Biso=$Biso_model; 
+ &_2_BISO set to $_1_BISO_MODEL 
+ MODULE-INVOCATION>! End modification 
+ MODULE-INVOCATION>! 
+ MODULE-INVOCATION> 
+ MODULE-INVOCATION>                             sol_k_best=$sol_k_ref; 
+ &_2_SOL_K_BEST set to $_1_SOL_K_REF 
+ MODULE-INVOCATION>                             sol_b_best=$sol_b_ref; 
+ &_2_SOL_B_BEST set to $_1_SOL_B_REF 
+ MODULE-INVOCATION>			     solrad_best=$solrad_best; 
+ &_2_SOLRAD_BEST set to $_1_SOLRAD_BEST 
+ MODULE-INVOCATION>			     shrink_best=$shrink_best; 
+ &_2_SHRINK_BEST set to $_1_SHRINK_BEST 
+ MODULE-INVOCATION> 
+ MODULE-INVOCATION>                             b=b; 
+ &_2_B set to b 
+ MODULE-INVOCATION> 
+ MODULE-INVOCATION>                             low_b_flag=$low_b_flag; 
+ &_2_LOW_B_FLAG set to $_1_LOW_B_FLAG 
+ MODULE-INVOCATION> 
+ MODULE-INVOCATION>                             sol_output=&sol_output; 
+ &_2_SOL_OUTPUT set to &_1_SOL_OUTPUT 
+ MODULE-INVOCATION> 
+ MODULE-INVOCATION>                             ) 
+ CNSsolve> 
+ CNSsolve> set message ? end 
+ MESSage=NORM
+ CNSsolve> evaluate ($message_old2=$result) 
+ EVALUATE: symbol $MESSAGE_OLD2 set to "NORM" (string)
+ CNSsolve> set echo ? end 
+ ECHO=TRUE {ON}
+ CNSsolve> evaluate ($echo_old2=$result) 
+ EVALUATE: symbol $ECHO_OLD2 set to TRUE (logical)
+ CNSsolve> if ( $log_level = verbose ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>   set echo=on message=normal end 
+ CNSsolve> else 
+ CNSsolve>   set echo=off message=off end 
+
+ trying solvent model with fixed k_sol = 0.1 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ grid parameter for solvent mask calculation : 0.3333
+ XMASK:     2349 atoms have been selected for mask calculation.
+ Minimum brick that covers asymmetric unit:
+   A=     0,...,   108  B=     0,...,   108  C=     0,...,    32
+ XMASK: average mask radius around selected atoms  1.6859 A
+ XMASK: probe radius=  1.0000 shrink radius=  1.0000
+ XMASK: volume inside mask=   26.5594% (MASK<=0)
+ XMASK: volume outside mask=   73.4406% (MASK=1)
+ refined solvent parameters: sol_k = 0.1  sol_b = 14.6668
+>>>> Overall R-value for test set: 0.196996
+>>>> Overall R-value for working set: 0.20297
+
+ trying solvent model with fixed k_sol = 0.2 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.2  sol_b = 43.0987
+>>>> Overall R-value for test set: 0.19477
+>>>> Overall R-value for working set: 0.200687
+
+ trying solvent model with fixed k_sol = 0.25 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.25  sol_b = 55.6278
+>>>> Overall R-value for test set: 0.194014
+>>>> Overall R-value for working set: 0.199974
+
+ trying solvent model with fixed k_sol = 0.28 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.28  sol_b = 62.8141
+>>>> Overall R-value for test set: 0.193684
+>>>> Overall R-value for working set: 0.199646
+
+ trying solvent model with fixed k_sol = 0.3 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.3  sol_b = 67.2139
+>>>> Overall R-value for test set: 0.193509
+>>>> Overall R-value for working set: 0.19946
+
+ trying solvent model with fixed k_sol = 0.32 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.32  sol_b = 70.8454
+>>>> Overall R-value for test set: 0.193402
+>>>> Overall R-value for working set: 0.199296
+
+ trying solvent model with fixed k_sol = 0.33 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.33  sol_b = 72.247
+>>>> Overall R-value for test set: 0.193366
+>>>> Overall R-value for working set: 0.199221
+
+ trying solvent model with fixed k_sol = 0.34 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.34  sol_b = 74.4901
+>>>> Overall R-value for test set: 0.19332
+>>>> Overall R-value for working set: 0.199153
+
+ trying solvent model with fixed k_sol = 0.35 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.35  sol_b = 76.6355
+>>>> Overall R-value for test set: 0.193278
+>>>> Overall R-value for working set: 0.199089
+
+ trying solvent model with fixed k_sol = 0.36 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.36  sol_b = 78.771
+>>>> Overall R-value for test set: 0.193238
+>>>> Overall R-value for working set: 0.199029
+
+ trying solvent model with fixed k_sol = 0.37 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.37  sol_b = 80.8795
+>>>> Overall R-value for test set: 0.1932
+>>>> Overall R-value for working set: 0.198974
+
+ trying solvent model with fixed k_sol = 0.38 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.38  sol_b = 82.9827
+>>>> Overall R-value for test set: 0.193164
+>>>> Overall R-value for working set: 0.198921
+
+ trying solvent model with fixed k_sol = 0.4 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.4  sol_b = 85.5535
+>>>> Overall R-value for test set: 0.193133
+>>>> Overall R-value for working set: 0.198815
+
+ trying solvent model with fixed k_sol = 0.42 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.42  sol_b = 83.6483
+>>>> Overall R-value for test set: 0.193244
+>>>> Overall R-value for working set: 0.198737
+
+ trying solvent model with fixed k_sol = 0.45 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.45  sol_b = 86.5247
+>>>> Overall R-value for test set: 0.193237
+>>>> Overall R-value for working set: 0.198635
+
+ trying solvent model with fixed k_sol = 0.5 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.5  sol_b = 90.6812
+>>>> Overall R-value for test set: 0.193348
+>>>> Overall R-value for working set: 0.198521
+
+ trying solvent model with fixed k_sol = 0.6 , solrad = 1.0, shrink = 1.0, bscale option = "isotropic"
+ refined solvent parameters: sol_k = 0.6  sol_b = 115.678
+>>>> Overall R-value for test set: 0.192905
+>>>> Overall R-value for working set: 0.198256
+
+ now recomputing solvent model for best parameters
+ best sol_k = 0.6
+ best sol_b = 115.678
+ Note: isotropic scaling is now applied to Fcalc = 5.37454
+
+ using fixed solvent parameters: sol_k = 0.6  sol_b = 115.678
+
+ Solvent model and B-scaling completed
+ Solvent model sol_k = 0.6
+ Solvent model sol_b = 115.678
+ Solvent model solrad = 1
+ Solvent model shrink = 1
+ The isotropic component of B scaling ( 5.37452 ) has been added to the B-factors of the atomic model
+
+ CNSsolve> 
+ CNSsolve> 
+ CNSsolve> 
+ CNSsolve> xray 
+ XRAY>   @@CNS_XTALMODULE:calculate_r ( 
+ ASSFIL: file calculate_r opened.
+ XRAY>! Module file: calculate_r 
+ XRAY>! 
+ XRAY>! CNS module 
+ XRAY>! ************ 
+ XRAY>! 
+ XRAY>! Authors: Axel Brunger and Paul Adams 
+ XRAY>! 
+ XRAY>! copyright Yale University 
+ XRAY>! 
+ XRAY>! Function: 
+ XRAY>!    Calculates crystallographic R-values 
+ XRAY>! 
+ XRAY>! Requirements: 
+ XRAY>!    Needs to be called within xray 
+ XRAY> 
+ XRAY>module {calculate_r} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>( 
+ MODULE-DECLARATION>&fobs=fobs; 
+ MODULE-DECLARATION>&fcalc=fcalc; 
+ MODULE-DECLARATION>&fpart=fpart; 
+ MODULE-DECLARATION>&sel=all; 
+ MODULE-DECLARATION>&sel_test=none; 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>&print=false;  ! if true, writes R value distributions as a function of resolution to the file specified by "&output" 
+ MODULE-DECLARATION>               ! if false, only writes the overall R values to &output 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>&output=OUTPUT; 
+ MODULE-DECLARATION>&r=$r; 
+ MODULE-DECLARATION>&test_r=$test_r; 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>&calc_r_stats=false; !flag indicating to compute compound symbol that contains the R value distribution and completeness 
+ MODULE-DECLARATION>&r_stats=$r_stats;   !compound symbol that contains R value distributions and completeness 
+ MODULE-DECLARATION>!  r_stats.nbins           ! number of bins 
+ MODULE-DECLARATION>!  r_stats.<i>.high        ! high resolution limit for bin <i> 
+ MODULE-DECLARATION>!  r_stats.<i>.low         ! low resolution limit for bin <i> 
+ MODULE-DECLARATION>!  r_stats.<i>.nref_work   ! number of reflections in working set for bin <i> 
+ MODULE-DECLARATION>!  r_stats.<i>.nref_free   ! number of reflections in test set for bin <i> 
+ MODULE-DECLARATION>!  r_stats.<i>.value_comp  ! completeness (work + test set) for bin <i> 
+ MODULE-DECLARATION>!  r_stats.<i>.value_work  ! working R value for bin <i> 
+ MODULE-DECLARATION>!  r_stats.<i>.value_free  ! free R value for bin <i> 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>) 
+ MODULE-INVOCATION>                                 fobs=&STRIP%obs_f; 
+ &_2_FOBS set to &STRIP%_1_OBS_F 
+ MODULE-INVOCATION>                                 fcalc=fcalc; 
+ &_2_FCALC set to fcalc 
+ MODULE-INVOCATION>                                 fpart=fbulk; 
+ &_2_FPART set to fbulk 
+ MODULE-INVOCATION>                                 sel=( ref_active=1 ); 
+ &_2_SEL set to ( ref_active = 1 ) 
+ MODULE-INVOCATION>                                 sel_test=( tst_active=1 ); 
+ &_2_SEL_TEST set to ( tst_active = 1 ) 
+ MODULE-INVOCATION>                                 print=true; 
+ &_2_PRINT set to true 
+ MODULE-INVOCATION>                                 output=OUTPUT; 
+ &_2_OUTPUT set to OUTPUT 
+ MODULE-INVOCATION>                                 r=$start_r; 
+ &_2_R set to $_1_START_R 
+ MODULE-INVOCATION>                                 test_r=$start_test_r;) 
+ &_2_TEST_R set to $_1_START_TEST_R 
+ XRAY> 
+ XRAY>set message ? end 
+ MESSage=NORM
+ XRAY>evaluate ($message_old=$result) 
+ EVALUATE: symbol $MESSAGE_OLD set to "NORM" (string)
+ XRAY>set echo ? end 
+ ECHO=TRUE {ON}
+ XRAY>evaluate ($echo_old=$result) 
+ EVALUATE: symbol $ECHO_OLD set to TRUE (logical)
+ XRAY>if ( $log_level = verbose ) then 
+ NEXTCD: condition evaluated as false
+ XRAY>  set echo=on message=normal end 
+ XRAY>else 
+ XRAY>  set echo=off message=off end 
+============================================
+     R-value by resolution for test set
+============================================
+ #bin | resolution range | #refl | 
+    1   4.69    7.00        208      0.2318
+    2   3.94    4.69        196      0.1451
+    3   3.51    3.94        200      0.1640
+    4   3.22    3.51        182      0.1872
+    5   3.01    3.22        201      0.1849
+    6   2.85    3.01        184      0.2270
+    7   2.71    2.85        220      0.2290
+    8   2.60    2.71        196      0.2694
+>>>> Overall R-value for test set: 0.192905
+============================================
+    R-value by resolution for working set
+============================================
+ #bin | resolution range | #refl | 
+    1   4.69    7.00       1722      0.2191
+    2   3.94    4.69       1744      0.1532
+    3   3.51    3.94       1769      0.1772
+    4   3.22    3.51       1777      0.1816
+    5   3.01    3.22       1822      0.2032
+    6   2.85    3.01       1803      0.2339
+    7   2.71    2.85       1823      0.2503
+    8   2.60    2.71       1822      0.2702
+>>>> Overall R-value for working set: 0.198256
+ XRAY> end 
+ CNSsolve> 
+ CNSsolve> {- check the gridding again since the minimum B-factor may have changed -} 
+ CNSsolve> show min ( b ) ( &atom_select ) 
+ SELRPN:   2349 atoms have been selected out of   2349
+ SHOW: minimum of selected elements =       7.374524
+ CNSsolve> evaluate ($b_min=$result) 
+ EVALUATE: symbol $B_MIN set to    7.37452     (real)
+ CNSsolve> @@CNS_XTALMODULE:fft_parameter_check ( 
+ ASSFIL: file fft_parameter_check opened.
+ CNSsolve>! Module file: fft_parameter_check 
+ CNSsolve>! 
+ CNSsolve>! Function: determines the optimum setting for the B-factor inflation 
+ CNSsolve>! given the high resolution limit, the gridding factor, and the minimum 
+ CNSsolve>! B-factor of the model.   It also determines the recommended ELIM parameter 
+ CNSsolve>! as a function of the high resolution limit. 
+ CNSsolve>! 
+ CNSsolve>! Reference: 
+ CNSsolve>! 
+ CNSsolve>! Gerard Bricogne (2001), 
+ CNSsolve>!   International Tables for Crystallography, Volume B, 2001, p. 87 
+ CNSsolve>! 
+ CNSsolve>! CNS module 
+ CNSsolve>! ********** 
+ CNSsolve>! 
+ CNSsolve>! Authors: Axel T. Brunger and Paul D. Adams 
+ CNSsolve>! 
+ CNSsolve>! copyright Yale University 
+ CNSsolve>! 
+ CNSsolve>! Requirements: 
+ CNSsolve>! This module can only be used from the main level of CNS. 
+ CNSsolve>! 
+ CNSsolve>! 08/03/06 ATB 
+ CNSsolve> 
+ CNSsolve>module {fft_parameter_check} 
+ MODULE-DECLARATION>( 
+ MODULE-DECLARATION> &b_min=0;              {input: minimum B-factor of model} 
+ MODULE-DECLARATION> &d_min=1.0;            {input: high resolution limit} 
+ MODULE-DECLARATION> &q_factor=100;         {input: quality factor - 100 for 1% accuracy} 
+ MODULE-DECLARATION> &grid=auto;            {input: if "auto" gridding factor is set automatically} 
+ MODULE-DECLARATION>                        {       otherwise gridding factor set to <number>  } 
+ MODULE-DECLARATION> &fft_memory=-1;        {input: fft memory; if "-1" use automatic mode } 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION> &fft_grid=$fft_grid;   {output: fft gridding factor} 
+ MODULE-DECLARATION> &fft_b_add=$fft_b_add; {output: fft B addition} 
+ MODULE-DECLARATION> &fft_elim=$fft_elim;   {output: fft elimit factor} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>) 
+ MODULE-INVOCATION>                             d_min=&high_res; 
+ &_2_D_MIN set to &_1_HIGH_RES 
+ MODULE-INVOCATION>                             b_min=$b_min; 
+ &_2_B_MIN set to $_1_B_MIN 
+ MODULE-INVOCATION>                             grid=auto; 
+ &_2_GRID set to auto 
+ MODULE-INVOCATION>                             fft_memory=&fft_memory; 
+ &_2_FFT_MEMORY set to &_1_FFT_MEMORY 
+ MODULE-INVOCATION>                             fft_grid=$fft_grid; 
+ &_2_FFT_GRID set to $_1_FFT_GRID 
+ MODULE-INVOCATION>                             fft_b_add=$fft_b_add; 
+ &_2_FFT_B_ADD set to $_1_FFT_B_ADD 
+ MODULE-INVOCATION>                             fft_elim=$fft_elim; 
+ &_2_FFT_ELIM set to $_1_FFT_ELIM 
+ MODULE-INVOCATION>                                      ) 
+ CNSsolve> 
+ CNSsolve> set message ? end 
+ MESSage=NORM
+ CNSsolve> evaluate ($message_old=$result) 
+ EVALUATE: symbol $MESSAGE_OLD set to "NORM" (string)
+ CNSsolve> set echo ? end 
+ ECHO=TRUE {ON}
+ CNSsolve> evaluate ($echo_old=$result) 
+ EVALUATE: symbol $ECHO_OLD set to TRUE (logical)
+ CNSsolve> if ( $log_level = verbose ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>   set echo=on message=normal end 
+ CNSsolve> else 
+ CNSsolve>   set echo=off message=off end 
+ XRMAPR: symmetry or unitcell changed. Real space obj. deleted.
+ fft_parameter_check: using automatic memory option
+ fft_parameter_check: minimum model B-factor = 7.37452  A^2
+ fft_parameter_check: high resolution limit = 2.60  A
+ fft_parameter_check: fft gridding factor set to 0.3333
+ fft_parameter_check: fft B factor offset set to 10.6449  A^2
+ fft_parameter_check: fft Elimit factor set to 8
+ CNSsolve> 
+ CNSsolve>{- END MODIFICATION -} 
+ CNSsolve> 
+ CNSsolve> if ( $harmonic = true ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>   do (refx=x) (all) 
+ CNSsolve>   do (refy=y) (all) 
+ CNSsolve>   do (refz=z) (all) 
+ CNSsolve>   do (harm=0) (all) 
+ CNSsolve>   do (harm=&k_harmonic) (&atom_harm) 
+ CNSsolve>   flags include harm end 
+ CNSsolve> end if 
+ CNSsolve> 
+ CNSsolve> 
+ CNSsolve> evaluate ($cycle=1) 
+ EVALUATE: symbol $CYCLE set to    1.00000     (real)
+ CNSsolve> 
+ CNSsolve> while ($cycle <= &num_cycles) loop main 
+ NEXTCD: condition evaluated as true
+ CNSsolve> 
+ CNSsolve>   xray 
+ XRAY>     @@CNS_XTALMODULE:refinementtarget (target=&reftarget; 
+ ASSFIL: file refinementtarget opened.
+ XRAY>! Module file: refinementtarget 
+ XRAY>! 
+ XRAY>! CNS module 
+ XRAY>! ********** 
+ XRAY>! 
+ XRAY>! Authors: Axel Brunger and Paul Adams 
+ XRAY>! 
+ XRAY>! copyright Yale University 
+ XRAY>! 
+ XRAY>! Function: 
+ XRAY>!    Defines the crystallographic refinement targets 
+ XRAY>! 
+ XRAY>! Requirements: 
+ XRAY>!    Needs to be called within xray 
+ XRAY> 
+ XRAY>module {refinementtarget} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>( 
+ MODULE-DECLARATION>  &target="residual";    {string} 
+ MODULE-DECLARATION>  &sig_sigacv=0.07;      {real} 
+ MODULE-DECLARATION>  &mbins=10;             {real} 
+ MODULE-DECLARATION>  &fobs=fobs;            {reciprocal space array} 
+ MODULE-DECLARATION>  &sigma=sigma;          {reciprocal space array} 
+ MODULE-DECLARATION>  &weight=weight;        {reciprocal space array} 
+ MODULE-DECLARATION>  &iobs=iobs;            {reciprocal space array} 
+ MODULE-DECLARATION>  &sigi=sigi;            {reciprocal space array} 
+ MODULE-DECLARATION>  &test=test;            {reciprocal space array} 
+ MODULE-DECLARATION>  &fcalc=fcalc;          {reciprocal space array} 
+ MODULE-DECLARATION>  &fpart=fpart;          {reciprocal space array} 
+ MODULE-DECLARATION>  &pa=pa;                {reciprocal space array} 
+ MODULE-DECLARATION>  &pb=pb;                {reciprocal space array} 
+ MODULE-DECLARATION>  &pc=pc;                {reciprocal space array} 
+ MODULE-DECLARATION>  &pd=pd;                {reciprocal space array} 
+ MODULE-DECLARATION>  &phase=phase;          {reciprocal space array} 
+ MODULE-DECLARATION>  &fom=fom;              {reciprocal space array} 
+ MODULE-DECLARATION>  &sel=all;              {selection} 
+ MODULE-DECLARATION>  &sel_test=none;        {selection} 
+ MODULE-DECLARATION>  &statistics=false;     {logical} 
+ MODULE-DECLARATION>) 
+ &_2_TARGET set to &_1_REFTARGET 
+ MODULE-INVOCATION>                                       sig_sigacv=0.07; 
+ &_2_SIG_SIGACV set to 0.07 
+ MODULE-INVOCATION>                                       mbins=&target_bins; 
+ &_2_MBINS set to &_1_TARGET_BINS 
+ MODULE-INVOCATION>                                       fobs=&STRIP%obs_f; 
+ &_2_FOBS set to &STRIP%_1_OBS_F 
+ MODULE-INVOCATION>                                       sigma=&STRIP%obs_sigf; 
+ &_2_SIGMA set to &STRIP%_1_OBS_SIGF 
+ MODULE-INVOCATION>                                       weight=$STRIP%obs_w; 
+ &_2_WEIGHT set to $STRIP%_1_OBS_W 
+ MODULE-INVOCATION>                                       iobs=$STRIP%obs_i; 
+ &_2_IOBS set to $STRIP%_1_OBS_I 
+ MODULE-INVOCATION>                                       sigi=$STRIP%obs_sigi; 
+ &_2_SIGI set to $STRIP%_1_OBS_SIGI 
+ MODULE-INVOCATION>                                       test=tst_active; 
+ &_2_TEST set to tst_active 
+ MODULE-INVOCATION>                                       fcalc=fcalc; 
+ &_2_FCALC set to fcalc 
+ MODULE-INVOCATION>                                       fpart=fbulk; 
+ &_2_FPART set to fbulk 
+ MODULE-INVOCATION>                                       pa=&STRIP%obs_pa; 
+ &_2_PA set to &STRIP%_1_OBS_PA 
+ MODULE-INVOCATION>                                       pb=&STRIP%obs_pb; 
+ &_2_PB set to &STRIP%_1_OBS_PB 
+ MODULE-INVOCATION>                                       pc=&STRIP%obs_pc; 
+ &_2_PC set to &STRIP%_1_OBS_PC 
+ MODULE-INVOCATION>                                       pd=&STRIP%obs_pd; 
+ &_2_PD set to &STRIP%_1_OBS_PD 
+ MODULE-INVOCATION>                                       phase=&STRIP%obs_phase; 
+ &_2_PHASE set to &STRIP%_1_OBS_PHASE 
+ MODULE-INVOCATION>                                       fom=&STRIP%obs_fom; 
+ &_2_FOM set to &STRIP%_1_OBS_FOM 
+ MODULE-INVOCATION>                                       sel=(ref_active=1); 
+ &_2_SEL set to ( ref_active = 1 ) 
+ MODULE-INVOCATION>                                       sel_test=(tst_active=1); 
+ &_2_SEL_TEST set to ( tst_active = 1 ) 
+ MODULE-INVOCATION>                                       statistics=true;) 
+ &_2_STATISTICS set to true 
+ XRAY> 
+ XRAY>set message ? end 
+ MESSage=NORM
+ XRAY>evaluate ($message_old=$result) 
+ EVALUATE: symbol $MESSAGE_OLD set to "NORM" (string)
+ XRAY>set echo ? end 
+ ECHO=TRUE {ON}
+ XRAY>evaluate ($echo_old=$result) 
+ EVALUATE: symbol $ECHO_OLD set to TRUE (logical)
+ XRAY>if ( $log_level = verbose ) then 
+ NEXTCD: condition evaluated as false
+ XRAY>  set echo=on message=normal end 
+ XRAY>else 
+ XRAY>  set echo=off message=off end 
+ XSIGMAACV: Overall sigma for line restraint is       0.07000000
+ XSIGMAACV: step limit reached
+ XSIGMAACV: Refinement of SIGMAA has finished 
+            Overall mean FOM is   0.90280
+
+ sigmaA statistics                   sigmaA   sigmaD     Delta     <Eobs^2>  <Ecalc^2>
+ #bin | resolution range | #refl | 
+    1   5.99    7.00        495      0.8963  148.9334    0.3151    0.9982    0.9978
+    2   5.39    5.99        485      0.9376  131.9187    0.2905    1.0000    0.9999
+    3   4.97    5.39        504      0.9282  154.3421    0.2931    0.9950    0.9943
+    4   4.66    4.97        496      0.9559  139.0435    0.3145    1.0000    1.0000
+    5   4.41    4.66        507      0.9751  116.9259    0.3261    0.9992    0.9995
+    6   4.21    4.41        496      0.9760  134.0207    0.3350    0.9992    0.9993
+    7   4.05    4.21        503      0.9725  130.3948    0.3264    0.9998    0.9998
+    8   3.90    4.05        515      0.9755  109.5830    0.3246    1.0000    1.0000
+    9   3.78    3.90        497      0.9755  118.6511    0.3407    0.9993    0.9987
+   10   3.66    3.78        519      0.9623  114.8809    0.3363    0.9982    0.9986
+   11   3.57    3.66        501      0.9717  101.6074    0.3147    1.0000    1.0000
+   12   3.48    3.57        504      0.9371  131.2757    0.3302    0.9999    1.0000
+   13   3.40    3.48        521      0.9665   81.3782    0.3540    1.0000    1.0000
+   14   3.32    3.40        497      0.9608   86.8715    0.3134    1.0000    1.0000
+   15   3.25    3.32        514      0.9382  100.2214    0.3257    0.9994    0.9993
+   16   3.19    3.25        529      0.9754   74.9908    0.3459    1.0000    1.0000
+   17   3.13    3.19        494      0.9666   62.7447    0.3259    0.9998    0.9992
+   18   3.08    3.13        543      0.9381   96.0611    0.3113    1.0000    1.0000
+   19   3.03    3.08        502      0.9486   85.2002    0.3370    0.9985    0.9986
+   20   2.98    3.03        518      0.9329   92.0567    0.3215    1.0000    1.0000
+   21   2.94    2.98        518      0.9087   80.9752    0.3090    1.0000    1.0000
+   22   2.89    2.94        523      0.9315   75.2993    0.3162    0.9988    0.9987
+   23   2.86    2.89        510      0.9467   62.6768    0.3192    1.0000    1.0000
+   24   2.82    2.86        521      0.9693   52.1186    0.3202    1.0000    1.0000
+   25   2.78    2.82        513      0.9049   74.1037    0.3006    0.9998    0.9996
+   26   2.75    2.78        532      0.9228   73.6356    0.3127    1.0000    1.0000
+   27   2.72    2.75        527      0.9204   77.3037    0.2961    1.0000    1.0000
+   28   2.68    2.72        497      0.8993   75.8826    0.2985    1.0000    1.0000
+   29   2.66    2.68        535      0.8861   75.9498    0.2791    0.9975    0.9975
+   30   2.63    2.66        534      0.9355   55.5408    0.3164    1.0000    1.0000
+   31   2.60    2.63        519      0.8996   69.6643    0.2842    1.0000    1.0000
+ XRAY>   end 
+ CNSsolve> 
+ CNSsolve>   if ( &wa < 0 ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>     @@CNS_XTALMODULE:getweight ( 
+ CNSsolve>                                selected=&atom_select; 
+ CNSsolve>                                fixed=(store9); 
+ CNSsolve>                               ) 
+ CNSsolve>   end if 
+ CNSsolve> 
+ CNSsolve>   if ( &minimize_nstep > 0 ) then 
+ NEXTCD: condition evaluated as false
+ CNSsolve>     minimize lbfgs 
+ CNSsolve>       nstep=&minimize_nstep 
+ CNSsolve>       nprint=5 
+ CNSsolve>       drop=10.0 
+ CNSsolve>     end 
+ CNSsolve>   end if 
+ CNSsolve> 
+ CNSsolve>   evaluate ($cycle=$cycle+1) 
+ EVALUATE: symbol $CYCLE set to    2.00000     (real)
+ CNSsolve> 
+ CNSsolve> end loop main 
+ CNSsolve> while ($cycle <= &num_cycles) loop main 
+ NEXTCD: condition evaluated as false
+ CNSsolve> 
+ CNSsolve>   xray 
+ CNSsolve>     @@CNS_XTALMODULE:refinementtarget (target=&reftarget; 
+ CNSsolve>                                       sig_sigacv=0.07; 
+ CNSsolve>                                       mbins=&target_bins; 
+ CNSsolve>                                       fobs=&STRIP%obs_f; 
+ CNSsolve>                                       sigma=&STRIP%obs_sigf; 
+ CNSsolve>                                       weight=$STRIP%obs_w; 
+ CNSsolve>                                       iobs=$STRIP%obs_i; 
+ CNSsolve>                                       sigi=$STRIP%obs_sigi; 
+ CNSsolve>                                       test=tst_active; 
+ CNSsolve>                                       fcalc=fcalc; 
+ CNSsolve>                                       fpart=fbulk; 
+ CNSsolve>                                       pa=&STRIP%obs_pa; 
+ CNSsolve>                                       pb=&STRIP%obs_pb; 
+ CNSsolve>                                       pc=&STRIP%obs_pc; 
+ CNSsolve>                                       pd=&STRIP%obs_pd; 
+ CNSsolve>                                       phase=&STRIP%obs_phase; 
+ CNSsolve>                                       fom=&STRIP%obs_fom; 
+ CNSsolve>                                       sel=(ref_active=1); 
+ CNSsolve>                                       sel_test=(tst_active=1); 
+ CNSsolve>                                       statistics=true;) 
+ CNSsolve>   end 
+ CNSsolve> 
+ CNSsolve>   if ( &wa < 0 ) then 
+ CNSsolve>     @@CNS_XTALMODULE:getweight ( 
+ CNSsolve>                                selected=&atom_select; 
+ CNSsolve>                                fixed=(store9); 
+ CNSsolve>                               ) 
+ CNSsolve>   end if 
+ CNSsolve> 
+ CNSsolve>   if ( &minimize_nstep > 0 ) then 
+ CNSsolve>     minimize lbfgs 
+ CNSsolve>       nstep=&minimize_nstep 
+ CNSsolve>       nprint=5 
+ CNSsolve>       drop=10.0 
+ CNSsolve>     end 
+ CNSsolve>   end if 
+ CNSsolve> 
+ CNSsolve>   evaluate ($cycle=$cycle+1) 
+ CNSsolve> 
+ CNSsolve> end loop main 
+ CNSsolve> 
+ CNSsolve> xray 
+ XRAY>    predict 
+ PREDict>      mode=reciprocal 
+ PREDict>      to=fcalc 
+ PREDict>      selection=(ref_active=1) 
+ Total of     15869 structure factor elements were selected.
+ PREDict>      atomselection=( &atom_select ) 
+ SELRPN:   2349 atoms have been selected out of   2349
+ PREDict>    end 
+ FCALC: #scatt.=   2349 #anomalous=   0 #special pos.=  0 occupancies=1
+ XFFT: using grid [ 160, 160, 192] and sublattice [ 160( 161), 160( 161),  64]
+ XRAY>    @@CNS_XTALMODULE:calculate_r (fobs=&STRIP%obs_f; 
+ ASSFIL: file calculate_r opened.
+ XRAY>! Module file: calculate_r 
+ XRAY>! 
+ XRAY>! CNS module 
+ XRAY>! ************ 
+ XRAY>! 
+ XRAY>! Authors: Axel Brunger and Paul Adams 
+ XRAY>! 
+ XRAY>! copyright Yale University 
+ XRAY>! 
+ XRAY>! Function: 
+ XRAY>!    Calculates crystallographic R-values 
+ XRAY>! 
+ XRAY>! Requirements: 
+ XRAY>!    Needs to be called within xray 
+ XRAY> 
+ XRAY>module {calculate_r} 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>( 
+ MODULE-DECLARATION>&fobs=fobs; 
+ MODULE-DECLARATION>&fcalc=fcalc; 
+ MODULE-DECLARATION>&fpart=fpart; 
+ MODULE-DECLARATION>&sel=all; 
+ MODULE-DECLARATION>&sel_test=none; 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>&print=false;  ! if true, writes R value distributions as a function of resolution to the file specified by "&output" 
+ MODULE-DECLARATION>               ! if false, only writes the overall R values to &output 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>&output=OUTPUT; 
+ MODULE-DECLARATION>&r=$r; 
+ MODULE-DECLARATION>&test_r=$test_r; 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>&calc_r_stats=false; !flag indicating to compute compound symbol that contains the R value distribution and completeness 
+ MODULE-DECLARATION>&r_stats=$r_stats;   !compound symbol that contains R value distributions and completeness 
+ MODULE-DECLARATION>!  r_stats.nbins           ! number of bins 
+ MODULE-DECLARATION>!  r_stats.<i>.high        ! high resolution limit for bin <i> 
+ MODULE-DECLARATION>!  r_stats.<i>.low         ! low resolution limit for bin <i> 
+ MODULE-DECLARATION>!  r_stats.<i>.nref_work   ! number of reflections in working set for bin <i> 
+ MODULE-DECLARATION>!  r_stats.<i>.nref_free   ! number of reflections in test set for bin <i> 
+ MODULE-DECLARATION>!  r_stats.<i>.value_comp  ! completeness (work + test set) for bin <i> 
+ MODULE-DECLARATION>!  r_stats.<i>.value_work  ! working R value for bin <i> 
+ MODULE-DECLARATION>!  r_stats.<i>.value_free  ! free R value for bin <i> 
+ MODULE-DECLARATION> 
+ MODULE-DECLARATION>) 
+ &_2_FOBS set to &STRIP%_1_OBS_F 
+ MODULE-INVOCATION>                                 fcalc=fcalc; 
+ &_2_FCALC set to fcalc 
+ MODULE-INVOCATION>                                 fpart=fbulk; 
+ &_2_FPART set to fbulk 
+ MODULE-INVOCATION>                                 sel=(ref_active=1); 
+ &_2_SEL set to ( ref_active = 1 ) 
+ MODULE-INVOCATION>                                 sel_test=(tst_active=1); 
+ &_2_SEL_TEST set to ( tst_active = 1 ) 
+ MODULE-INVOCATION>                                 print=true; 
+ &_2_PRINT set to true 
+ MODULE-INVOCATION>                                 output=OUTPUT; 
+ &_2_OUTPUT set to OUTPUT 
+ MODULE-INVOCATION>                                 r=$full_r; 
+ &_2_R set to $_1_FULL_R 
+ MODULE-INVOCATION>                                 test_r=$full_test_r;) 
+ &_2_TEST_R set to $_1_FULL_TEST_R 
+ XRAY> 
+ XRAY>set message ? end 
+ MESSage=NORM
+ XRAY>evaluate ($message_old=$result) 
+ EVALUATE: symbol $MESSAGE_OLD set to "NORM" (string)
+ XRAY>set echo ? end 
+ ECHO=TRUE {ON}
+ XRAY>evaluate ($echo_old=$result) 
+ EVALUATE: symbol $ECHO_OLD set to TRUE (logical)
+ XRAY>if ( $log_level = verbose ) then 
+ NEXTCD: condition evaluated as false
+ XRAY>  set echo=on message=normal end 
+ XRAY>else 
+ XRAY>  set echo=off message=off end 
+============================================
+     R-value by resolution for test set
+============================================
+ #bin | resolution range | #refl | 
+    1   5.99    7.00         59      0.3017
+    2   5.39    5.99         46      0.2306
+    3   4.97    5.39         53      0.2533
+    4   4.66    4.97         52      0.1625
+    5   4.41    4.66         50      0.1405
+    6   4.21    4.41         53      0.1456
+    7   4.05    4.21         52      0.1494
+    8   3.90    4.05         53      0.1364
+    9   3.78    3.90         42      0.1410
+   10   3.66    3.78         64      0.1770
+   11   3.57    3.66         43      0.1427
+   12   3.48    3.57         49      0.2084
+   13   3.40    3.48         46      0.1891
+   14   3.32    3.40         48      0.1661
+   15   3.25    3.32         52      0.2302
+   16   3.19    3.25         58      0.1492
+   17   3.13    3.19         37      0.1531
+   18   3.08    3.13         56      0.2223
+   19   3.03    3.08         55      0.1978
+   20   2.98    3.03         51      0.2181
+   21   2.94    2.98         53      0.2519
+   22   2.89    2.94         46      0.2104
+   23   2.86    2.89         46      0.2185
+   24   2.82    2.86         50      0.1479
+   25   2.78    2.82         65      0.2643
+   26   2.75    2.78         53      0.2332
+   27   2.72    2.75         51      0.2509
+   28   2.68    2.72         57      0.2809
+   29   2.66    2.68         51      0.2999
+   30   2.63    2.66         49      0.2094
+   31   2.60    2.63         47      0.2751
+>>>> Overall R-value for test set: 0.192905
+============================================
+    R-value by resolution for working set
+============================================
+ #bin | resolution range | #refl | 
+    1   5.99    7.00        436      0.2598
+    2   5.39    5.99        439      0.2515
+    3   4.97    5.39        451      0.2187
+    4   4.66    4.97        444      0.1601
+    5   4.41    4.66        457      0.1456
+    6   4.21    4.41        443      0.1460
+    7   4.05    4.21        451      0.1697
+    8   3.90    4.05        462      0.1525
+    9   3.78    3.90        455      0.1743
+   10   3.66    3.78        455      0.1858
+   11   3.57    3.66        458      0.1798
+   12   3.48    3.57        455      0.1747
+   13   3.40    3.48        475      0.1636
+   14   3.32    3.40        449      0.1861
+   15   3.25    3.32        462      0.1939
+   16   3.19    3.25        471      0.2004
+   17   3.13    3.19        457      0.1973
+   18   3.08    3.13        487      0.1971
+   19   3.03    3.08        447      0.2203
+   20   2.98    3.03        467      0.2121
+   21   2.94    2.98        465      0.2291
+   22   2.89    2.94        477      0.2419
+   23   2.86    2.89        464      0.2426
+   24   2.82    2.86        471      0.2436
+   25   2.78    2.82        448      0.2522
+   26   2.75    2.78        479      0.2475
+   27   2.72    2.75        476      0.2621
+   28   2.68    2.72        440      0.2566
+   29   2.66    2.68        484      0.2690
+   30   2.63    2.66        485      0.2815
+   31   2.60    2.63        472      0.2699
+>>>> Overall R-value for working set: 0.198256
+ XRAY> end 
+ CNSsolve> 
+ CNSsolve>{GAUCNS Set flags} 
+ CNSsolve>set echo=off message=off end 
+ EFLAGS: the following energy flags are set
+ EFLAGS: XREF
+ XTAREXPR: ->[TEST SET]    monitor=  0.193
+ XTAREXPR: ->[WORKING SET] monitor=  0.198
+ --------------- cycle=     1 --------------------------------------------------
+ | Etotal =57263.362  grad(E)=7.672      E(XREF)=57263.362                     |
+ -------------------------------------------------------------------------------
+ (atom-i        |atom-j        )    dist.   equil.   delta    energy   const. 
+
+ Number of violations greater   20.000:     0
+ RMS deviation=   0.242
+ EVALUATE: symbol $RMSD_BOND set to   0.242331     (real)
+ (atom-i        |atom-j        |atom-k        )  angle    equil.     delta    energy  const. 
+
+ (E    290  O5  |E    290  C5  |E    290  C4  )   56.542  109.500  -52.958  106.191  124.300
+ (E    290  N4  |E    290  C4  |E    290  C3  )   34.140  108.000  -73.860  184.626  111.100
+ (E    290  C4  |E    290  N4  |E    290  C1  )   28.268  107.000  -78.732 1230.389  651.600
+ (E    290  N4  |E    290  C1  |E    290  C2  )  154.617  101.000   53.617  434.535  496.200
+ (E    290  C2  |E    290  C1  |E    290  C9  )   47.451  120.000  -72.549  214.524  133.800
+ (E    290  C1  |E    290  C2  |E    290  O2  )   29.219  115.000  -85.781  326.806  145.800
+ (E    290  C1  |E    290  C2  |E    290  C3  )   24.180  104.000  -79.820  227.264  117.100
+ (E    290  O2  |E    290  C2  |E    290  C3  )   25.868  111.000  -85.132  279.715  126.700
+ (E    290  C4  |E    290  C3  |E    290  C2  )   19.955  109.500  -89.545  303.604  124.300
+ (E    290  C1  |E    290  C9  |E    290  C41 )   38.899  126.000  -87.101  353.587  153.000
+ (E    290  C9  |E    290  C41 |E    290  N3  )   24.566  126.000 -101.434  479.531  153.000
+ (E    290  N3  |E    290  C41 |E    290  C51 )   70.678  126.000  -55.322  142.640  153.000
+ (E    290  C41 |E    290  N3  |E    290  C21 )   21.859  116.000  -94.141  400.096  148.200
+ (E    290  N3  |E    290  C21 |E    290  N1  )    7.952  120.000 -112.048  511.700  133.800
+ (E    290  C6  |E    290  C51 |E    290  N7  )   22.047  126.000 -103.953  503.641  153.000
+ (E    290  C51 |E    290  N7  |E    290  C8  )   41.690  109.500  -67.810   95.388   68.100
+ Number of violations greater   50.000:    16
+ RMS deviation=   6.355
+ EVALUATE: symbol $RMSD_ANGLE set to    6.35464     (real)
+ ASSFIL: file minimize.pdb opened.
+ NEXTCD: condition evaluated as true
+ WA= 0.85163    
+ EVALUATE: symbol $WA_PRINT set to   0.851630     (real)
+ EVALUATE: symbol $COUNTER set to    1.00000     (real)
+ EVALUATE: symbol $DONE set to FALSE (logical)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ EVALUATE: symbol $COUNTER set to    2.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ EVALUATE: symbol $COUNTER set to    3.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ EVALUATE: symbol $COUNTER set to    4.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ EVALUATE: symbol $COUNTER set to    5.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ EVALUATE: symbol $COUNTER set to    6.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ EVALUATE: symbol $COUNTER set to    7.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $COUNTER set to    8.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $COUNTER set to    9.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $DONE set to TRUE (logical)
+ EVALUATE: symbol $COUNTER set to    10.0000     (real)
+ NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $COUNTER set to    1.00000     (real)
+ EVALUATE: symbol $DONE set to FALSE (logical)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ EVALUATE: symbol $COUNTER set to    2.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $COUNTER set to    3.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $COUNTER set to    4.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $COUNTER set to    5.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $DONE set to TRUE (logical)
+ EVALUATE: symbol $COUNTER set to    6.00000     (real)
+ NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ ANOMalous=FALSe {OFF}
+ NEXTCD: condition evaluated as false
+ SELRPN:   2349 atoms have been selected out of   2349
+ SELRPN:   2349 atoms have been selected out of   2349
+ SELRPN:   2349 atoms have been selected out of   2349
+ SELRPN:   2349 atoms have been selected out of   2349
+ SELRPN:   2349 atoms have been selected out of   2349
+ SELRPN:   2349 atoms have been selected out of   2349
+ SELRPN:   2349 atoms have been selected out of   2349
+ SELRPN:   2349 atoms have been selected out of   2349
+ SELRPN:   2349 atoms have been selected out of   2349
+ ASSFIL: file write_pdb opened.
+ &_2_PDB_O_FORMAT set to true 
+ &_2_COORDINATE_OUTFILE set to &_1_COORDINATE_OUTFILE 
+ &_2_SGPARAM set to $_1_SGPARAM 
+ NEXTCD: condition evaluated as true
+ ASSFIL: file pdbgetsgname opened.
+ &_3_SG set to &_2_SGPARAM.SG_NUMBER 
+ &_3_SGNAME set to $_2_SG_PDB 
+ MESSage=NORM
+ EVALUATE: symbol $MESSAGE_OLD set to "NORM" (string)
+ ECHO=FALSe {OFF}
+ EVALUATE: symbol $ECHO_OLD set to FALSE (logical)
+ NEXTCD: condition evaluated as false
+ DISPlay-file=minimize.pdb
+ EVALUATE: symbol $CURR_DISPLAY set to "minimize.pdb" (string)
+ SELRPN:   2349 atoms have been selected out of   2349
+ VCLOSE: Display file reset to OUTPUT.
+ ASSFIL: file minimize.pdb1 opened.
+ NEXTCD: condition evaluated as true
+ WA= 0.85163    
+ EVALUATE: symbol $WA_PRINT set to   0.851630     (real)
+ EVALUATE: symbol $COUNTER set to    1.00000     (real)
+ EVALUATE: symbol $DONE set to FALSE (logical)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ EVALUATE: symbol $COUNTER set to    2.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ EVALUATE: symbol $COUNTER set to    3.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ EVALUATE: symbol $COUNTER set to    4.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ EVALUATE: symbol $COUNTER set to    5.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ EVALUATE: symbol $COUNTER set to    6.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ EVALUATE: symbol $COUNTER set to    7.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $COUNTER set to    8.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $COUNTER set to    9.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $DONE set to TRUE (logical)
+ EVALUATE: symbol $COUNTER set to    10.0000     (real)
+ NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $COUNTER set to    1.00000     (real)
+ EVALUATE: symbol $DONE set to FALSE (logical)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ EVALUATE: symbol $COUNTER set to    2.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $COUNTER set to    3.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $COUNTER set to    4.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $COUNTER set to    5.00000     (real)
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ EVALUATE: symbol $DONE set to TRUE (logical)
+ EVALUATE: symbol $COUNTER set to    6.00000     (real)
+ NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as false
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as true
+ NEXTCD: condition evaluated as false
+ ANOMalous=FALSe {OFF}
+ NEXTCD: condition evaluated as false
+ SELRPN:   2349 atoms have been selected out of   2349
+ SELRPN:   2349 atoms have been selected out of   2349
+ SELRPN:   2349 atoms have been selected out of   2349
+ ASSFIL: file write_pdb opened.
+ &_2_PDB_O_FORMAT set to true 
+ &_2_COORDINATE_OUTFILE set to minimize.pdb1 
+ &_2_SGPARAM set to $_1_SGPARAM 
+ NEXTCD: condition evaluated as true
+ ASSFIL: file pdbgetsgname opened.
+ &_3_SG set to &_2_SGPARAM.SG_NUMBER 
+ &_3_SGNAME set to $_2_SG_PDB 
+ MESSage=NORM
+ EVALUATE: symbol $MESSAGE_OLD set to "NORM" (string)
+ ECHO=FALSe {OFF}
+ EVALUATE: symbol $ECHO_OLD set to FALSE (logical)
+ NEXTCD: condition evaluated as false
+ DISPlay-file=minimize.pdb1
+ EVALUATE: symbol $CURR_DISPLAY set to "minimize.pdb1" (string)
+ SELRPN:   2349 atoms have been selected out of   2349
+ VCLOSE: Display file reset to OUTPUT.
+          ============================================================
+           Maximum dynamic memory allocation:    50648880 bytes
+           Maximum dynamic memory overhead:          1024 bytes
+           Program started at: 01:09:24 on 11-Jan-2024
+           Program stopped at: 01:09:27 on 11-Jan-2024
+           CPU time used:       2.6667 seconds
+          ============================================================

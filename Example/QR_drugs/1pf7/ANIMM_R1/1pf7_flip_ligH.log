@@ -1,0 +1,998 @@
+This job is running on host node91
+Current directory: /share/home/yanz/QR_App/ChemHPC/NC_more/1pf7/QRs/ANIMM_R1
+Sun Sep  8 14:01:10 CST 2019
+ using Gaussian + CNS
+ External sizes:       14175           1        9450
+
+***********************************************************************
+**                                                                   **
+**                       ---------------------                       **
+**                              DL-FIND                              **
+**                       Geometry Optimisation                       **
+**                       ---------------------                       **
+**                                                                   **
+**                 J. Kaestner, J.M. Carr, T.W. Keal,                **
+**                W. Thiel, A. Wander and P. Sherwood                **
+**                                                                   **
+**              J. Phys. Chem. A, 2009, 113 (43), 11856.             **
+**                                                                   **
+**   Please include this reference in published work using DL-FIND.  **
+**                                                                   **
+**               Copyright:  STFC Daresbury Laboratory               **
+**                           Revision: Unversioned directory         **
+**                                                                   **
+***********************************************************************
+
+
+DL-FIND Report:
+===============
+Optimisation algorithm: L-BFGS
+Number of steps in L-BFGS memory ...............        100
+ 
+Trust radius based on energy
+Maximum step length ............................  5.000E-02
+ 
+Coordinate system: Cartesian coordinates
+ 
+Number of atoms ................................       4725
+Number of input geometries .....................          1
+Variables to be optimised ......................        102
+No restart information is written
+This run has not been restarted.
+Maximum number of steps ........................       2000
+Maximum number of energy evaluations ...........      10000
+ 
+ Energy calculation finished, energy: -8.641193235E+02
+ QM energy (a.u.):   -955.375961001689     
+ XREF energy (a.u.):    91.2566374721376     
+ R(factor) =   0.192430000000000         R(free) =   0.198119000000000     
+Testing convergence  in cycle    1
+  Max grad  5.3608E-03 Target: 4.5000E-03 converged?   no component    31
+  RMS grad  1.5755E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 2.0000E-02
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641193235E+02
+ QM energy (a.u.):   -955.375868049935     
+ XREF energy (a.u.):    91.2561982608893     
+ R(factor) =   0.192429000000000         R(free) =   0.198116000000000     
+ Rejecting step, energy  0.000E+00 higher
+ Energy calculation finished, energy: -8.641196698E+02
+ QM energy (a.u.):   -955.376037457488     
+ XREF energy (a.u.):    91.2564049000909     
+ R(factor) =   0.192430000000000         R(free) =   0.198118000000000     
+Testing convergence  in cycle    3
+    Energy  3.4626E-04 Target: 1.0000E-05 converged?   no
+  Max step  3.3692E-03 Target: 1.8000E-02 converged?  yes component    31
+  RMS step  9.9015E-04 Target: 1.2000E-02 converged?  yes
+  Max grad  8.6076E-03 Target: 4.5000E-03 converged?   no component    34
+  RMS grad  2.3958E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 3.3226E-03
+ Trust radius          2.0000E-02
+ Energy calculation finished, energy: -8.641196326E+02
+ QM energy (a.u.):   -955.376110555847     
+ XREF energy (a.u.):    91.2564875585711     
+ R(factor) =   0.192429000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  3.723E-05 higher
+ Energy calculation finished, energy: -8.641196230E+02
+ QM energy (a.u.):   -955.376079894927     
+ XREF energy (a.u.):    91.2564364917650     
+ R(factor) =   0.192429000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  4.679E-05 higher
+ Energy calculation finished, energy: -8.641196434E+02
+ QM energy (a.u.):   -955.376060146028     
+ XREF energy (a.u.):    91.2564201905320     
+ R(factor) =   0.192429000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  2.639E-05 higher
+ Energy calculation finished, energy: -8.641196400E+02
+ QM energy (a.u.):   -955.376049169107     
+ XREF energy (a.u.):    91.2564125284057     
+ R(factor) =   0.192429000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  2.983E-05 higher
+ Energy calculation finished, energy: -8.641196366E+02
+ QM energy (a.u.):   -955.376043404764     
+ XREF energy (a.u.):    91.2564087088157     
+ R(factor) =   0.192429000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  3.315E-05 higher
+ Energy calculation finished, energy: -8.641196347E+02
+ QM energy (a.u.):   -955.376040453997     
+ XREF energy (a.u.):    91.2564068021688     
+ R(factor) =   0.192430000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  3.509E-05 higher
+ Energy calculation finished, energy: -8.641196336E+02
+ QM energy (a.u.):   -955.376038960918     
+ XREF energy (a.u.):    91.2564058506701     
+ R(factor) =   0.192430000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  3.614E-05 higher
+ Energy calculation finished, energy: -8.641196331E+02
+ QM energy (a.u.):   -955.376038210412     
+ XREF energy (a.u.):    91.2564053753669     
+ R(factor) =   0.192430000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  3.668E-05 higher
+ Energy calculation finished, energy: -8.641196328E+02
+ QM energy (a.u.):   -955.376037834464     
+ XREF energy (a.u.):    91.2564051377480     
+ R(factor) =   0.192430000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  3.695E-05 higher
+ Energy calculation finished, energy: -8.641196327E+02
+ QM energy (a.u.):   -955.376037645671     
+ XREF energy (a.u.):    91.2564050184605     
+ R(factor) =   0.192430000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  3.709E-05 higher
+ Energy calculation finished, energy: -8.641196326E+02
+ QM energy (a.u.):   -955.376037551606     
+ XREF energy (a.u.):    91.2564049597410     
+ R(factor) =   0.192430000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  3.716E-05 higher
+ Energy calculation finished, energy: -8.641196326E+02
+ QM energy (a.u.):   -955.376037504328     
+ XREF energy (a.u.):    91.2564049296841     
+ R(factor) =   0.192430000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  3.720E-05 higher
+ Energy calculation finished, energy: -8.641196326E+02
+ QM energy (a.u.):   -955.376037480796     
+ XREF energy (a.u.):    91.2564049144699     
+ R(factor) =   0.192430000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  3.722E-05 higher
+ Energy calculation finished, energy: -8.641196326E+02
+ QM energy (a.u.):   -955.376037469055     
+ XREF energy (a.u.):    91.2564049072461     
+ R(factor) =   0.192430000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  3.722E-05 higher
+ Energy calculation finished, energy: -8.641196326E+02
+ QM energy (a.u.):   -955.376037462817     
+ XREF energy (a.u.):    91.2564049037306     
+ R(factor) =   0.192430000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  3.723E-05 higher
+ Energy calculation finished, energy: -8.641196326E+02
+ QM energy (a.u.):   -955.376037459903     
+ XREF energy (a.u.):    91.2564049016207     
+ R(factor) =   0.192430000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  3.723E-05 higher
+ Step too small, restarting optimiser.
+Testing convergence  in cycle   19
+    Energy  3.7230E-05 Target: 1.0000E-05 converged?   no
+  Max step  1.8192E-08 Target: 1.8000E-02 converged?  yes component    31
+  RMS step  5.0199E-09 Target: 1.2000E-02 converged?  yes
+  Max grad  3.1081E-03 Target: 4.5000E-03 converged?  yes component    59
+  RMS grad  1.1189E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 2.0000E-02
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641196326E+02
+ QM energy (a.u.):   -955.376259320739     
+ XREF energy (a.u.):    91.2565353879701     
+ R(factor) =   0.192427000000000         R(free) =   0.198118000000000     
+ Rejecting step, energy  0.000E+00 higher
+ Energy calculation finished, energy: -8.641197239E+02
+ QM energy (a.u.):   -955.376234119482     
+ XREF energy (a.u.):    91.2564634324794     
+ R(factor) =   0.192428000000000         R(free) =   0.198118000000000     
+Testing convergence  in cycle   21
+    Energy  9.1370E-05 Target: 1.0000E-05 converged?   no
+  Max step  2.7505E-03 Target: 1.8000E-02 converged?  yes component    59
+  RMS step  9.9015E-04 Target: 1.2000E-02 converged?  yes
+  Max grad  1.1921E-02 Target: 4.5000E-03 converged?   no component    31
+  RMS grad  2.5117E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 2.9638E-03
+ Trust radius          2.0000E-02
+ Energy calculation finished, energy: -8.641197707E+02
+ QM energy (a.u.):   -955.376253463898     
+ XREF energy (a.u.):    91.2563886145978     
+ R(factor) =   0.192428000000000         R(free) =   0.198118000000000     
+Testing convergence  in cycle   22
+    Energy  4.6760E-05 Target: 1.0000E-05 converged?   no
+  Max step  1.3082E-03 Target: 1.8000E-02 converged?  yes component    31
+  RMS step  2.9346E-04 Target: 1.2000E-02 converged?  yes
+  Max grad  5.0935E-03 Target: 4.5000E-03 converged?   no component    31
+  RMS grad  1.2180E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 1.3953E-02
+ Trust radius          4.0000E-02
+ Energy calculation finished, energy: -8.641198648E+02
+ QM energy (a.u.):   -955.376380149099     
+ XREF energy (a.u.):    91.2562206352976     
+ R(factor) =   0.192426000000000         R(free) =   0.198116000000000     
+Testing convergence  in cycle   23
+    Energy  9.4160E-05 Target: 1.0000E-05 converged?   no
+  Max step  4.7180E-03 Target: 1.8000E-02 converged?  yes component    78
+  RMS step  1.3815E-03 Target: 1.2000E-02 converged?  yes
+  Max grad  3.0971E-03 Target: 4.5000E-03 converged?  yes component    78
+  RMS grad  8.5374E-04 Target: 3.0000E-03 converged?  yes
+ Predicted step length 8.8560E-02
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641201595E+02
+ QM energy (a.u.):   -955.376370811290     
+ XREF energy (a.u.):    91.2556536225014     
+ R(factor) =   0.192423000000000         R(free) =   0.198112000000000     
+Testing convergence  in cycle   24
+    Energy  2.9466E-04 Target: 1.0000E-05 converged?   no
+  Max step  1.7413E-02 Target: 1.8000E-02 converged?  yes component    78
+  RMS step  4.9507E-03 Target: 1.2000E-02 converged?  yes
+  Max grad  4.5531E-03 Target: 4.5000E-03 converged?   no component    45
+  RMS grad  1.1334E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 1.3086E-01
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641207172E+02
+ QM energy (a.u.):   -955.375993708427     
+ XREF energy (a.u.):    91.2551652773787     
+ R(factor) =   0.192419000000000         R(free) =   0.198108000000000     
+Testing convergence  in cycle   25
+    Energy  5.5768E-04 Target: 1.0000E-05 converged?   no
+  Max step  1.8290E-02 Target: 1.8000E-02 converged?   no component    78
+  RMS step  4.9507E-03 Target: 1.2000E-02 converged?  yes
+  Max grad  1.5297E-02 Target: 4.5000E-03 converged?   no component    45
+  RMS grad  3.4235E-03 Target: 3.0000E-03 converged?   no
+ Predicted step length 3.2587E-02
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641208284E+02
+ QM energy (a.u.):   -955.375997825007     
+ XREF energy (a.u.):    91.2546702358402     
+ R(factor) =   0.192417000000000         R(free) =   0.198106000000000     
+Testing convergence  in cycle   26
+    Energy  1.1124E-04 Target: 1.0000E-05 converged?   no
+  Max step  1.2553E-02 Target: 1.8000E-02 converged?  yes component    78
+  RMS step  3.2266E-03 Target: 1.2000E-02 converged?  yes
+  Max grad  2.4337E-02 Target: 4.5000E-03 converged?   no component    31
+  RMS grad  4.9556E-03 Target: 3.0000E-03 converged?   no
+ Predicted step length 1.0630E-01
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641213276E+02
+ QM energy (a.u.):   -955.374986918800     
+ XREF energy (a.u.):    91.2555509081054     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+Testing convergence  in cycle   27
+    Energy  4.9916E-04 Target: 1.0000E-05 converged?   no
+  Max step  1.8876E-02 Target: 1.8000E-02 converged?   no component    78
+  RMS step  4.9507E-03 Target: 1.2000E-02 converged?  yes
+  Max grad  2.9037E-02 Target: 4.5000E-03 converged?   no component    31
+  RMS grad  5.1886E-03 Target: 3.0000E-03 converged?   no
+ Predicted step length 4.3200E-02
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641194360E+02
+ QM energy (a.u.):   -955.374948389952     
+ XREF energy (a.u.):    91.2556097201984     
+ R(factor) =   0.192434000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.892E-03 higher
+ Energy calculation finished, energy: -8.641193387E+02
+ QM energy (a.u.):   -955.375088902953     
+ XREF energy (a.u.):    91.2555775767791     
+ R(factor) =   0.192436000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.989E-03 higher
+ Energy calculation finished, energy: -8.641195113E+02
+ QM energy (a.u.):   -955.375067961273     
+ XREF energy (a.u.):    91.2555741375948     
+ R(factor) =   0.192438000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.816E-03 higher
+ Energy calculation finished, energy: -8.641194938E+02
+ QM energy (a.u.):   -955.375034916061     
+ XREF energy (a.u.):    91.2555675646880     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.834E-03 higher
+ Energy calculation finished, energy: -8.641194674E+02
+ QM energy (a.u.):   -955.375012782039     
+ XREF energy (a.u.):    91.2555656799580     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.860E-03 higher
+ Energy calculation finished, energy: -8.641194471E+02
+ QM energy (a.u.):   -955.375000315592     
+ XREF energy (a.u.):    91.2555649525676     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.880E-03 higher
+ Energy calculation finished, energy: -8.641194354E+02
+ QM energy (a.u.):   -955.374993733275     
+ XREF energy (a.u.):    91.2555514349011     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.892E-03 higher
+ Energy calculation finished, energy: -8.641194423E+02
+ QM energy (a.u.):   -955.374990354139     
+ XREF energy (a.u.):    91.2555511869429     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.885E-03 higher
+ Energy calculation finished, energy: -8.641194392E+02
+ QM energy (a.u.):   -955.374988642967     
+ XREF energy (a.u.):    91.2555510271826     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.888E-03 higher
+ Energy calculation finished, energy: -8.641194376E+02
+ QM energy (a.u.):   -955.374987782816     
+ XREF energy (a.u.):    91.2555509675150     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.890E-03 higher
+ Energy calculation finished, energy: -8.641194368E+02
+ QM energy (a.u.):   -955.374987349965     
+ XREF energy (a.u.):    91.2555509378118     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.891E-03 higher
+ Energy calculation finished, energy: -8.641194364E+02
+ QM energy (a.u.):   -955.374987133428     
+ XREF energy (a.u.):    91.2555509225913     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.891E-03 higher
+ Energy calculation finished, energy: -8.641194362E+02
+ QM energy (a.u.):   -955.374987025283     
+ XREF energy (a.u.):    91.2555509152081     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.891E-03 higher
+ Energy calculation finished, energy: -8.641194361E+02
+ QM energy (a.u.):   -955.374986972416     
+ XREF energy (a.u.):    91.2555509116066     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.891E-03 higher
+ Energy calculation finished, energy: -8.641194361E+02
+ QM energy (a.u.):   -955.374986945054     
+ XREF energy (a.u.):    91.2555509102632     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.892E-03 higher
+ Energy calculation finished, energy: -8.641194360E+02
+ QM energy (a.u.):   -955.374986931684     
+ XREF energy (a.u.):    91.2555509084497     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.892E-03 higher
+ Energy calculation finished, energy: -8.641194360E+02
+ QM energy (a.u.):   -955.374986924724     
+ XREF energy (a.u.):    91.2555509086951     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.892E-03 higher
+ Energy calculation finished, energy: -8.641194360E+02
+ QM energy (a.u.):   -955.374986920878     
+ XREF energy (a.u.):    91.2555509080385     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.892E-03 higher
+ Energy calculation finished, energy: -8.641194360E+02
+ QM energy (a.u.):   -955.374986919470     
+ XREF energy (a.u.):    91.2555509082441     
+ R(factor) =   0.192439000000000         R(free) =   0.198122000000000     
+ Rejecting step, energy  1.892E-03 higher
+ Step too small, restarting optimiser.
+Testing convergence  in cycle   46
+    Energy  1.8916E-03 Target: 1.0000E-05 converged?   no
+  Max step  3.3121E-08 Target: 1.8000E-02 converged?  yes component    78
+  RMS step  8.1585E-09 Target: 1.2000E-02 converged?  yes
+  Max grad  3.5186E-02 Target: 4.5000E-03 converged?   no component    45
+  RMS grad  8.4495E-03 Target: 3.0000E-03 converged?   no
+ Predicted step length 2.0000E-02
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641194360E+02
+ QM energy (a.u.):   -955.377176186555     
+ XREF energy (a.u.):    91.2556934984699     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  0.000E+00 higher
+ Energy calculation finished, energy: -8.641214827E+02
+ QM energy (a.u.):   -955.376348172260     
+ XREF energy (a.u.):    91.2556182162044     
+ R(factor) =   0.192435000000000         R(free) =   0.198123000000000     
+Testing convergence  in cycle   48
+    Energy  2.0467E-03 Target: 1.0000E-05 converged?   no
+  Max step  4.1233E-03 Target: 1.8000E-02 converged?  yes component    45
+  RMS step  9.9015E-04 Target: 1.2000E-02 converged?  yes
+  Max grad  1.2167E-02 Target: 4.5000E-03 converged?   no component    51
+  RMS grad  3.1860E-03 Target: 3.0000E-03 converged?   no
+ Predicted step length 7.0273E-03
+ Trust radius          2.0000E-02
+ Energy calculation finished, energy: -8.641207300E+02
+ QM energy (a.u.):   -955.376983938282     
+ XREF energy (a.u.):    91.2556646293081     
+ R(factor) =   0.192433000000000         R(free) =   0.198124000000000     
+ Rejecting step, energy  7.527E-04 higher
+ Energy calculation finished, energy: -8.641213193E+02
+ QM energy (a.u.):   -955.376688133140     
+ XREF energy (a.u.):    91.2556404147396     
+ R(factor) =   0.192434000000000         R(free) =   0.198124000000000     
+ Rejecting step, energy  1.634E-04 higher
+ Energy calculation finished, energy: -8.641210477E+02
+ QM energy (a.u.):   -955.376523674187     
+ XREF energy (a.u.):    91.2556322954230     
+ R(factor) =   0.192435000000000         R(free) =   0.198124000000000     
+ Rejecting step, energy  4.350E-04 higher
+ Energy calculation finished, energy: -8.641208914E+02
+ QM energy (a.u.):   -955.376437305030     
+ XREF energy (a.u.):    91.2556244205444     
+ R(factor) =   0.192435000000000         R(free) =   0.198124000000000     
+ Rejecting step, energy  5.913E-04 higher
+ Energy calculation finished, energy: -8.641208129E+02
+ QM energy (a.u.):   -955.376393084882     
+ XREF energy (a.u.):    91.2556213137713     
+ R(factor) =   0.192435000000000         R(free) =   0.198124000000000     
+ Rejecting step, energy  6.698E-04 higher
+ Energy calculation finished, energy: -8.641207718E+02
+ QM energy (a.u.):   -955.376370715036     
+ XREF energy (a.u.):    91.2556197644213     
+ R(factor) =   0.192435000000000         R(free) =   0.198123000000000     
+ Rejecting step, energy  7.109E-04 higher
+ Energy calculation finished, energy: -8.641207510E+02
+ QM energy (a.u.):   -955.376359464948     
+ XREF energy (a.u.):    91.2556189903718     
+ R(factor) =   0.192435000000000         R(free) =   0.198123000000000     
+ Rejecting step, energy  7.317E-04 higher
+ Energy calculation finished, energy: -8.641207405E+02
+ QM energy (a.u.):   -955.376353824624     
+ XREF energy (a.u.):    91.2556186032507     
+ R(factor) =   0.192435000000000         R(free) =   0.198123000000000     
+ Rejecting step, energy  7.422E-04 higher
+ Energy calculation finished, energy: -8.641207352E+02
+ QM energy (a.u.):   -955.376351000453     
+ XREF energy (a.u.):    91.2556184097698     
+ R(factor) =   0.192435000000000         R(free) =   0.198123000000000     
+ Rejecting step, energy  7.475E-04 higher
+ Energy calculation finished, energy: -8.641207326E+02
+ QM energy (a.u.):   -955.376349587150     
+ XREF energy (a.u.):    91.2556183134030     
+ R(factor) =   0.192435000000000         R(free) =   0.198123000000000     
+ Rejecting step, energy  7.501E-04 higher
+ Energy calculation finished, energy: -8.641207313E+02
+ QM energy (a.u.):   -955.376348879295     
+ XREF energy (a.u.):    91.2556182649224     
+ R(factor) =   0.192435000000000         R(free) =   0.198123000000000     
+ Rejecting step, energy  7.514E-04 higher
+ Energy calculation finished, energy: -8.641207306E+02
+ QM energy (a.u.):   -955.376348526829     
+ XREF energy (a.u.):    91.2556182406567     
+ R(factor) =   0.192435000000000         R(free) =   0.198123000000000     
+ Rejecting step, energy  7.521E-04 higher
+ Energy calculation finished, energy: -8.641207303E+02
+ QM energy (a.u.):   -955.376348350275     
+ XREF energy (a.u.):    91.2556182284481     
+ R(factor) =   0.192435000000000         R(free) =   0.198123000000000     
+ Rejecting step, energy  7.524E-04 higher
+ Energy calculation finished, energy: -8.641207301E+02
+ QM energy (a.u.):   -955.376348261232     
+ XREF energy (a.u.):    91.2556182228147     
+ R(factor) =   0.192435000000000         R(free) =   0.198123000000000     
+ Rejecting step, energy  7.526E-04 higher
+ Energy calculation finished, energy: -8.641207300E+02
+ QM energy (a.u.):   -955.376348217825     
+ XREF energy (a.u.):    91.2556182196482     
+ R(factor) =   0.192435000000000         R(free) =   0.198123000000000     
+ Rejecting step, energy  7.526E-04 higher
+ Energy calculation finished, energy: -8.641207300E+02
+ QM energy (a.u.):   -955.376348194925     
+ XREF energy (a.u.):    91.2556182186331     
+ R(factor) =   0.192435000000000         R(free) =   0.198123000000000     
+ Rejecting step, energy  7.527E-04 higher
+ Energy calculation finished, energy: -8.641207300E+02
+ QM energy (a.u.):   -955.376348184428     
+ XREF energy (a.u.):    91.2556182169901     
+ R(factor) =   0.192435000000000         R(free) =   0.198123000000000     
+ Rejecting step, energy  7.527E-04 higher
+ Step too small, restarting optimiser.
+Testing convergence  in cycle   65
+    Energy  7.5271E-04 Target: 1.0000E-05 converged?   no
+  Max step  2.0256E-08 Target: 1.8000E-02 converged?  yes component    51
+  RMS step  5.3086E-09 Target: 1.2000E-02 converged?  yes
+  Max grad  2.0584E-02 Target: 4.5000E-03 converged?   no component    45
+  RMS grad  5.6525E-03 Target: 3.0000E-03 converged?   no
+ Predicted step length 2.0000E-02
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641207300E+02
+ QM energy (a.u.):   -955.377592125535     
+ XREF energy (a.u.):    91.2557813564997     
+ R(factor) =   0.192427000000000         R(free) =   0.198126000000000     
+ Rejecting step, energy  1.000E-08 higher
+ Energy calculation finished, energy: -8.641218108E+02
+ QM energy (a.u.):   -955.377211626276     
+ XREF energy (a.u.):    91.2556963616767     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+Testing convergence  in cycle   67
+    Energy  1.0808E-03 Target: 1.0000E-05 converged?   no
+  Max step  3.6057E-03 Target: 1.8000E-02 converged?  yes component    45
+  RMS step  9.9015E-04 Target: 1.2000E-02 converged?  yes
+  Max grad  4.4040E-03 Target: 4.5000E-03 converged?  yes component    48
+  RMS grad  1.6918E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 3.7827E-03
+ Trust radius          2.0000E-02
+ Energy calculation finished, energy: -8.641215153E+02
+ QM energy (a.u.):   -955.377383822900     
+ XREF energy (a.u.):    91.2557041174112     
+ R(factor) =   0.192430000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.955E-04 higher
+ Energy calculation finished, energy: -8.641216797E+02
+ QM energy (a.u.):   -955.377301209884     
+ XREF energy (a.u.):    91.2556977032591     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  1.311E-04 higher
+ Energy calculation finished, energy: -8.641216035E+02
+ QM energy (a.u.):   -955.377257288937     
+ XREF energy (a.u.):    91.2556967083570     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.073E-04 higher
+ Energy calculation finished, energy: -8.641215606E+02
+ QM energy (a.u.):   -955.377234674493     
+ XREF energy (a.u.):    91.2556960948088     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.502E-04 higher
+ Energy calculation finished, energy: -8.641215386E+02
+ QM energy (a.u.):   -955.377223205235     
+ XREF energy (a.u.):    91.2556957754716     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.722E-04 higher
+ Energy calculation finished, energy: -8.641215274E+02
+ QM energy (a.u.):   -955.377217428995     
+ XREF energy (a.u.):    91.2556956235773     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.833E-04 higher
+ Energy calculation finished, energy: -8.641215218E+02
+ QM energy (a.u.):   -955.377214531012     
+ XREF energy (a.u.):    91.2556964373234     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.890E-04 higher
+ Energy calculation finished, energy: -8.641215181E+02
+ QM energy (a.u.):   -955.377213079311     
+ XREF energy (a.u.):    91.2556963996666     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.927E-04 higher
+ Energy calculation finished, energy: -8.641215167E+02
+ QM energy (a.u.):   -955.377212353017     
+ XREF energy (a.u.):    91.2556963804844     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.941E-04 higher
+ Energy calculation finished, energy: -8.641215160E+02
+ QM energy (a.u.):   -955.377211989919     
+ XREF energy (a.u.):    91.2556963711730     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.948E-04 higher
+ Energy calculation finished, energy: -8.641215156E+02
+ QM energy (a.u.):   -955.377211807448     
+ XREF energy (a.u.):    91.2556963660480     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.952E-04 higher
+ Energy calculation finished, energy: -8.641215154E+02
+ QM energy (a.u.):   -955.377211717208     
+ XREF energy (a.u.):    91.2556963638281     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.953E-04 higher
+ Energy calculation finished, energy: -8.641215153E+02
+ QM energy (a.u.):   -955.377211672056     
+ XREF energy (a.u.):    91.2556963627604     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.954E-04 higher
+ Energy calculation finished, energy: -8.641215153E+02
+ QM energy (a.u.):   -955.377211649105     
+ XREF energy (a.u.):    91.2556963627556     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.955E-04 higher
+ Energy calculation finished, energy: -8.641215153E+02
+ QM energy (a.u.):   -955.377211637663     
+ XREF energy (a.u.):    91.2556963616863     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.955E-04 higher
+ Energy calculation finished, energy: -8.641215153E+02
+ QM energy (a.u.):   -955.377211632165     
+ XREF energy (a.u.):    91.2556963616225     
+ R(factor) =   0.192431000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.955E-04 higher
+ Step too small, restarting optimiser.
+Testing convergence  in cycle   83
+    Energy  2.9549E-04 Target: 1.0000E-05 converged?   no
+  Max step  1.7354E-08 Target: 1.8000E-02 converged?  yes component    50
+  RMS step  5.7151E-09 Target: 1.2000E-02 converged?  yes
+  Max grad  1.1815E-02 Target: 4.5000E-03 converged?   no component    31
+  RMS grad  3.1890E-03 Target: 3.0000E-03 converged?   no
+ Predicted step length 2.0000E-02
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641215153E+02
+ QM energy (a.u.):   -955.377719636916     
+ XREF energy (a.u.):    91.2558411648429     
+ R(factor) =   0.192423000000000         R(free) =   0.198128000000000     
+ Rejecting step, energy  1.000E-08 higher
+ Energy calculation finished, energy: -8.641218785E+02
+ QM energy (a.u.):   -955.377661546302     
+ XREF energy (a.u.):    91.2557700601974     
+ R(factor) =   0.192427000000000         R(free) =   0.198126000000000     
+Testing convergence  in cycle   85
+    Energy  3.6319E-04 Target: 1.0000E-05 converged?   no
+  Max step  3.6685E-03 Target: 1.8000E-02 converged?  yes component    31
+  RMS step  9.9015E-04 Target: 1.2000E-02 converged?  yes
+  Max grad  8.1876E-03 Target: 4.5000E-03 converged?   no component    45
+  RMS grad  2.2059E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 3.1240E-03
+ Trust radius          2.0000E-02
+ Energy calculation finished, energy: -8.641218915E+02
+ QM energy (a.u.):   -955.377678203961     
+ XREF energy (a.u.):    91.2557381855010     
+ R(factor) =   0.192427000000000         R(free) =   0.198126000000000     
+Testing convergence  in cycle   86
+    Energy  1.3020E-05 Target: 1.0000E-05 converged?   no
+  Max step  1.0727E-03 Target: 1.8000E-02 converged?  yes component    45
+  RMS step  3.0933E-04 Target: 1.2000E-02 converged?  yes
+  Max grad  4.2281E-03 Target: 4.5000E-03 converged?  yes component    50
+  RMS grad  1.4999E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 9.6446E-03
+ Trust radius          4.0000E-02
+ Energy calculation finished, energy: -8.641219400E+02
+ QM energy (a.u.):   -955.377827264884     
+ XREF energy (a.u.):    91.2556860547803     
+ R(factor) =   0.192426000000000         R(free) =   0.198126000000000     
+Testing convergence  in cycle   87
+    Energy  4.8530E-05 Target: 1.0000E-05 converged?   no
+  Max step  2.7867E-03 Target: 1.8000E-02 converged?  yes component    65
+  RMS step  9.5496E-04 Target: 1.2000E-02 converged?  yes
+  Max grad  5.9640E-03 Target: 4.5000E-03 converged?   no component    31
+  RMS grad  1.7126E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 5.8885E-02
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641221412E+02
+ QM energy (a.u.):   -955.377536800221     
+ XREF energy (a.u.):    91.2554480803534     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+Testing convergence  in cycle   88
+    Energy  2.0119E-04 Target: 1.0000E-05 converged?   no
+  Max step  1.5255E-02 Target: 1.8000E-02 converged?  yes component    65
+  RMS step  4.9507E-03 Target: 1.2000E-02 converged?  yes
+  Max grad  1.0027E-02 Target: 4.5000E-03 converged?   no component    45
+  RMS grad  2.1502E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 1.3437E-01
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641220887E+02
+ QM energy (a.u.):   -955.376628533633     
+ XREF energy (a.u.):    91.2551806496577     
+ R(factor) =   0.192404000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.249E-05 higher
+ Energy calculation finished, energy: -8.641214479E+02
+ QM energy (a.u.):   -955.377220804492     
+ XREF energy (a.u.):    91.2553137684698     
+ R(factor) =   0.192408000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  6.933E-04 higher
+ Energy calculation finished, energy: -8.641219070E+02
+ QM energy (a.u.):   -955.377413260895     
+ XREF energy (a.u.):    91.2553861394382     
+ R(factor) =   0.192411000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  2.342E-04 higher
+ Energy calculation finished, energy: -8.641220271E+02
+ QM energy (a.u.):   -955.377483642153     
+ XREF energy (a.u.):    91.2554264186089     
+ R(factor) =   0.192412000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  1.141E-04 higher
+ Energy calculation finished, energy: -8.641220572E+02
+ QM energy (a.u.):   -955.377512373762     
+ XREF energy (a.u.):    91.2554285007672     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  8.399E-05 higher
+ Energy calculation finished, energy: -8.641220839E+02
+ QM energy (a.u.):   -955.377525124835     
+ XREF energy (a.u.):    91.2554385027214     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.734E-05 higher
+ Energy calculation finished, energy: -8.641220866E+02
+ QM energy (a.u.):   -955.377531096670     
+ XREF energy (a.u.):    91.2554442633498     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.459E-05 higher
+ Energy calculation finished, energy: -8.641220868E+02
+ QM energy (a.u.):   -955.377533982458     
+ XREF energy (a.u.):    91.2554456146787     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.438E-05 higher
+ Energy calculation finished, energy: -8.641220884E+02
+ QM energy (a.u.):   -955.377535399741     
+ XREF energy (a.u.):    91.2554468481431     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.284E-05 higher
+ Energy calculation finished, energy: -8.641220885E+02
+ QM energy (a.u.):   -955.377536102093     
+ XREF energy (a.u.):    91.2554474635272     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.266E-05 higher
+ Energy calculation finished, energy: -8.641220886E+02
+ QM energy (a.u.):   -955.377536452126     
+ XREF energy (a.u.):    91.2554477718606     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.257E-05 higher
+ Energy calculation finished, energy: -8.641220887E+02
+ QM energy (a.u.):   -955.377536625672     
+ XREF energy (a.u.):    91.2554479259445     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.253E-05 higher
+ Energy calculation finished, energy: -8.641220887E+02
+ QM energy (a.u.):   -955.377536713728     
+ XREF energy (a.u.):    91.2554480028549     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.251E-05 higher
+ Energy calculation finished, energy: -8.641220887E+02
+ QM energy (a.u.):   -955.377536756815     
+ XREF energy (a.u.):    91.2554480419109     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.250E-05 higher
+ Energy calculation finished, energy: -8.641220887E+02
+ QM energy (a.u.):   -955.377536778453     
+ XREF energy (a.u.):    91.2554480614947     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.250E-05 higher
+ Energy calculation finished, energy: -8.641220887E+02
+ QM energy (a.u.):   -955.377536789206     
+ XREF energy (a.u.):    91.2554480704157     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.249E-05 higher
+ Energy calculation finished, energy: -8.641220887E+02
+ QM energy (a.u.):   -955.377536794757     
+ XREF energy (a.u.):    91.2554480757160     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.249E-05 higher
+ Energy calculation finished, energy: -8.641220887E+02
+ QM energy (a.u.):   -955.377536797808     
+ XREF energy (a.u.):    91.2554480780666     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.249E-05 higher
+ Energy calculation finished, energy: -8.641220887E+02
+ QM energy (a.u.):   -955.377536798165     
+ XREF energy (a.u.):    91.2554480791598     
+ R(factor) =   0.192413000000000         R(free) =   0.198125000000000     
+ Rejecting step, energy  5.249E-05 higher
+ Step too small, restarting optimiser.
+Testing convergence  in cycle  107
+    Energy  5.2490E-05 Target: 1.0000E-05 converged?   no
+  Max step  3.0563E-08 Target: 1.8000E-02 converged?  yes component    65
+  RMS step  9.4428E-09 Target: 1.2000E-02 converged?  yes
+  Max grad  3.1865E-02 Target: 4.5000E-03 converged?   no component    45
+  RMS grad  5.7701E-03 Target: 3.0000E-03 converged?   no
+ Predicted step length 2.0000E-02
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641220887E+02
+ QM energy (a.u.):   -955.378458392580     
+ XREF energy (a.u.):    91.2555486422972     
+ R(factor) =   0.192408000000000         R(free) =   0.198128000000000     
+ Rejecting step, energy  0.000E+00 higher
+ Energy calculation finished, energy: -8.641229097E+02
+ QM energy (a.u.):   -955.378302258595     
+ XREF energy (a.u.):    91.2555230836826     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+Testing convergence  in cycle  109
+    Energy  8.2103E-04 Target: 1.0000E-05 converged?   no
+  Max step  5.4680E-03 Target: 1.8000E-02 converged?  yes component    45
+  RMS step  9.9015E-04 Target: 1.2000E-02 converged?  yes
+  Max grad  7.0220E-03 Target: 4.5000E-03 converged?   no component    45
+  RMS grad  1.4253E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 1.8331E-03
+ Trust radius          2.0000E-02
+ Energy calculation finished, energy: -8.641227792E+02
+ QM energy (a.u.):   -955.378306490481     
+ XREF energy (a.u.):    91.2555347757449     
+ R(factor) =   0.192411000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.306E-04 higher
+ Energy calculation finished, energy: -8.641227717E+02
+ QM energy (a.u.):   -955.378305902583     
+ XREF energy (a.u.):    91.2555280089747     
+ R(factor) =   0.192411000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.380E-04 higher
+ Energy calculation finished, energy: -8.641227779E+02
+ QM energy (a.u.):   -955.378304462400     
+ XREF energy (a.u.):    91.2555248757191     
+ R(factor) =   0.192411000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.319E-04 higher
+ Energy calculation finished, energy: -8.641227796E+02
+ QM energy (a.u.):   -955.378303455682     
+ XREF energy (a.u.):    91.2555234114835     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.302E-04 higher
+ Energy calculation finished, energy: -8.641227800E+02
+ QM energy (a.u.):   -955.378302881084     
+ XREF energy (a.u.):    91.2555226894093     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.297E-04 higher
+ Energy calculation finished, energy: -8.641227802E+02
+ QM energy (a.u.):   -955.378302576196     
+ XREF energy (a.u.):    91.2555234444232     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.296E-04 higher
+ Energy calculation finished, energy: -8.641227791E+02
+ QM energy (a.u.):   -955.378302419002     
+ XREF energy (a.u.):    91.2555232639318     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.306E-04 higher
+ Energy calculation finished, energy: -8.641227792E+02
+ QM energy (a.u.):   -955.378302339643     
+ XREF energy (a.u.):    91.2555231735411     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.306E-04 higher
+ Energy calculation finished, energy: -8.641227792E+02
+ QM energy (a.u.):   -955.378302299699     
+ XREF energy (a.u.):    91.2555231285967     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.306E-04 higher
+ Energy calculation finished, energy: -8.641227792E+02
+ QM energy (a.u.):   -955.378302279233     
+ XREF energy (a.u.):    91.2555231061157     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.306E-04 higher
+ Energy calculation finished, energy: -8.641227792E+02
+ QM energy (a.u.):   -955.378302269036     
+ XREF energy (a.u.):    91.2555230948665     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.306E-04 higher
+ Energy calculation finished, energy: -8.641227792E+02
+ QM energy (a.u.):   -955.378302263925     
+ XREF energy (a.u.):    91.2555230891470     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.306E-04 higher
+ Energy calculation finished, energy: -8.641227792E+02
+ QM energy (a.u.):   -955.378302261423     
+ XREF energy (a.u.):    91.2555230863519     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.306E-04 higher
+ Energy calculation finished, energy: -8.641227792E+02
+ QM energy (a.u.):   -955.378302259822     
+ XREF energy (a.u.):    91.2555230850371     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.306E-04 higher
+ Energy calculation finished, energy: -8.641227792E+02
+ QM energy (a.u.):   -955.378302259085     
+ XREF energy (a.u.):    91.2555230843806     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.306E-04 higher
+ Step too small, restarting optimiser.
+Testing convergence  in cycle  124
+    Energy  1.3058E-04 Target: 1.0000E-05 converged?   no
+  Max step  2.5279E-08 Target: 1.8000E-02 converged?  yes component    45
+  RMS step  5.5391E-09 Target: 1.2000E-02 converged?  yes
+  Max grad  1.1792E-02 Target: 4.5000E-03 converged?   no component    45
+  RMS grad  2.5435E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 2.0000E-02
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641227792E+02
+ QM energy (a.u.):   -955.378296460956     
+ XREF energy (a.u.):    91.2556520287791     
+ R(factor) =   0.192408000000000         R(free) =   0.198129000000000     
+ Rejecting step, energy  0.000E+00 higher
+ Energy calculation finished, energy: -8.641226444E+02
+ QM energy (a.u.):   -955.378548773556     
+ XREF energy (a.u.):    91.2555726083227     
+ R(factor) =   0.192409000000000         R(free) =   0.198128000000000     
+ Rejecting step, energy  1.347E-04 higher
+ Energy calculation finished, energy: -8.641229762E+02
+ QM energy (a.u.):   -955.378489331316     
+ XREF energy (a.u.):    91.2555483413326     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+Testing convergence  in cycle  127
+    Energy  1.9700E-04 Target: 1.0000E-05 converged?   no
+  Max step  2.2952E-03 Target: 1.8000E-02 converged?  yes component    45
+  RMS step  4.9507E-04 Target: 1.2000E-02 converged?  yes
+  Max grad  4.4751E-03 Target: 4.5000E-03 converged?  yes component    45
+  RMS grad  1.0458E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 1.6090E-03
+ Trust radius          1.0000E-02
+ Energy calculation finished, energy: -8.641229410E+02
+ QM energy (a.u.):   -955.378525597682     
+ XREF energy (a.u.):    91.2555540395969     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  3.518E-05 higher
+ Energy calculation finished, energy: -8.641229716E+02
+ QM energy (a.u.):   -955.378507982320     
+ XREF energy (a.u.):    91.2555514367417     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  4.610E-06 higher
+ Energy calculation finished, energy: -8.641229566E+02
+ QM energy (a.u.):   -955.378498786351     
+ XREF energy (a.u.):    91.2555499908421     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  1.962E-05 higher
+ Energy calculation finished, energy: -8.641229488E+02
+ QM energy (a.u.):   -955.378494091361     
+ XREF energy (a.u.):    91.2555490492412     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  2.737E-05 higher
+ Energy calculation finished, energy: -8.641229450E+02
+ QM energy (a.u.):   -955.378491719234     
+ XREF energy (a.u.):    91.2555486907539     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  3.113E-05 higher
+ Energy calculation finished, energy: -8.641229430E+02
+ QM energy (a.u.):   -955.378490526948     
+ XREF energy (a.u.):    91.2555485162369     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  3.314E-05 higher
+ Energy calculation finished, energy: -8.641229420E+02
+ QM energy (a.u.):   -955.378489929777     
+ XREF energy (a.u.):    91.2555484294413     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  3.416E-05 higher
+ Energy calculation finished, energy: -8.641229415E+02
+ QM energy (a.u.):   -955.378489630599     
+ XREF energy (a.u.):    91.2555483846658     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  3.467E-05 higher
+ Energy calculation finished, energy: -8.641229413E+02
+ QM energy (a.u.):   -955.378489481067     
+ XREF energy (a.u.):    91.2555483630741     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  3.492E-05 higher
+ Energy calculation finished, energy: -8.641229411E+02
+ QM energy (a.u.):   -955.378489406501     
+ XREF energy (a.u.):    91.2555483519938     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  3.505E-05 higher
+ Energy calculation finished, energy: -8.641229411E+02
+ QM energy (a.u.):   -955.378489369194     
+ XREF energy (a.u.):    91.2555483467445     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  3.512E-05 higher
+ Energy calculation finished, energy: -8.641229410E+02
+ QM energy (a.u.):   -955.378489350065     
+ XREF energy (a.u.):    91.2555483442298     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  3.515E-05 higher
+ Energy calculation finished, energy: -8.641229410E+02
+ QM energy (a.u.):   -955.378489341000     
+ XREF energy (a.u.):    91.2555483425358     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  3.516E-05 higher
+ Energy calculation finished, energy: -8.641229410E+02
+ QM energy (a.u.):   -955.378489336396     
+ XREF energy (a.u.):    91.2555483425565     
+ R(factor) =   0.192410000000000         R(free) =   0.198127000000000     
+ Rejecting step, energy  3.517E-05 higher
+ Step too small, restarting optimiser.
+Testing convergence  in cycle  141
+    Energy  3.5170E-05 Target: 1.0000E-05 converged?   no
+  Max step  3.1454E-08 Target: 1.8000E-02 converged?  yes component    59
+  RMS step  9.7237E-09 Target: 1.2000E-02 converged?  yes
+  Max grad  4.4375E-03 Target: 4.5000E-03 converged?  yes component    48
+  RMS grad  1.2921E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 2.0000E-02
+ Trust radius          5.0000E-02
+ Energy calculation finished, energy: -8.641229410E+02
+ QM energy (a.u.):   -955.378470980775     
+ XREF energy (a.u.):    91.2557016788326     
+ R(factor) =   0.192411000000000         R(free) =   0.198131000000000     
+ Rejecting step, energy  1.000E-08 higher
+ Energy calculation finished, energy: -8.641227693E+02
+ QM energy (a.u.):   -955.378635424175     
+ XREF energy (a.u.):    91.2556174029555     
+ R(factor) =   0.192410000000000         R(free) =   0.198129000000000     
+ Rejecting step, energy  1.717E-04 higher
+ Energy calculation finished, energy: -8.641230180E+02
+ QM energy (a.u.):   -955.378601617162     
+ XREF energy (a.u.):    91.2555742669651     
+ R(factor) =   0.192410000000000         R(free) =   0.198128000000000     
+Testing convergence  in cycle  144
+    Energy  7.7020E-05 Target: 1.0000E-05 converged?   no
+  Max step  1.7002E-03 Target: 1.8000E-02 converged?  yes component    48
+  RMS step  4.9507E-04 Target: 1.2000E-02 converged?  yes
+  Max grad  6.7679E-03 Target: 4.5000E-03 converged?   no component    45
+  RMS grad  1.3234E-03 Target: 3.0000E-03 converged?  yes
+ Predicted step length 1.8963E-03
+ Trust radius          1.0000E-02
+ Energy calculation finished, energy: -8.641230274E+02
+ QM energy (a.u.):   -955.378631852033     
+ XREF energy (a.u.):    91.2555671571353     
+ R(factor) =   0.192411000000000         R(free) =   0.198128000000000     
+Testing convergence  in cycle  145
+    Energy  9.3300E-06 Target: 1.0000E-05 converged?  yes
+  Max step  7.5472E-04 Target: 1.8000E-02 converged?  yes component    45
+  RMS step  1.8776E-04 Target: 1.2000E-02 converged?  yes
+  Max grad  2.8251E-03 Target: 4.5000E-03 converged?  yes component    59
+  RMS grad  7.8567E-04 Target: 3.0000E-03 converged?  yes
+Convergence reached
+
+ Optimisation converged
+ ----------------------
+ Final converged energy:    -864.123027350000
+
+
+DL-FIND Report:
+===============
+Optimisation algorithm: L-BFGS
+Number of steps in L-BFGS memory ...............        100
+ 
+Trust radius based on energy
+Maximum step length ............................  5.000E-02
+ 
+Coordinate system: Cartesian coordinates
+ 
+Number of atoms ................................       4725
+Number of input geometries .....................          1
+Variables to be optimised ......................        102
+No restart information is written
+This run has not been restarted.
+Number of energy evaluations on this processor .        145
+Number of steps ................................        145
+Number of accepted steps / line searches .......         26
+ 
+
+Timing report
+=============
+Module                                      CPU time            Wall clock time
+Total .................................    32.427 (100.00%)  5801.834 (100.00%) seconds
+Energy and Gradient ...................     1.484 (  4.58%)     2.970 (  0.05%) seconds
+Step direction ........................     0.572 (  1.77%)     0.971 (  0.02%) seconds
+Coordinate transformation .............     0.088 (  0.27%)     0.087 (  0.00%) seconds
+Checkpoint file I/O ...................     0.000 (  0.00%)     0.000 (  0.00%) seconds
+XYZ-file I/O ..........................     0.000 (  0.00%)     0.000 (  0.00%) seconds
+Maximum memory usage ........................... 9.1554E+03 kB
+Sun Sep  8 15:37:54 CST 2019

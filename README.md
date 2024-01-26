@@ -23,7 +23,12 @@ Download and install [CNS](http://cns-online.org/v1.3/), 1.3 version is preferre
 * [ORCA](https://orcaforum.kofo.mpg.de/app.php/portal)
 * [LSQC](https://itcc.nju.edu.cn/lsqc/)
 * [Molpro](https://www.molpro.net/) (WF-in-DFT, high level in ONIOM scheme)
-  
+
+### MLPs
+* [ANI](https://aiqm.github.io/torchani/index.html):
+* [MLatom](http://mlatom.com/):
+* [QDpi](https://gitlab.com/RutgersLBSR/qdpi):
+
 ### Tools
 Tools and scripts are offered in scripts directory, the source codes are offered in source directory.
 
@@ -43,5 +48,5 @@ YAN, Z. Y., Li, X., and Chung, L. W. Multiscale Quantum Refinement Approaches fo
 ONIOM_QR is still in the experimental stage and we do not guarantee it will work flawlessly in all your applications.
 The micro-iteration in ONIOM is not applied, because of the compatibility between DL-FIND and Gaussian, we are working on this.   
 
-This code was first uploaded to https://github.com/oscarchung-lab/ONIOM_QR, and modified here.
+
 

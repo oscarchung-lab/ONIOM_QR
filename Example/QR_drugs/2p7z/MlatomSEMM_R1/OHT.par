@@ -1,0 +1,352 @@
+!----------------------------TITLE -----------------------------------------------------------------------------------------
+!   
+!
+! This file was generated at 19:40 on 2024-01-07 by
+!
+!                  Automatic Topology Builder  
+!
+!                   REVISION 2023-06-14 20:38:16
+!---------------------------------------------------------------------------------------------------------------------------
+! Authors     : Martin Stroet, Bertrand Caron, Alpeshkumar K. Malde, Thomas Lee, Alan E. Mark
+!
+! Institute   : Molecular Dynamics group, 
+!               School of Chemistry and Molecular Biosciences (SCMB),
+!               The University of Queensland, QLD 4072, Australia
+! URL         : https://atb.uq.edu.au
+! Citations   : 1. Malde AK, Zuo L, Breeze M, Stroet M, Poger D, Nair PC, Oostenbrink C, Mark AE.
+!                  An Automated force field Topology Builder (ATB) and repository: version 1.0.
+!                  Journal of Chemical Theory and Computation, 2011, 7, 4026-4037.
+!               2. Stroet M, Caron B, Visscher K, Geerke D, Malde AK, Mark AE.
+!                  Automated Topology Builder version 3.0: Prediction of solvation free enthalpies in water and hexane.
+!                  DOI:10.1021/acs.jctc.8b00768
+!
+! Disclaimer  : 
+!      While every effort has been made to ensure the accuracy and validity of parameters provided below
+!      the assignment of parameters is being based on an automated procedure combining data provided by a
+!      given user as well as calculations performed using third party software. They are provided as a guide.
+!      The authors of the ATB cannot guarantee that the parameters are complete or that the parameters provided
+!      are appropriate for use in any specific application. Users are advised to treat these parameters with discretion
+!      and to perform additional validation tests for their specific application if required. Neither the authors
+!      of the ATB or The University of Queensland except any responsibly for how the parameters may be used.
+!
+! Release notes and warnings: 
+!  (1) The topology is based on a set of atomic coordinates and other data provided by the user after
+!      after quantum mechanical optimization of the structure using different levels of theory depending on
+!      the nature of the molecule.
+!  (2) In some cases the automatic bond, bond angle and dihedral type assignment is ambiguous.
+!      In these cases alternative type codes are provided at the end of the line.
+!  (3) While bonded parameters are taken where possible from the nominated force field non-standard bond, angle and dihedral
+!      type code may be incorporated in cases where an exact match could not be found. These are marked as "non-standard"
+!      or "uncertain" in comments.
+!  (4) In some cases it is not possible to assign an appropriate parameter automatically. "%%" is used as a place holder
+!      for those fields that could not be determined automatically. The parameters in these fields must be assigned manually
+!      before the file can be used.
+!---------------------------------------------------------------------------------------------------------------------------
+! Input Structure : OHT
+! Output          : ALL ATOM topology
+!	Use in conjunction with the corresponding all atom PDB file.
+!---------------------------------------------------------------------------------------------------------------------------
+! Citing this topology file
+! ATB molid: 1595460
+! ATB Topology Hash: 12f31
+!---------------------------------------------------------------------------------------------------------------------------
+! Initial Guess Topology Generation:
+! The topology was generated from AM1 optimized geometry and MOPAC charges.
+! Bonded and van der Waals parameters were taken from the GROMOS 54A7 parameter set.
+!---------------------------------------------------------------------------------------------------------------------------
+!PARAmeter
+
+   BOND H31  C26  2218.5  1.120
+   BOND C26  H29  2218.5  1.120
+   BOND C26  H30  2218.5  1.120
+   BOND C26  N24  599.9   1.480
+   BOND N24  H03  167.3   1.030
+   BOND N24  C25  599.9   1.480
+   BOND N24  C24  406.3   1.510
+   BOND C25  H26  2218.5  1.120
+   BOND C25  H27  2218.5  1.120
+   BOND C25  H28  2218.5  1.120
+   BOND C24  H24  430.2   1.130
+   BOND C24  H25  430.2   1.130
+   BOND C24  C23  800.0   1.530
+   BOND C23  H221 2218.5  1.120
+   BOND C23  H23  2218.5  1.120
+   BOND C23  O20  799.6   1.430
+   BOND O20  C20  800.1   1.400
+   BOND C20  C19  799.8   1.390
+   BOND C20  C21  799.8   1.390
+   BOND C19  H191 698.5   1.090
+   BOND C19  C18  799.8   1.390
+   BOND C18  H181 699.8   1.100
+   BOND C18  C17  800.1   1.400
+   BOND C17  C22  800.1   1.400
+   BOND C17  C7   899.7   1.470
+   BOND C22  H211 699.8   1.100
+   BOND C22  C21  799.8   1.390
+   BOND C21  H201 698.5   1.090
+   BOND C7   C1   899.7   1.470
+   BOND C7   C8   897.3   1.350
+   BOND C1   C2   800.1   1.400
+   BOND C1   C6   800.1   1.400
+   BOND C2   H01  699.8   1.100
+   BOND C2   C3   799.8   1.390
+   BOND C3   H02  698.5   1.090
+   BOND C3   C4   800.1   1.400
+   BOND C4   O4   1001.3  1.380
+   BOND C4   C51  800.1   1.400
+   BOND O4   H06  358.5   0.971
+   BOND C51  H04  698.5   1.090
+   BOND C51  C6   799.8   1.390
+   BOND C6   H05  699.8   1.100
+   BOND C8   C91  1505.7  1.490
+   BOND C8   C111 899.7   1.470
+   BOND C91  H08  2218.5  1.120
+   BOND C91  H09  2218.5  1.120
+   BOND C91  C101 599.7   1.520
+   BOND C101 H10  2218.5  1.120
+   BOND C101 H111 2218.5  1.120
+   BOND C101 H121 2218.5  1.120
+   BOND C111 C121 800.1   1.400
+   BOND C111 C16  800.1   1.400
+   BOND C121 H131 699.8   1.100
+   BOND C121 C13  799.8   1.390
+   BOND C13  H141 699.8   1.100
+   BOND C13  C14  799.8   1.390
+   BOND C14  H151 698.5   1.090
+   BOND C14  C15  799.8   1.390
+   BOND C15  H161 699.8   1.100
+   BOND C15  C16  799.8   1.390
+   BOND C16  H171 699.8   1.100
+
+   ANGLe H31  C26  H29  107.5   109.6
+   ANGLe H31  C26  H30  107.5   109.6
+   ANGLe H31  C26  N24  68.1    109.5
+   ANGLe H29  C26  H30  107.5   109.6
+   ANGLe H29  C26  N24  68.1    109.5
+   ANGLe H30  C26  N24  68.1    109.5
+   ANGLe C26  N24  H03  101.6   109.5
+   ANGLe C26  N24  C25  68.1    110.0
+   ANGLe C26  N24  C24  148.2   116.0
+   ANGLe H03  N24  C25  101.6   109.5
+   ANGLe H03  N24  C24  101.6   109.5
+   ANGLe C25  N24  C24  148.2   116.0
+   ANGLe N24  C25  H26  68.1    109.5
+   ANGLe N24  C25  H27  68.1    109.5
+   ANGLe N24  C25  H28  68.1    109.5
+   ANGLe H26  C25  H27  107.5   109.6
+   ANGLe H26  C25  H28  107.5   109.6
+   ANGLe H27  C25  H28  107.5   109.6
+   ANGLe N24  C24  H24  651.6   107.0
+   ANGLe N24  C24  H25  651.6   107.0
+   ANGLe N24  C24  C23  145.8   115.0
+   ANGLe H24  C24  H25  401.6   109.0
+   ANGLe H24  C24  C23  121.2   107.6
+   ANGLe H25  C24  C23  121.2   107.6
+   ANGLe C24  C23  H221 121.2   107.6
+   ANGLe C24  C23  H23  121.2   107.6
+   ANGLe C24  C23  O20  124.3   109.5
+   ANGLe H221 C23  H23  68.1    109.5
+   ANGLe H221 C23  O20  125.2   110.3
+   ANGLe H23  C23  O20  125.2   110.3
+   ANGLe C23  O20  C20  107.5   109.5
+   ANGLe O20  C20  C19  151.8   117.0
+   ANGLe O20  C20  C21  151.8   117.0
+   ANGLe C19  C20  C21  133.8   120.0
+   ANGLe C20  C19  H191 120.7   120.0
+   ANGLe C20  C19  C18  133.8   120.0
+   ANGLe H191 C19  C18  120.7   120.0
+   ANGLe C19  C18  H181 120.7   120.0
+   ANGLe C19  C18  C17  133.8   120.0
+   ANGLe H181 C18  C17  120.7   120.0
+   ANGLe C18  C17  C22  133.8   120.0
+   ANGLe C18  C17  C7   133.8   120.0
+   ANGLe C22  C17  C7   133.8   120.0
+   ANGLe C17  C22  H211 120.7   120.0
+   ANGLe C17  C22  C21  133.8   120.0
+   ANGLe H211 C22  C21  120.7   120.0
+   ANGLe C20  C21  C22  133.8   120.0
+   ANGLe C20  C21  H201 120.7   120.0
+   ANGLe C22  C21  H201 120.7   120.0
+   ANGLe C17  C7   C1   126.7   111.0
+   ANGLe C17  C7   C8   133.8   120.0
+   ANGLe C1   C7   C8   153.0   126.0
+   ANGLe C7   C1   C2   133.8   120.0
+   ANGLe C7   C1   C6   133.8   120.0
+   ANGLe C2   C1   C6   133.8   120.0
+   ANGLe C1   C2   H01  120.7   120.0
+   ANGLe C1   C2   C3   133.8   120.0
+   ANGLe H01  C2   C3   120.7   120.0
+   ANGLe C2   C3   H02  120.7   120.0
+   ANGLe C2   C3   C4   133.8   120.0
+   ANGLe H02  C3   C4   120.7   120.0
+   ANGLe C3   C4   O4   151.8   117.0
+   ANGLe C3   C4   C51  133.8   120.0
+   ANGLe O4   C4   C51  151.8   117.0
+   ANGLe C4   O4   H06  107.5   109.5
+   ANGLe C4   C51  H04  120.7   120.0
+   ANGLe C4   C51  C6   133.8   120.0
+   ANGLe H04  C51  C6   120.7   120.0
+   ANGLe C1   C6   C51  133.8   120.0
+   ANGLe C1   C6   H05  120.7   120.0
+   ANGLe C51  C6   H05  120.7   120.0
+   ANGLe C7   C8   C91  133.8   120.0
+   ANGLe C7   C8   C111 133.8   120.0
+   ANGLe C91  C8   C111 126.7   111.0
+   ANGLe C8   C91  H08  125.2   110.3
+   ANGLe C8   C91  H09  125.2   110.3
+   ANGLe C8   C91  C101 126.7   111.0
+   ANGLe H08  C91  H09  651.6   107.0
+   ANGLe H08  C91  C101 68.1    109.5
+   ANGLe H09  C91  C101 68.1    109.5
+   ANGLe C91  C101 H10  126.7   111.0
+   ANGLe C91  C101 H111 126.7   111.0
+   ANGLe C91  C101 H121 126.7   111.0
+   ANGLe H10  C101 H111 105.9   108.5
+   ANGLe H10  C101 H121 105.9   108.5
+   ANGLe H111 C101 H121 105.9   108.5
+   ANGLe C8   C111 C121 133.8   120.0
+   ANGLe C8   C111 C16  133.8   120.0
+   ANGLe C121 C111 C16  133.8   120.0
+   ANGLe C111 C121 H131 120.7   120.0
+   ANGLe C111 C121 C13  133.8   120.0
+   ANGLe H131 C121 C13  120.7   120.0
+   ANGLe C121 C13  H141 120.7   120.0
+   ANGLe C121 C13  C14  133.8   120.0
+   ANGLe H141 C13  C14  120.7   120.0
+   ANGLe C13  C14  H151 120.7   120.0
+   ANGLe C13  C14  C15  133.8   120.0
+   ANGLe H151 C14  C15  120.7   120.0
+   ANGLe C14  C15  H161 120.7   120.0
+   ANGLe C14  C15  C16  133.8   120.0
+   ANGLe H161 C15  C16  120.7   120.0
+   ANGLe C111 C16  C15  133.8   120.0
+   ANGLe C111 C16  H171 120.7   120.0
+   ANGLe C15  C16  H171 120.7   120.0
+
+   DIHEdral H29  C26  N24  C24  0.3     3  0.0
+   DIHEdral N24  C24  C23  O20  1.4     3  0.0
+   DIHEdral C25  N24  C24  C23  0.2     3  180.0
+   DIHEdral C24  N24  C25  H26  0.3     3  0.0
+   DIHEdral C24  C23  O20  C20  0.3     3  0.0
+   DIHEdral C23  O20  C20  C19  0.1     2  0.0
+   DIHEdral C20  C19  C18  C17  10.0    2  180.0
+   DIHEdral C19  C20  C21  C22  10.0    2  180.0
+   DIHEdral C19  C18  C17  C22  10.0    2  180.0
+   DIHEdral C18  C17  C22  C21  10.0    2  180.0
+   DIHEdral C18  C17  C7   C1   10.0    2  180.0
+   DIHEdral C17  C22  C21  C20  10.0    2  180.0
+   DIHEdral C21  C20  C19  C18  10.0    2  180.0
+   DIHEdral C7   C8   C91  C101 0.2     6  180.0
+   DIHEdral C7   C8   C111 C121 10.0    2  180.0
+   DIHEdral C1   C7   C8   C91  10.0    2  180.0
+   DIHEdral C1   C2   C3   C4   10.0    2  180.0
+   DIHEdral C2   C1   C6   C51  10.0    2  180.0
+   DIHEdral C2   C3   C4   C51  10.0    2  180.0
+   DIHEdral C3   C4   O4   H06  4.0     2  180.0
+   DIHEdral C3   C4   C51  C6   10.0    2  180.0
+   DIHEdral C4   C51  C6   C1   10.0    2  180.0
+   DIHEdral C6   C1   C2   C3   10.0    2  180.0
+   DIHEdral C8   C7   C1   C2   10.0    2  180.0
+   DIHEdral C8   C91  C101 H10  1.4     3  0.0
+   DIHEdral C111 C121 C13  C14  10.0    2  180.0
+   DIHEdral C121 C111 C16  C15  10.0    2  180.0
+   DIHEdral C121 C13  C14  C15  10.0    2  180.0
+   DIHEdral C13  C14  C15  C16  10.0    2  180.0
+   DIHEdral C14  C15  C16  C111 10.0    2  180.0
+   DIHEdral C16  C111 C121 C13  10.0    2  180.0
+
+   IMPRoper C1   C7   C2   C6   40.038  0  0.0
+   IMPRoper C2   C1   H01  C3   40.038  0  0.0
+   IMPRoper C3   C2   H02  C4   40.038  0  0.0
+   IMPRoper C4   C3   O4   C51  40.038  0  0.0
+   IMPRoper C51  C4   H04  C6   40.038  0  0.0
+   IMPRoper C6   C1   C51  H05  40.038  0  0.0
+   IMPRoper C7   C17  C1   C8   40.038  0  0.0
+   IMPRoper C8   C7   C91  C111 40.038  0  0.0
+   IMPRoper C111 C8   C121 C16  40.038  0  0.0
+   IMPRoper C121 C111 H131 C13  40.038  0  0.0
+   IMPRoper C13  C121 H141 C14  40.038  0  0.0
+   IMPRoper C14  C13  H151 C15  40.038  0  0.0
+   IMPRoper C15  C14  H161 C16  40.038  0  0.0
+   IMPRoper C16  C111 C15  H171 40.038  0  0.0
+   IMPRoper C17  C18  C22  C7   40.038  0  0.0
+   IMPRoper C18  C19  H181 C17  40.038  0  0.0
+   IMPRoper C19  C20  H191 C18  40.038  0  0.0
+   IMPRoper C20  O20  C19  C21  40.038  0  0.0
+   IMPRoper C21  C20  C22  H201 40.038  0  0.0
+   IMPRoper C22  C17  H211 C21  40.038  0  0.0
+
+
+! NBXMod=5 excludes all 1-2 and 1-3 pairs for non-bonded interactions,
+! but the 1-4 nonbonded interactions are computed using the 1-4 Lennard-Jones
+! parameters and the electrostatic scale factor E14Fac
+
+   NBONds
+   NBXMOD = 5
+   E14Fac = 1
+ END
+
+   NONBONDED	C1	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C2	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C3	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C4	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	O4	0.6509	2.97	0.6509	2.67 !GROMOS LJ type: OAlc
+   NONBONDED	C51	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C6	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C7	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C8	0.2774	3.58	0.2774	3.22 !GROMOS LJ type: C
+   NONBONDED	C91	0.2774	3.58	0.2774	3.22 !GROMOS LJ type: C
+   NONBONDED	C101	0.2774	3.58	0.2774	3.22 !GROMOS LJ type: C
+   NONBONDED	C111	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C121	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C13	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C14	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C15	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C16	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C17	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C18	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C19	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C20	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	O20	1.057	2.85	1.057	2.56 !GROMOS LJ type: OE
+   NONBONDED	C21	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C22	0.3073	3.52	0.3073	3.17 !GROMOS LJ type: CAro
+   NONBONDED	C23	1.025	2.81	1.025	2.53 !GROMOS LJ type: CPos
+   NONBONDED	C24	1.025	2.81	1.025	2.53 !GROMOS LJ type: CPos
+   NONBONDED	N24	0.6398	3.14	0.6398	2.82 !GROMOS LJ type: NL
+   NONBONDED	C25	1.025	2.81	1.025	2.53 !GROMOS LJ type: CPos
+   NONBONDED	C26	1.025	2.81	1.025	2.53 !GROMOS LJ type: CPos
+   NONBONDED	H06	0	0	0	0 !GROMOS LJ type: HS14
+   NONBONDED	H01	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H02	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H03	0	0	0	0 !GROMOS LJ type: HS14
+   NONBONDED	H04	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H05	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H08	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H09	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H10	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H111	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H121	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H131	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H141	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H151	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H161	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H171	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H181	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H191	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H201	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H211	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H221	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H23	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H24	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H25	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H26	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H27	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H28	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H29	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H30	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+   NONBONDED	H31	0.1184	2.37	0.1184	2.14 !GROMOS LJ type: HC
+
+!SEGMent
+!   name=OHT
+!   molecule number=1 name=OHT end
+!END
