@@ -25,9 +25,9 @@ Download and install [CNS](http://cns-online.org/v1.3/), 1.3 version is preferre
 * [Molpro](https://www.molpro.net/) (WF-in-DFT, high level in ONIOM scheme)
 
 ### MLPs
-* [ANI](https://aiqm.github.io/torchani/index.html):
-* [MLatom](http://mlatom.com/):
-* [QDpi](https://gitlab.com/RutgersLBSR/qdpi):
+* [ANI](https://aiqm.github.io/torchani/index.html): $\color{red}{Warning:}$ ANI should be run firstly in python cmd to download the parameter files.
+* [MLatom](http://mlatom.com/)
+* [QDpi](https://gitlab.com/RutgersLBSR/qdpi)
 
 ### Tools
 Tools and scripts are offered in scripts directory, the source codes are offered in source directory.
