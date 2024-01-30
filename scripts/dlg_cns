@@ -18,10 +18,14 @@ then
 
     reso=`grep 'RESOLUTION RANGE HIGH (ANGSTROMS) :' $pdbf | tail -1 | awk -F ':' '{print $2}' | awk '{print $1}'`
     resol=`grep 'RESOLUTION RANGE LOW  (ANGSTROMS) :' $pdbf | tail -1 | awk -F ':' '{print $2}' | awk '{print $1}'`
-    precent=`grep 'FREE R VALUE TEST SET SIZE (%' $pdbf | tail -1 | awk -F ':' '{print $2}' | awk '{print $1}'`
+    precent=`grep 'REMARK   3   FREE R VALUE TEST SET SIZE' $pdbf | tail -1 | awk -F ':' '{print $2}' | awk '{print $1}'`
 
     #echo $a $b $c $alpha $beta $gamma $group
     #echo $reso $resol $precent
+    ciff=`ls -l *.cif | awk '{print $NF}'`
+    parf=`ls -l *.par | head -1 | awk '{print $NF}'`
+    topf=`ls -l *.top | head -1 | awk '{print $NF}'`
+    cvf=`echo $ciff | sed 's/.cif/.cv/g'`
 
     sed -i "s/s\/dlg_space_group\/\//s\/dlg_space_group\/P$group\//" sedfile
     sed -i "s/s\/dlg_crystal_alpha\/\//s\/dlg_crystal_alpha\/$alpha\//" sedfile
@@ -31,6 +35,10 @@ then
     sed -i "s/s\/dlg_crystal_b\/\//s\/dlg_crystal_b\/$b\//" sedfile
     sed -i "s/s\/dlg_crystal_c\/\//s\/dlg_crystal_c\/$c\//" sedfile
     sed -i "s/s\/dlg_coord_file\/\//s\/dlg_coord_file\/$pdbf\//" sedfile
+    sed -i "s/s\/dlg_top_file1\/\//s\/dlg_top_file1\/$topf\//" sedfile
+    sed -i "s/s\/dlg_par_file1\/\//s\/dlg_par_file1\/$parf\//" sedfile
+    sed -i "s/s\/dlg_reflex_infile\/\//s\/dlg_reflex_infile\/$ciff\//" sedfile
+    sed -i "s/s\/dlg_reflex_outfile\/\//s\/dlg_reflex_outfile\/$cvf\//" sedfile
     sed -i "s/s\/dlg_test_percent\/\//s\/dlg_test_percent\/$precent\//" sedfile
     sed -i "s/s\/dlg_resolution_up\/\//s\/dlg_resolution_up\/$resol\//" sedfile
     sed -i "s/s\/dlg_resolution\/\//s\/dlg_resolution\/$reso\//" sedfile

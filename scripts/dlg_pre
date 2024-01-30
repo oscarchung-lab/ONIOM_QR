@@ -36,6 +36,7 @@ cns < minimize.inp > minimize.out
 cns < minimize_wa.inp > minimize_wa.out
 
 dwa=`grep '^ WA=' minimize_wa.out | head -1 | awk '{print $2}'`
+sed -i 's/wa=1.0/wa='$dwa'/g' minimize.inp
 echo 'wa suggested by CNS is: ' $dwa
 
 echo "Now you have $cv, minimize.inp, mm3.mtf, mm3.pdb(1) bindividual.inp and lig.par, lig.top if necessary"

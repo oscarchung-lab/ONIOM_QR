@@ -35,6 +35,21 @@ Tools and scripts are offered in scripts directory, the source codes are offered
 ## Usage
 [dl_gaucns_env_sh](./dl_gaucns_env_sh) should be adjusted with correct environment path including the find.x and QM codes path.
 
+### Workflow
+1. PDB preparation
+    * Download PDB files (structure & X-ray strcuture factor (.pdb, .cif))
+    * Strucutre check (residue flip, missing residue, etc.) e.g: [Saves v6.0](https://saves.mbi.ucla.edu/)
+2. QM preparation
+    * H add (including protonation state check of residues)
+    * ligand/inhibitor H add and FF parameter (RESP: ligand_H.pdb)
+    * Protein + ligand/inhibitor (H) check (especially around the ligand/inhibitor): protein_ligH.pdb
+    * ONIOM file preparation (GaussianView: protein_ligH.pdb --> protein_ligH.gjf), and H optmizaiton (with heavy atom fixed) using ONIOM(DFT:MM) 
+3. CNS preparation
+    * [PRODRG](davapc1.bioch.dundee.ac.uk/cgi-bin/prodrg/run.html)/ [ATB](https://atb.uq.edu.au/index.py) using pdb structure
+    * using scripts to prepare CNS files (e.g. [dlg_pre](/scripts/dlg_pre),[dlg_cns](/scripts/dlg_cns))
+4. QR preparation
+    * Put files (protein_ligH.pdb, protein_ligH.gjf and CNS files) in the same directory, using [QR_generate_para.py](/Tools/Code/QR_generate_para.py) to generate mapfile, resfile and parameter.dat files for QR
+5. Run QR job
 ### Examples
 Some simple examples are offered including multi-center scheme, quantum refinements using ONIOM scheme and other QM codes.
 
@@ -42,6 +57,8 @@ Some simple examples are offered including multi-center scheme, quantum refineme
 A simple Manual is offered [Manual_ONIOM_QR.pdf](./Manual_ONIOM_QR.pdf).
 
 ## Citations
+YAN, Z. Y., Wer D. C., Li, X., and Chung, L. W. Accelerating Reliable Multiscale Quantum Refinement of Protein–Drug Systems Enabled by Machine Learning. *Submitted*. **2024**
+
 YAN, Z. Y., Li, X., and Chung, L. W. Multiscale Quantum Refinement Approaches for Metalloproteins. *J. Chem. Theory Comput.* **2021**, 17. [DOI: 10.1021/acs.jctc.1c00148](https://pubs.acs.org/doi/10.1021/acs.jctc.1c00148)
 
 ## Special Note to Users
