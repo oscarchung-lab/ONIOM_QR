@@ -57,7 +57,7 @@ Some simple examples are offered including multi-center scheme, quantum refineme
 A simple Manual is offered [Manual_ONIOM_QR.pdf](./Manual_ONIOM_QR.pdf).
 
 ## Citations
-YAN, Z. Y., Wer D. C., Li, X., and Chung, L. W. Accelerating Reliable Multiscale Quantum Refinement of Protein–Drug Systems Enabled by Machine Learning. *Submitted*. **2024**
+YAN, Z. Y., Wei, D. C., Li, X., and Chung, L. W. Accelerating Reliable Multiscale Quantum Refinement of Protein–Drug Systems Enabled by Machine Learning. *Submitted*. **2024**
 
 YAN, Z. Y., Li, X., and Chung, L. W. Multiscale Quantum Refinement Approaches for Metalloproteins. *J. Chem. Theory Comput.* **2021**, 17. [DOI: 10.1021/acs.jctc.1c00148](https://pubs.acs.org/doi/10.1021/acs.jctc.1c00148)
 
