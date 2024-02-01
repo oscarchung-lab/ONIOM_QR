@@ -1,0 +1,2442 @@
+OMP: Warning #181: OMP_STACKSIZE: ignored because KMP_STACKSIZE has been defined
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7A7B  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7C09  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E909E  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E922C  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004F207A  dlf_lbfgs_step_           257  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7A7B  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7C09  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E909E  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E922C  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004F207A  dlf_lbfgs_step_           257  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7A7B  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7C09  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E909E  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E922C  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004F207A  dlf_lbfgs_step_           257  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7A7B  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7C09  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E909E  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E922C  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004F207A  dlf_lbfgs_step_           257  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7A7B  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7C09  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E909E  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E922C  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004F207A  dlf_lbfgs_step_           257  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7A7B  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7C09  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E909E  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E922C  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004F207A  dlf_lbfgs_step_           257  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7A7B  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7C09  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E909E  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E922C  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004F207A  dlf_lbfgs_step_           257  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7A7B  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7C09  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E909E  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E922C  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004F207A  dlf_lbfgs_step_           257  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7A7B  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7C09  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E909E  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E922C  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004F207A  dlf_lbfgs_step_           257  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7A7B  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7C09  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E909E  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E922C  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004F207A  dlf_lbfgs_step_           257  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7A7B  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E7C09  dlf_lbfgs_step_           191  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E909E  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #4
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004E922C  dlf_lbfgs_step_           192  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EB562  dlf_lbfgs_step_           214  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004EF075  dlf_lbfgs_step_           236  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: warning (406): fort: (1): In call to DDOT, an array temporary was created for argument #2
+
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DFF90  Unknown               Unknown  Unknown
+find_intel.x       00000000004F207A  dlf_lbfgs_step_           257  dlf_lbfgs_d.F90
+find_intel.x       0000000000478F79  dlf_formstep_             245  dlf_formstep_d.F90
+find_intel.x       000000000044322E  dlf_run_                  888  dl-find_d.F90
+find_intel.x       0000000000507BC8  dlf_task_                 101  dlf_task_d.F90
+find_intel.x       0000000000436EF9  dl_find_                  101  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown
+forrtl: error (63): output conversion error, unit 6, file /proc/168227/fd/1
+Image              PC                Routine            Line        Source             
+find_intel.x       00000000008DE1B8  Unknown               Unknown  Unknown
+find_intel.x       000000000093060D  Unknown               Unknown  Unknown
+find_intel.x       00000000005070FB  time_report_              177  dlf_time_d.F90
+find_intel.x       0000000000436F4E  dl_find_                  117  dl-find_d.F90
+find_intel.x       0000000000404208  MAIN__                    109  main_d.F90
+find_intel.x       000000000040371E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEA3BE8B445  __libc_start_main     Unknown  Unknown
+find_intel.x       0000000000403629  Unknown               Unknown  Unknown

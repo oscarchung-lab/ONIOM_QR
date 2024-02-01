@@ -1,0 +1,92 @@
+This job is running on host node63
+Current directory: /share/home/yanz/QR_App/ChemHPC/QR_APP/5HLS/QRs/DFTMM_D_R1
+Mon Nov 27 11:59:32 CST 2023
+ using Gaussian + CNS
+ QM energy (a.u.):   -1542.90394488213     
+ XREF energy (a.u.):    70.8356207954519     
+ R(factor) =   0.262259000000000         R(free) =   0.233249000000000     
+ External sizes:        7857           1        5238
+
+***********************************************************************
+**                                                                   **
+**                       ---------------------                       **
+**                              DL-FIND                              **
+**                       Geometry Optimisation                       **
+**                       ---------------------                       **
+**                                                                   **
+**                 J. Kaestner, J.M. Carr, T.W. Keal,                **
+**                W. Thiel, A. Wander and P. Sherwood                **
+**                                                                   **
+**              J. Phys. Chem. A, 2009, 113 (43), 11856.             **
+**                                                                   **
+**   Please include this reference in published work using DL-FIND.  **
+**                                                                   **
+**               Copyright:  STFC Daresbury Laboratory               **
+**                           Revision: Unversioned directory         **
+**                                                                   **
+***********************************************************************
+
+
+DL-FIND Report:
+===============
+Optimisation algorithm: L-BFGS
+Number of steps in L-BFGS memory ...............        100
+ 
+Trust radius based on energy
+Maximum step length ............................  5.000E-02
+ 
+Coordinate system: Cartesian coordinates
+ 
+Number of atoms ................................       2619
+Number of input geometries .....................          1
+Variables to be optimised ......................        126
+No restart information is written
+This run has not been restarted.
+Maximum number of steps ........................       5000
+Maximum number of energy evaluations ...........      10000
+ 
+ Energy calculation finished, energy: -1.472068324E+03
+ QM energy (a.u.):   -1542.90394488214     
+ XREF energy (a.u.):    70.8356207954519     
+ R(factor) =   0.262259000000000         R(free) =   0.233249000000000     
+Testing convergence  in cycle    1
+  Max grad  2.8766E-03 Target: 4.5000E-03 converged?  yes component   119
+  RMS grad  1.0077E-03 Target: 3.0000E-03 converged?  yes
+Convergence reached
+
+ Optimisation converged
+ ----------------------
+ Final converged energy:   -1472.068324090000
+
+
+DL-FIND Report:
+===============
+Optimisation algorithm: L-BFGS
+Number of steps in L-BFGS memory ...............        100
+ 
+Trust radius based on energy
+Maximum step length ............................  5.000E-02
+ 
+Coordinate system: Cartesian coordinates
+ 
+Number of atoms ................................       2619
+Number of input geometries .....................          1
+Variables to be optimised ......................        126
+No restart information is written
+This run has not been restarted.
+Number of energy evaluations on this processor .          1
+Number of steps ................................          1
+Number of accepted steps / line searches .......          1
+ 
+
+Timing report
+=============
+Module                                      CPU time            Wall clock time
+Total .................................     0.125 (100.00%)   117.082 (100.00%) seconds
+Energy and Gradient ...................     0.004 (  3.57%)     0.009 (  0.01%) seconds
+Step direction ........................     0.000 (  0.00%)     0.000 (  0.00%) seconds
+Coordinate transformation .............     0.000 (  0.15%)     0.000 (  0.00%) seconds
+Checkpoint file I/O ...................     0.000 (  0.00%)     0.000 (  0.00%) seconds
+XYZ-file I/O ..........................     0.000 (  0.01%)     0.000 (  0.00%) seconds
+Maximum memory usage ........................... 5.1879E+03 kB
+Mon Nov 27 12:03:24 CST 2023

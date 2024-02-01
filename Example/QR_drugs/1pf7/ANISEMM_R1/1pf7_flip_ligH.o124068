@@ -1,8 +1,0 @@
-OMP: Warning #235: OMP_NUM_THREADS: Invalid symbols found. Check the value "".
-Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-normal termination of xtb
-/share/home/chem-zhonglh/oscarchung/bin/Gau_ANI.py:79: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
-Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
-  ele = np.zeros((atoms,), dtype = np.int)
-Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG IEEE_DENORMAL
-normal termination of xtb
