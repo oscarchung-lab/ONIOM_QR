@@ -3,7 +3,7 @@
 
 ### The source code is under construction for more user-friendly.
 
-Quantum refinement which was proposed to combine crystallographic data with computational chemistry methods by several groups can improve the local structures of some proteins. The ONIOM_QR is a quantum refinement method combining several multiscale computational schemes with experimental (X-ray diffraction) information was developed for proteins (especially for metalloproteins). 
+Quantum refinement which was proposed to combine crystallographic data with computational chemistry methods by several groups can improve the local structures of some proteins. The ONIOM_QR is a quantum refinement method combining several multiscale computational schemes with experimental (X-ray diffraction) information was developed for proteins (especially for metalloproteins and drug-protein systems). 
 
 This code is an interface implemented in an open-source DL-FIND library.
 It is developped by [Oscar lab](https://faculty.sustech.edu.cn/oscarchung/en/) in Southern University of Science and Technology .
