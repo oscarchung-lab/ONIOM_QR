@@ -61,6 +61,9 @@ YAN, Z. Y., Wei, D. C., Li, X., and Chung, L. W. Accelerating Reliable Multiscal
 
 YAN, Z. Y., Li, X., and Chung, L. W. Multiscale Quantum Refinement Approaches for Metalloproteins. *J. Chem. Theory Comput.* **2021**, 17, 3783. [DOI: 10.1021/acs.jctc.1c00148](https://pubs.acs.org/doi/10.1021/acs.jctc.1c00148)
 
+Chung, L. W.; Sameera, W. M. C.; Ramozzi, R.; Page, A. J.; Hatanaka, M.; Petrova, G. P.; Harris, T. V.; Li, X.; Ke, Z.; Liu, F.; Li, H.-B.; Ding, L. Morokuma, K. The ONIOM Method and its Applications. *Chem. Rev.* **2015**, 115, 5678.[DOI: https://doi.org/10.1021/cr5004419](https://doi.org/10.1021/cr5004419)
+
+
 ## Special Note to Users
 ONIOM_QR is still in the experimental stage and we do not guarantee it will work flawlessly in all your applications.
 The micro-iteration in ONIOM is not applied, because of the compatibility between DL-FIND and Gaussian, we are working on this.   
